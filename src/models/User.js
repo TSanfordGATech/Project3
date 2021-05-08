@@ -24,14 +24,6 @@ class User extends Model {
         type: DataTypes.STRING,
         allowNull: true
       },
-      day: {
-        type: DataTypes.INTEGER,
-        allowNull: false
-      },
-      month: {
-        type: DataTypes.INTEGER,
-        allowNull: false
-      },
       user_name: {
         type: DataTypes.STRING,
         allowNull: false,
