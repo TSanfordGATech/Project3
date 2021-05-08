@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import "https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css";
 // test
 
 ReactDOM.render(
