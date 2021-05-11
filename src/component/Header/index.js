@@ -9,7 +9,7 @@ function Header() {
     <h1>Brainstormers</h1>
   </div>
   <div className="login-button ">
-  <a class="button primary" href="#">Primary</a>
+  <a class="button primary" href="#">Sign In</a>
   </div>
 </div>
     )

@@ -1,7 +1,12 @@
-#header {
+.header {
     font-size: larger;
     text-align: center;
-    background: black;
     background: center;
-color:rebeccapurple
+    color:black;
+    background: url(brainstormer.PNG) no-repeat;
+}
+
+.login-button{
+    margin-left: 40rem;
+    margin-top: -3.6rem;
 }
