@@ -1,9 +1,8 @@
 
 import React from 'react';
-import SignedInHeader from "../../component/Header";
+import SignedInHeader from "../../component/SignedInHeader/SignedInHeader.css";
 import UserScore from "../../component/UserScoreCard"
 import Buttons from '../../component/HomeGameButtons';
-import "../../component/Header/header.css";
 import '../../component/HomeGameButtons/H-button.css';
 import "../../component/ScoreCard/score.css";
 import "../../component/UserScoreCard/userscore.css";
