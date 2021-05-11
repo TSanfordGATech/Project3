@@ -1,8 +1,7 @@
-/* .callout{
-   $callout-sizes: small: 0.5rem  
-} */
+
 .score-box {
 margin-left: 100rem;
+margin-right: 5rem;
 margin-top: -25rem;
 text-align: center;
 }

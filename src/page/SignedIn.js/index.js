@@ -1,23 +1,25 @@
 
 import React from 'react';
-import Header from "../../component/Header";
-import Score from "../../component/ScoreCard"
+import SignedInHeader from "../../component/Header";
+import UserScore from "../../component/UserScoreCard"
 import Buttons from '../../component/HomeGameButtons';
 import "../../component/Header/header.css";
 import '../../component/HomeGameButtons/H-button.css';
 import "../../component/ScoreCard/score.css";
+import "../../component/UserScoreCard/userscore.css";
+
 // import "packages_folder/foundation-sites/scss";
 
-const Home = () => {
+const SignedIn = () => {
     return (
         <div>
-           <Header/> 
+           <SignedInHeader/> 
            <Buttons/>
-           <Score/>
+           <UserScore/>
 
            
         </div>
     )
 }
 
-export default Home;
+export default SignedIn;
