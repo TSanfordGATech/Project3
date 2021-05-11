@@ -1,9 +1,11 @@
 import React from "react";
-// import "../Header/header.css";
+
 
 function Header() {
 
     return (
+      <div className="callout">
+      <div className="home">
 <div className="header">
   <div className="jumbotron">
     <h1>Brainstormers</h1>
@@ -12,7 +14,10 @@ function Header() {
   <a class="button primary" href="#">Sign In</a>
   </div>
 </div>
+</div>
+</div>
     )
+    
 
 }
 

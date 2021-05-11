@@ -3,10 +3,18 @@
     text-align: center;
     background: center;
     color:black;
-    background: url(brainstormer.PNG) no-repeat;
 }
 
 .login-button{
-    margin-left: 40rem;
+    margin-left: 100rem;
     margin-top: -3.6rem;
+}
+
+.home{
+
+/* background-image: url(brain2.PNG); */
+/* position: relative; */
+/* 
+background-position: center;
+height: 90vh */
 }
