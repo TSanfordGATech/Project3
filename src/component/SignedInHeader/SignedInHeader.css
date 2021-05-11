@@ -5,7 +5,11 @@
     color:black;
 }
 
-.login-button{
+button{
     margin-left: 50rem;
     margin-top: -3.6rem;
+}
+
+.home {
+    background: url(brainstormer.jpeg);
 }

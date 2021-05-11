@@ -10,7 +10,7 @@ function SignedInHeader() {
           <div className="jumbotron">
             <h1>Brainstormers</h1>
 
-          <p><button class="button" data-open="sign-in">Log Out</button></p>
+          <p><button class="button log-button" data-open="sign-in">Log Out</button></p>
 
             <div class="reveal" id="sign-in" data-reveal>
               
