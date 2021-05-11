@@ -1,17 +1,21 @@
-import react from "react";
-
+import React from "react";
+// import "../Header/header.css";
 
 function Header() {
 
     return (
-
-        <article class="panel is-success">
-  <p class="panel-heading">
-    BrainStorming
-  </p>
- </article>
+<div className="header">
+  <div className="jumbotron">
+    <h1>Brainstormers</h1>
+  </div>
+  <div className="login-button ">
+  <a class="button primary" href="#">Primary</a>
+  </div>
+</div>
     )
 
 }
+
+
 
 export default Header;
