@@ -1,12 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import Home from '../src/page/HomePage.js';
 import reportWebVitals from './reportWebVitals';
+import "../src/component/Header/header.css";
+import "../src/component/HomeGameButtons/H-button.css"
+import "../src/component/SignedInHeader/"
+import SignedIn from './page/SignedIn.js';
+// import SignedIn from "../src/page/SignedIn.js"
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Home/>
   </React.StrictMode>,
   document.getElementById('root')
 );

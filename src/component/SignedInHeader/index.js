@@ -1,7 +1,7 @@
 import React from "react";
 // (document).foundation();
 
-function Header() {
+function SignedInHeader() {
 
   return (
     <div className="callout">
@@ -10,7 +10,7 @@ function Header() {
           <div className="jumbotron">
             <h1>Brainstormers</h1>
 
-          <p><button class="button" data-open="sign-in">Sign In</button></p>
+          <p><button class="button log-button" data-open="sign-in">Log Out</button></p>
 
             <div class="reveal" id="sign-in" data-reveal>
               
@@ -54,4 +54,4 @@ function Header() {
   <span aria-hidden="true">&times;</span>
 </button> */
 
-export default Header;
+export default SignedInHeader;
