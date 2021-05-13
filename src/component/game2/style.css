@@ -3,8 +3,13 @@
     padding: 0;
 }
 
-/* :: before,
-:: after {
+html {
+    box-sizing: border-box;
+  }
+
+/* *,
+*:: before,
+*:: after {
     box-sizing: inherit;
 } */
 
@@ -44,6 +49,7 @@ ul > li {
 
 h1 {
     font-size: 3em;
+    font-weight: 400;
 }
 
 h2 {
@@ -149,6 +155,7 @@ p.stats:last-child {
     background: linear-gradient(to bottom, #5cf, #28e);
     border-radius: 1.5em;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     height: 35em;
@@ -188,6 +195,7 @@ img {
 
 .flip img {
     background: #fff;
+    visibility: visible;
 }
 
 .deck .card.match {
