@@ -1,5 +1,4 @@
 // Matching Game
-
 const modal = document.getElementById("modal");
 const reset = document.querySelector(".reset-btn");
 const playAgain = document.querySelector(".play-again-btn");
