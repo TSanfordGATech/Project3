@@ -1,8 +1,11 @@
 import React from 'react'
+//  import red from "../../Capture.PNG";
 
 const Buttons = () => {
     return (
-        <div className="container">
+        <div className="container" >
+       
+          
         <div className="button-groups">
             <div className= "button1">
                 <br></br>

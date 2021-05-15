@@ -7,4 +7,10 @@
 .container {
     /* margin-right: 10rem; */
     padding-left: 8%;
+    background-position-x:center;
+    /* background-position-y: -700px ;
+    background-size: cover; */
+  
+    
 }
+/* style={{backgroundImage:`url(${brainstormer})`, backgroundRepeat:`no-repeat`}} */
