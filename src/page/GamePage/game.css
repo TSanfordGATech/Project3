@@ -1,0 +1,10 @@
+.header {
+    font-size: larger;
+    text-align: center;
+   
+    color:black;
+    /* background: url); */
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size:contain;
+} 

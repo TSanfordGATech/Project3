@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Home from '../src/page/HomePage.js';
+// import Home from '../src/page/HomePage.js';
+import GamePage from "../src/page/GamePage";
 import reportWebVitals from './reportWebVitals';
 import "../src/component/Header/header.css";
 import "../src/component/HomeGameButtons/H-button.css"
@@ -11,7 +12,7 @@ import "../src/App.css"
 
 ReactDOM.render(
   <React.StrictMode>
-    <Home/>
+    <GamePage/>
   </React.StrictMode>,
   document.getElementById('root')
 );

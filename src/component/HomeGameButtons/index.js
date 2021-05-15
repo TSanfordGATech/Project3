@@ -4,8 +4,9 @@ import React from 'react'
 const Buttons = () => {
     return (
         <div>
+         
   <div className="row">
-  <div className="col s12 m4">
+  <div className="col s6 m4">
     <div className="card grey darken-1">
       <div className="card-content white-text">
         <span className="card-title">Memory Games</span>
@@ -19,7 +20,7 @@ const Buttons = () => {
 </div>
      
      <div className="row">
-     <div className="col s12 m4">
+     <div className="col s6 m4">
        <div className="card grey darken-1">
          <div className="card-content white-text">
            <span className="card-title">Typing & Reading Speed</span>
@@ -31,9 +32,9 @@ const Buttons = () => {
        </div>
      </div>
    </div>
-        
+   
   <div className="row">
-  <div className="col s12 m4">
+  <div className="col s6 m4">
     <div className="card grey darken-1">
       <div className="card-content white-text">
         <span className="card-title">Critical Thinking</span>
@@ -47,7 +48,7 @@ const Buttons = () => {
 </div>
      
      <div className="row">
-     <div className="col s12 m4">
+     <div className="col s6 m4">
        <div className="card grey darken-1">
          <div className="card-content white-text">
            <span className="card-title">Easy Entertainment</span>
