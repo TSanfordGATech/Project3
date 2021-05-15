@@ -1,8 +1,8 @@
 
 import React from 'react';
 import "../../component/SignedInHeader/SignedInHeader.css";
-import SignedInHeader from "../../component/SignedInHeader"
-import Score from "../../component/UserScoreCard"
+import SignedInHeader from "../../component/SignedInHeader";
+import Score from "../../component/UserScoreCard";
 import Buttons from '../../component/HomeGameButtons';
 import '../../component/HomeGameButtons/H-button.css';
 import "../../component/ChatBox/chat.css"

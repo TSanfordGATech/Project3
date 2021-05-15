@@ -7,7 +7,7 @@ import Header from "./component/Header";
 // import game3 from "./component/game3";
 // import game4 from "./component/game4";
 import GamePage from "../src/page/GamePage";
-import SignIn from "../src/page/GamePage";
+import SignedIn from "../src/page/SignedIn";
 import "../src/component/Header/header.css";
 import "../src/component/HomeGameButtons/H-button.css";
 import "../src/page/GamePage/game.css";
@@ -23,7 +23,7 @@ function App() {
       <div>
        <Header />
         <Route exact path="/" component={Home} />
-        <Route exact path="/Brainstormer" component={SignIn} />
+        <Route exact path="/Brainstormer" component={SignedIn} />
         <Route exact path="/asteroid-type" component={GamePage} />
         <Route exact path="/match-the-cards" component={GamePage} />
         <Route exact path="/escape-room" component={GamePage} />
