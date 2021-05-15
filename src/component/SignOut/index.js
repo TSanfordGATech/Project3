@@ -17,15 +17,15 @@ class SignOut extends Component {
         return (
             
            
-            <div id="modal1" className="modal">
+            <div id="modalsign-out" className="modal">
               <div className="modal-content">
-                <h2>"Are you sure your ready to stop learning"</h2>
-              </div>
+                <h3>"Are you sure your ready to stop learning"</h3>
+              
               <div className="modal-footer">
-                <a href="#!" className="modal-close waves-effect waves-green btn-large">Yes! Im sure!</a>
+                <a href="#!" className="modal-close black waves-black btn-large">Yes! Im sure!</a>
               </div>
             </div>
-                     
+                </div>     
         
 
         )
