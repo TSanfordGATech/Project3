@@ -1,5 +1,6 @@
-import React, { Component } from 'react'
-
+import React, { Component } from 'react';
+import SignIn from "../SignIn";
+import SignUp from "../SignUp";
 class LoginPage extends Component {
     componentDidMount() {
         const M = window.M;
@@ -23,9 +24,10 @@ class LoginPage extends Component {
                     <div className="modal-content">
                         <h3>Welcome Back Brainstormer</h3>
 
-
+                    <SignIn/>
 
                         <h5>If you havent joined the team yet Lets Get you signed up!</h5>
+                        <SignUp/>
                         </div>
                         <div classNameName="modal-footer">
                             <a href="#!" classNameName="modal-close waves-effect waves-green btn-flat">Agree</a>

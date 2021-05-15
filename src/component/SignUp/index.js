@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 
 
 
-class SignIn extends Component {
+class SignUp extends Component {
 
     render() {
         return (
@@ -13,9 +13,22 @@ class SignIn extends Component {
         <div className="row">
           <div className="input-field col s6">
             <input id="input_text" type="text" />
-            <label for="input_text">UserName</label>
+            <label for="input_text">First Name</label>
           </div>
         </div>
+        <div className="row">
+          <div className="input-field col s6">
+            <input id="input_text" type="text" />
+            <label for="input_text">Last Name</label>
+          </div>
+        </div>
+        <div className="row">
+          <div className="input-field col s6">
+            <input id="input_text" type="text" />
+            <label for="input_text">Email</label>
+          </div>
+        </div>
+        
         <div className="row">
           <div className="input-field col s6">
             <textarea id="textarea2" className="materialize-textarea"></textarea>
@@ -30,4 +43,4 @@ class SignIn extends Component {
     }
 }
 
-export default SignIn
+export default SignUp
