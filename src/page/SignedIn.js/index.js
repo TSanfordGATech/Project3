@@ -2,8 +2,7 @@
 import React from 'react';
 import "../../component/SignedInHeader/SignedInHeader.css";
 import SignedInHeader from "../../component/SignedInHeader"
-import UserScore from "../../component/UserScoreCard"
-import ChatBox from "../../component/ChatBox"
+import Score from "../../component/UserScoreCard"
 import Buttons from '../../component/HomeGameButtons';
 import '../../component/HomeGameButtons/H-button.css';
 import "../../component/ChatBox/chat.css"
@@ -17,10 +16,7 @@ const SignedIn = () => {
         <div>
            <SignedInHeader/> 
            <Buttons/>
-           <UserScore/>
-           <ChatBox/>
-
-           
+           <Score/>  
         </div>
     )
 }
