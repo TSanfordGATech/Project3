@@ -1,43 +1,39 @@
 import React from "react";
 // (document).foundation();
+import HomeGameButton from "../HomeGameButtons";
+import ScoreCard from "../../component/ScoreCard"
+import red from "../../Capture.PNG"
 
 function Header() {
 
   return (
+    <div>
     <div className="callout">
       <div className="home">
         <div className="header">
           <div className="jumbotron">
             <h1>Brainstormers</h1>
-
-          <p><button class="button" data-open="sign-in">Sign In</button></p>
-
-            <div class="reveal" id="sign-in" data-reveal>
+            {/* <div className= "tag"><p>A shelter where </p>
+               <p>critical thinking Brews</p></div>
+             */}
+            <button data-target="modal1" class="btn modal-trigger">Sign In</button>
+            <a  data-target="slide-out" class=" btn sidenav-trigger">Scores</a>
+            <div className="z-depth-5" id="sign-in" data-reveal>
               
-              <h1>Awesome!</h1>
-              <p class="lead">I have another modal inside of me!</p>
-              <button class="button" data-open="log-in">Click me for another modal!</button>
-              <button class="close-button" data-close aria-label="Close reveal" type="button">
-                <span aria-hidden="true">&times;</span>
-              </button>
             </div>
-
-
-            <div class="reveal" id="log-in" data-reveal>
-              <h2>ANOTHER MODAL!!!</h2>
-              <button class="close-button" data-close aria-label="Close reveal" type="button">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-
           </div>
-
+         
         </div>
       </div>
     </div>
+    <div>
+       <div className="body" > 
 
-
-
+  <HomeGameButton />
+  <ScoreCard/>
+</div>
+</div>
+</div>
 
   )
 

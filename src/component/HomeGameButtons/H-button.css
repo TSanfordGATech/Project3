@@ -5,6 +5,27 @@
 
 
 .container {
-    /* margin-right: 10rem; */
-    padding-left: 8%;
+   text-align: center;
+    
 }
+/* style={{backgroundImage:`url(${brainstormer})`, backgroundRepeat:`no-repeat`}} */
+
+.button1 {
+    text-align: left;
+}
+
+
+.button2 {
+    text-align: right;
+}
+
+
+.button3 {
+    text-align: left;
+}
+
+
+.button4 {
+    text-align: right;
+}
+

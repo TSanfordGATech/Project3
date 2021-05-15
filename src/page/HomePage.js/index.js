@@ -1,8 +1,8 @@
 
 import React from 'react';
 import Header from "../../component/Header";
-import Score from "../../component/ScoreCard"
-import Buttons from '../../component/HomeGameButtons';
+import LoginPage from "../../component/loginPage"
+// import Buttons from '../../component/HomeGameButtons';
 import "../../component/Header/header.css";
 import '../../component/HomeGameButtons/H-button.css';
 import "../../component/ScoreCard/score.css";
@@ -10,10 +10,11 @@ import "../../component/ScoreCard/score.css";
 
 const Home = () => {
     return (
-        <div>
+        <div >
+
            <Header/> 
-           <Buttons/>
-           <Score/>
+           <LoginPage/>
+          
 
            
         </div>

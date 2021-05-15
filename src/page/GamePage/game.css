@@ -9,11 +9,7 @@
     background-size:contain;
 } 
 
-.login-button{
-    margin-left: 100rem;
-    margin-top: -3.6rem;
+.card-title{
+    text-align: center;
 }
 
-.callout {
- margin-top: -3rem; 
-} 
