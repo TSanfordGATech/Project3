@@ -1,11 +1,19 @@
 .header {
     font-size: larger;
     text-align: center;
-    background: center;
+   
     color:black;
-}
+    /* background: url); */
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size:contain;
+} 
 
 .login-button{
     margin-left: 100rem;
     margin-top: -3.6rem;
 }
+
+.callout {
+ margin-top: -3rem; 
+} 

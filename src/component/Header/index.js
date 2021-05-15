@@ -1,7 +1,7 @@
 import React from "react";
 // (document).foundation();
 import HomeGameButton from "../HomeGameButtons";
-import Score from "../../component/ScoreCard"
+import ScoreCard from "../../component/ScoreCard"
 import red from "../../Capture.PNG"
 
 function Header() {
@@ -13,9 +13,11 @@ function Header() {
         <div className="header">
           <div className="jumbotron">
             <h1>Brainstormers</h1>
-
-            <button data-target="modal1" class="btn modal-trigger">Modal</button>
-
+            {/* <div className= "tag"><p>A shelter where </p>
+               <p>critical thinking Brews</p></div>
+             */}
+            <button data-target="modal1" class="btn modal-trigger">Sign In</button>
+            <a  data-target="slide-out" class=" btn sidenav-trigger">Scores</a>
             <div className="z-depth-5" id="sign-in" data-reveal>
               
             </div>
@@ -25,10 +27,10 @@ function Header() {
       </div>
     </div>
     <div>
-      <div className="body" style={{backgroundImage:`url(${red})`}}>
+       <div className="body" > 
 
   <HomeGameButton />
-  <Score/>
+  <ScoreCard/>
 </div>
 </div>
 </div>

@@ -34,6 +34,11 @@ class SignUp extends Component {
             <textarea id="textarea2" className="materialize-textarea"></textarea>
             <label for="textarea2">Password</label>
           </div>
+          
+  <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+    <i class="right"></i>
+  </button>
+        
         </div>
       </form>
     </div>

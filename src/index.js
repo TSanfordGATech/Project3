@@ -5,6 +5,7 @@ import reportWebVitals from './reportWebVitals';
 import "../src/component/Header/header.css";
 import "../src/component/HomeGameButtons/H-button.css"
 import "../src/component/SignedInHeader/"
+import "../src/App.css"
 // import SignedIn from './page/SignedIn.js';
 // import SignedIn from "../src/page/SignedIn.js"
 
