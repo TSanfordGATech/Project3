@@ -28,7 +28,7 @@ class LoginPage extends Component {
                         <h5>If you havent joined the team yet Lets Get you signed up!</h5>
                         <SignUp />
                     </div>
-                    <div classNameName="modal-footer">
+                    <div className="modal-footer">
 
                     </div>
                 </div>

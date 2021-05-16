@@ -8,10 +8,10 @@ import reportWebVitals from './reportWebVitals';
 // import "../src/page/GamePage/game.css"
 // import "../src/component/SignOut/sign.css"
 // import "../src/component/SignedInHeader/"
-// import "../src/App.css"
+import "../src/App.css";
 // import GamePage from "../src/page/GamePage"
 // import Home from './page/HomePage.js';
-import App from "./App.js"
+import App from "./App.js";
 // import dIn from "../src/page/SignedIn.js"
 
 ReactDOM.render(

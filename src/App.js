@@ -15,7 +15,8 @@ import "../src/page/GamePage/game.css";
 import "../src/component/SignOut/sign.css";
 import "../src/component/SignedInHeader/";
 import "../src/App.css";
-
+import "../src/component/ScoreCard/score.css";
+import "../src/component/UserScoreCard/userscore.css";
 
 function App() {
   return (

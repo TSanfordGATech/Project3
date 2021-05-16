@@ -12,13 +12,13 @@ function Header() {
       <div className="home">
         <div className="header">
           <div className="jumbotron">
-            <h1>Brainstormers</h1>
+            <h1 className="title">Brainstormers</h1>
             {/* <div className= "tag"><p>A shelter where </p>
                <p>critical thinking Brews</p></div>
              */}
             <button data-target="modal1" className="btn modal-trigger sign">Sign In</button>
-            <a  data-target="slide-out" className=" btn sidenav-trigger score">Scores</a>
-            <div className="z-depth-5" id="sign-in" data-reveal>
+            <a  data-target="slide-out" className=" btn sidenav-trigger btn score">Scores</a>
+            <div className="z-depth-5 " id="sign-in" data-reveal>
               
             </div>
           </div>

@@ -15,10 +15,9 @@ export class LogOut extends Component {
         <div>
           <div id="modal1" class="modal">
             <div class="modal-content">
-              <h4>Modal Header</h4>
-              <p>A bunch of text</p>
+            <h3>"Are you sure your Super Sure your ready to stop learning"</h3>
             </div>
-            <Link to="./brainstormer">
+            <Link to="/">
               <div class="modal-footer">
                 <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
               </div>

@@ -1,12 +1,11 @@
 .header {
     font-size: larger;
     text-align: center;
+    font-family: 'Times New Roman', Times, serif;
    
     color:black;
     /* background: url); */
-    background-repeat: no-repeat;
-    background-position: left;
-    background-size:contain;
+    background:dimgrey;
 } 
 
 .login-button{
@@ -19,5 +18,18 @@
 } 
 
 .score{
-    margin: ;
+    margin: auto;
+}
+
+
+.sign{
+    margin: auto;
+}
+
+.title {
+    color: darkorange;
+    
+}
+.btn {
+    margin-bottom: 1rem;
 }

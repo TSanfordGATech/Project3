@@ -14,12 +14,12 @@ class UserScoreCard extends Component {
         
     render() {
         return (
-            <div>
+            <div className="score-box">
 
-                <ul id="slide-out" class="sidenav">
-                    <li><div class="user-view">
+                <ul id="slide-out" className="sidenav">
+                    <li><div className="user-view">
                         <h3> YOUR HIGH SCORES  </h3>
-                        <div class="background">
+                        <div className="background">
                             <img src="images/office.jpg" />
                         </div>
                         <h5> High Score:</h5>

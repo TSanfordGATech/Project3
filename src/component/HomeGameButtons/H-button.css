@@ -5,27 +5,41 @@
 
 
 .container {
-   text-align: center;
+  
+        display:flex;
+     flex-direction:column;;
     
 }
 /* style={{backgroundImage:`url(${brainstormer})`, backgroundRepeat:`no-repeat`}} */
 
-.button1 {
-    text-align: left;
+
+.box-flex{
+    display:flex;
+
 }
 
 
-.button2 {
-    text-align: right;
+/* 
+.but{
+    display:flex;
+ flex-direction:column
+} */
+
+.card-content{
+    height:165px;
+  width:100%;
+  border:1px solid #ccc;
+  text-align:center;
+  color: darkorange;
 }
 
-
-.button3 {
-    text-align: left;
+.card-action {
+    text-align: center;
 }
 
-
-.button4 {
-    text-align: right;
+.card-title{
+    color: darkorange;
 }
-
+.card-info{
+    font-family:'Courier New', Courier, monospace;
+}

@@ -1,4 +1,6 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import { Link } from "react-router-dom";
+
 
 
 
@@ -34,11 +36,11 @@ class SignUp extends Component {
             <textarea id="textarea2" className="materialize-textarea"></textarea>
             <label for="textarea2">Password</label>
           </div>
-          
-  <button class="btn waves-effect waves-light" type="submit" name="action">Submit
-    <i class="right"></i>
+          <Link to="/brainstormer">  
+  <button class="btn waves-effect waves-light sign-btn" type="submit" name="action">Sign Up
+    <i class="left"></i>
   </button>
-        
+  </Link>
         </div>
       </form>
     </div>
