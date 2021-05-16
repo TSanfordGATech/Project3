@@ -2,7 +2,7 @@ import React from "react";
 // (document).foundation();
 import HomeGameButton from "../HomeGameButtons";
 import ScoreCard from "../../component/ScoreCard"
-import red from "../../Capture.PNG"
+// import red from "../../Capture.PNG"
 
 function Header() {
 

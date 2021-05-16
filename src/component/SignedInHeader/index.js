@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import UserScoreCard from "../../component/UserScoreCard";
 
 
 function SignedInHeader() {
@@ -9,9 +11,10 @@ function SignedInHeader() {
         <div className="header">
           <div className="jumbotron">
             <h1>Brainstormers</h1>
-            <button data-target="modallogout" class="btn modal-trigger">Modal</button>
-         
-
+            <Link to="/match-the-cards">  
+            <button data-target="modalsign-out" class="btn modal-trigger">Modal</button>
+            </Link> 
+         <UserScoreCard/> 
            
           </div>
 
@@ -27,14 +30,5 @@ function SignedInHeader() {
 
 }
 
-
-/* <h2>SIGN IN</h2>
-<h5>UserName</h5>
-<input className="user-name-input"></input>
-<h5>Passowd</h5>
-<input className="user-name-input"></input>
-<button class="close-button" data-close aria-label="Close modal" type="button">
-  <span aria-hidden="true">&times;</span>
-</button> */
 
 export default SignedInHeader;

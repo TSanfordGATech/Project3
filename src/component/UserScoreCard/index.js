@@ -1,19 +1,49 @@
-import React from "react"
+import React, { Component } from 'react'
 
-const UserScore = () => {
-    return (
-        <div className="score-box">
+
+class UserScoreCard extends Component {
+
+    componentDidMount() { 
+
+        const M =window.M;
+            document.addEventListener('DOMContentLoaded', function () {
+                var elems = document.querySelectorAll('.sidenav');
+                        var instances = M.Sidenav.init(elems, {} );
+            });
+        };
+        
+    render() {
+        return (
             <div>
-                <div className="callout primary tiny small: 0.5rem" data-closable >
-                    <h2 className= "callout small">SCORE</h2>
-                    <h4>Name: Jessica Fox</h4>
-                    <h4>Game: Memory Game</h4>
-                    <h4>Highest Score:150</h4>
-                    <h4>Highest Level:9</h4>
-                </div>
+
+                <ul id="slide-out" class="sidenav">
+                    <li><div class="user-view">
+                        <h3> YOUR HIGH SCORES  </h3>
+                        <div class="background">
+                            <img src="images/office.jpg" />
+                        </div>
+                        <h5> High Score:</h5>
+                        <h5> Last Game Played:</h5>
+                        <h5> Highest Level:</h5>
+
+                        <p><strong>Your Learning level:</strong></p>
+                        
+                        <p><strong>Your highest Scor:e</strong></p>
+                        
+                        <p><strong>Game Most Frequently Played:</strong></p>
+                        
+
+
+
+
+                    </div>
+                    </li>
+                </ul>
+               
+
             </div>
-        </div>
-    )
+        )
+    }
 }
 
-export default UserScore
+export default UserScoreCard

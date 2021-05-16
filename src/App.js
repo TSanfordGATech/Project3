@@ -6,7 +6,7 @@ import Header from "./component/Header";
 // import game2 from "./component/game2";
 // import game3 from "./component/game3";
 // import game4 from "./component/game4";
-import GamePage from "./page/GamePage";
+import GamePage from "./page/GamePage/index.js";
 import SignedIn from "./page/SignedIn.js";
 import Home from './page/HomePage.js';
 import "../src/component/Header/header.css";
@@ -22,12 +22,12 @@ function App() {
     
     <Router>
   
-       <Header />
+     
        <Switch>
          
         <Route path="/" exact component={Home} /> 
-        <Route  path="/asteroid-type" component={GamePage} />
         <Route  path="/brainstormer" component={SignedIn} />
+        <Route  path="/asteroid-type" component={GamePage} />
         <Route  path="/match-the-cards" component={GamePage} />
         <Route  path="/escape-room" component={GamePage} />
         <Route  path="/card-game" component={GamePage} />
