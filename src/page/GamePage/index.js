@@ -1,9 +1,12 @@
-import React from 'react'
-import SignOut from "../../component/SignOut"
-import GameDock from "../../component/GameDock"
+import React from "react";
+import SignOut from "../../component/SignOut";
+import GameDock from "../../component/GameDock";
+import { Link } from "react-router-dom";
 const GamePage = () => {
     return (
+       
         <div>
+          <Link to="/asteroid-type">
             <div className="callout header">
             <h1>Brainstormers</h1> 
             <a className=" black grey btn modal-trigger" href="#modalsign-out">Exit Game</a>
@@ -27,7 +30,10 @@ const GamePage = () => {
 </div>
 
 <GameDock/>
+ </Link>  
         </div>
+   
+
     )
 }
 

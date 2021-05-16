@@ -1,35 +1,40 @@
 import React from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Header from "./component/Header";
 // import HomePage from "./component/HomePage";
 // import game1 from "./component/game1";
 // import game2 from "./component/game2";
 // import game3 from "./component/game3";
 // import game4 from "./component/game4";
-import GamePage from "../src/page/GamePage";
-import SignedIn from "../src/page/SignedIn";
+import GamePage from "./page/GamePage";
+import SignedIn from "./page/SignedIn.js";
+import Home from './page/HomePage.js';
 import "../src/component/Header/header.css";
 import "../src/component/HomeGameButtons/H-button.css";
 import "../src/page/GamePage/game.css";
 import "../src/component/SignOut/sign.css";
 import "../src/component/SignedInHeader/";
 import "../src/App.css";
-import Home from './page/HomePage.js';
 
 
 function App() {
   return (
+    
     <Router>
-      <div>
+  
        <Header />
-        <Route exact path="/" component={Home} />
-        <Route exact path="/Brainstormer" component={SignedIn} />
-        <Route exact path="/asteroid-type" component={GamePage} />
-        <Route exact path="/match-the-cards" component={GamePage} />
-        <Route exact path="/escape-room" component={GamePage} />
-        <Route exact path="/card-game" component={GamePage} />
-    </div>
-    </Router>
+       <Switch>
+         
+        <Route path="/" exact component={Home} /> 
+        <Route  path="/asteroid-type" component={GamePage} />
+        <Route  path="/brainstormer" component={SignedIn} />
+        <Route  path="/match-the-cards" component={GamePage} />
+        <Route  path="/escape-room" component={GamePage} />
+        <Route  path="/card-game" component={GamePage} />
+       </Switch>
+  
+</Router>
+
   );
 }
 

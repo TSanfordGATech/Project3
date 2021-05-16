@@ -27,7 +27,7 @@ const Buttons = () => {
            <p>This game is a typing game that helps with hand eye coordination as well as typing speed.  Asteroids threaten to impact earth and youre the last line of defense.  When the asteroids appear, type the words that they have written on them to save the earth!</p>
          </div>
          <div className="card-action">
-         <a className=" waves-dark btn-small"><i className="material-icons right">beach_access</i>Lets Play</a> 
+         <a className=" waves-dark btn-small" ><i className="material-icons right">beach_access</i>Lets Play</a> 
          </div>
        </div>
      </div>

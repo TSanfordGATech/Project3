@@ -16,8 +16,8 @@ function Header() {
             {/* <div className= "tag"><p>A shelter where </p>
                <p>critical thinking Brews</p></div>
              */}
-            <button data-target="modal1" class="btn modal-trigger">Sign In</button>
-            <a  data-target="slide-out" class=" btn sidenav-trigger">Scores</a>
+            <button data-target="modal1" className="btn modal-trigger sign">Sign In</button>
+            <a  data-target="slide-out" className=" btn sidenav-trigger score">Scores</a>
             <div className="z-depth-5" id="sign-in" data-reveal>
               
             </div>
