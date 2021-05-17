@@ -33,3 +33,10 @@ margin-left: 8rem;
   margin-top: -2.80rem;
   font-family: 'Courier New', Courier, monospace;
 }
+
+/* **************************login modal************************************** */
+
+.signin-buttons{
+ margin-left: -40rem;
+ margin-bottom: -5rem;
+}

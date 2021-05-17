@@ -23,11 +23,13 @@ class SignIn extends Component {
             <textarea id="textarea2" className="materialize-textarea"></textarea>
             <label for="textarea2">Password</label>
           </div>
+          <div className="signin-buttons">
           <Link to="/brainstormer">     
-  <button class="btn waves-effect waves-light sign-btn" type="submit" name="action">Sign In
-    <i class="center"></i>
+  <button className="btn waves-effect waves-light sign-btn" type="submit" name="action">Sign In
+    <i className="left"></i>
   </button>
   </Link>
+  </div>
         </div>
       </form>
     </div>
