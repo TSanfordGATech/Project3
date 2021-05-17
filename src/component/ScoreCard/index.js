@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-
+import logo from "../../teamlogo.png"
 
 class ScoreCard extends Component {
 
@@ -17,20 +17,22 @@ class ScoreCard extends Component {
             <div className="score-box">
 
                 <ul id="slide-out" className="sidenav">
-                    <li><div className="user-view">
-                        <h3> HIGH SCORES  </h3>
-                        <div className="background">
-                            <img src="images/office.jpg" />
+                    <div className="user-view">
+                        <div>
+                        <img src={logo} alt="logo"/>
                         </div>
+                        <div>
+    <li>
+                        <h3>  SCORES  </h3>
                         <h5> High Score:</h5>
                         <h5> Last Game Played:</h5>
                         <h5> Highest Level:</h5>
-
-
+  </li>
+</div>
 
 
                     </div>
-                    </li>
+                  
                 </ul>
                
 

@@ -38,7 +38,7 @@ class SignUp extends Component {
           </div>
           <Link to="/brainstormer">  
   <button class="btn waves-effect waves-light sign-btn" type="submit" name="action">Sign Up
-    <i class="left"></i>
+    <i class="right"></i>
   </button>
   </Link>
         </div>

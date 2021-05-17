@@ -1,0 +1,19 @@
+.page-footer{
+    background: chocolate;
+
+    /* margin-bottom: 10rem; */
+}
+
+.logo1{
+    text-align: left;
+    margin-left: -7rem;
+    margin-bottom: -2rem;
+}
+.copy{
+    text-align: center;
+}
+
+.dev{
+    margin-top: 4rem;
+    margin-left: -2rem;
+}

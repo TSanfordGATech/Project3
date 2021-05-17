@@ -1,22 +1,37 @@
 import React from "react";
 import SignOut from "../../component/SignOut";
 import GameDock from "../../component/GameDock";
-import { Link, Route } from "react-router-dom";
-
+import { Link} from "react-router-dom";
+import logo from "../../teamlogo.png";
 
 const GamePage = () => {
   return (
-    <Route>
-      <div>
-
+     <div className="container">
+      <div >
+<div className="callout">
+      <div className="home">
+        <div className="header">
+          <div className="jumbotron box.box">
+            <img className="logo" src={logo} alt="Logo"/>
+            <h1 className="title">"We are Brainstorming Here</h1>
+            <h3 className="title2"> And Quite a Storm it is"</h3>
+ <a className=" black grey btn modal-trigger" href="#modalsign-out">Exit Game</a>
+              
+            </div>
+          </div>
+         
+        </div>
+      </div>
+    </div>
+    
+    <div></div>
 
         <Link to="/asteroid-type">
-          <div className="callout header">
-            <h1>Brainstormers</h1>
-            <a className=" black grey btn modal-trigger" href="#modalsign-out">Exit Game</a>
+          
+           
             <SignOut />
-          </div>
-          <div>
+        
+         
 
             <div className="row">
               <div className="col s12 m12">
@@ -31,13 +46,13 @@ const GamePage = () => {
                 </div>
               </div>
             </div>
-          </div>
+          
 
           <GameDock />
         </Link>
-
-      </div>
-    </Route>
+</div>
+     
+   
 
   )
 }

@@ -27,9 +27,22 @@
 }
 
 .title {
-    color: darkorange;
+    color:darkorang;
+    margin-top: -11rem;
     
 }
 .btn {
     margin-bottom: 1rem;
+}
+/* 
+.home{
+    background-image: url();
+} */
+.logo{
+   display: flex;
+}
+
+.box{
+    display:flex;
+    flex-direction: column;
 }

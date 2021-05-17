@@ -1,9 +1,13 @@
 import React from 'react'
 //  import red from "../../Capture.PNG";
 import { Link } from "react-router-dom";
+
+
 const Buttons = () => {
   return (
      <div className="container">
+        <div className="contain">
+       <div className="boxes">
       <div className="box-flex"> 
   <div className="row">
   <div className="col s6 m12">
@@ -37,11 +41,8 @@ const Buttons = () => {
      </div>
    </div>
    </div>
+   </div>
    
-
-
-
-
  
    <div>
    <div className="box-flex">
@@ -75,6 +76,7 @@ const Buttons = () => {
          </Link> 
        </div>
      </div>
+   </div>
    </div>
    </div>
    </div>

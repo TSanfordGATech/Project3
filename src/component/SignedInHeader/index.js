@@ -13,7 +13,7 @@ function SignedInHeader() {
             <div className="jumbotron">
               <h1>Welcome Back Brainstormer</h1>
               <Link to="/brainstormer">
-                <a className=" black grey btn modal-trigger" href="#modal1">Bye-Bye</a>
+                <a className=" waves-dark btn modal-trigger" href="#modal1">Bye-Bye</a>
               </Link>
 
               <a data-target="slide-out" className=" btn sidenav-trigger score">Your Scores</a>

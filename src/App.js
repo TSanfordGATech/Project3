@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Header from "./component/Header";
+// import Header from "./component/Header";
 // import HomePage from "./component/HomePage";
 // import game1 from "./component/game1";
 // import game2 from "./component/game2";
@@ -9,6 +9,7 @@ import Header from "./component/Header";
 import GamePage from "./page/GamePage/index.js";
 import SignedIn from "./page/SignedIn.js";
 import Home from './page/HomePage.js';
+import Footer from "./component/Footer/index"
 import "../src/component/Header/header.css";
 import "../src/component/HomeGameButtons/H-button.css";
 import "../src/page/GamePage/game.css";
@@ -17,13 +18,13 @@ import "../src/component/SignedInHeader/";
 import "../src/App.css";
 import "../src/component/ScoreCard/score.css";
 import "../src/component/UserScoreCard/userscore.css";
-
+import "./component/Footer/footer.css"
 function App() {
   return (
     
     <Router>
   
-     
+    
        <Switch>
          
         <Route path="/" exact component={Home} /> 
@@ -33,7 +34,7 @@ function App() {
         <Route  path="/escape-room" component={GamePage} />
         <Route  path="/card-game" component={GamePage} />
        </Switch>
-  
+         <Footer/>
 </Router>
 
   );

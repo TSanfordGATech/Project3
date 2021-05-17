@@ -1,8 +1,8 @@
 import React from "react";
 // (document).foundation();
-import HomeGameButton from "../HomeGameButtons";
+// import HomeGameButton from "../HomeGameButtons";
 import ScoreCard from "../../component/ScoreCard"
-// import red from "../../Capture.PNG"
+import logo from "../../teamlogo.png"
 
 function Header() {
 
@@ -11,8 +11,10 @@ function Header() {
     <div className="callout">
       <div className="home">
         <div className="header">
-          <div className="jumbotron">
-            <h1 className="title">Brainstormers</h1>
+          <div className="jumbotron box.box">
+            <img className="logo" src={logo} alt="Logo"/>
+            <h1 className="title">"We are Brainstorming Here</h1>
+            <h3 className="title2"> And Quite a Storm it is"</h3>
             {/* <div className= "tag"><p>A shelter where </p>
                <p>critical thinking Brews</p></div>
              */}
@@ -29,7 +31,7 @@ function Header() {
     <div>
        <div className="body" > 
 
-  <HomeGameButton />
+  
   <ScoreCard/>
 </div>
 </div>
