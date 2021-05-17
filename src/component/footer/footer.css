@@ -12,8 +12,19 @@
 .copy{
     text-align: center;
 }
-
+/* 
 .dev{
     margin-top: 4rem;
-    margin-left: -2rem;
-}
+    margin-left: -2rem; */
+
+
+ul.horizontal{
+    margin:0;
+    padding:0;
+
+    }
+    ul.horizontal li{
+        display:block;
+        float:left;
+        padding:0 10px;
+        }
