@@ -2,6 +2,19 @@
 .button-groups{
     font-size: large;
 }
+.header2{
+    font-size: larger;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+   margin-bottom: -1rem;
+    color:black;
+ 
+    background:dimgrey;
+} 
+ .header3{
+  margin-top: -12rem;
+  font-family: 'Times New Roman', Times, serif;
+ } 
 
 
 .boxes {
@@ -41,3 +54,11 @@
   padding-bottom: -5rem;
 
 } 
+.logo{
+    display: flex;
+ }
+ 
+ .box{
+     display:flex;
+     flex-direction: column;
+ }

@@ -38,11 +38,15 @@
 .home{
     background-image: url();
 } */
-.logo{
+/* .logo{
    display: flex;
+   margin-top: 3rem;
 }
 
 .box{
     display:flex;
     flex-direction: column;
+} */
+.logo{
+    margin-bottom: 1rem;
 }
