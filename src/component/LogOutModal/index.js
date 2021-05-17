@@ -15,11 +15,11 @@ export class LogOut extends Component {
         <div>
           <div id="modal1" class="modal">
             <div class="modal-content">
-            <h3>"Are you sure your Super Sure your ready to stop learning"</h3>
+            <h3>"Are you Super Sure your ready to stop Learning?"</h3>
             </div>
             <Link to="/">
               <div class="modal-footer">
-                <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+               <button class="modal-close waves-effect btn-small" >YES SUPER SURE!</button>
               </div>
             </Link>
           </div>

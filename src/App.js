@@ -18,8 +18,12 @@ import "../src/component/SignedInHeader/";
 import "../src/App.css";
 import "../src/component/ScoreCard/score.css";
 import "../src/component/UserScoreCard/userscore.css";
-import "./component/Footer/footer.css"
+import "./component/Footer/footer.css";
+import "./component/Carousel/car.css";
+
 function App() {
+
+  
   return (
     
     <Router>

@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import UserScoreCard from "../../component/UserScoreCard";
 import LogOut from "../../component/LogOutModal";
 import logo from "../../teamlogo.png"
+import Typed from "react-typed"
 function SignedInHeader() {
 
   return (
@@ -22,7 +23,14 @@ function SignedInHeader() {
               <LogOut />
               </div>
             </div>
-
+            <div>
+            <Typed
+                        className="typed-text"
+                        strings={["Voted 1# Learning Hub", "Fun Games for All ages", "Critical Thinking Skills", "Game that keeps Giving"]}
+                        typeSpeed={40}
+                        backSpeed={60}
+                        loop
+                    /></div>
           </div>
         </div>
       </div>

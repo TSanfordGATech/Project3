@@ -3,6 +3,7 @@ import React from "react";
 // import HomeGameButton from "../HomeGameButtons";
 import ScoreCard from "../../component/ScoreCard"
 import logo from "../../teamlogo.png"
+import Typed from "react-typed"
 
 function Header() {
 
@@ -15,15 +16,21 @@ function Header() {
             <img className="logo" src={logo} alt="Logo"/>
             <h1 className="title">"We are Brainstorming Here</h1>
             <h3 className="title2"> And Quite a Storm it is"</h3>
-            {/* <div className= "tag"><p>A shelter where </p>
-               <p>critical thinking Brews</p></div>
-             */}
+          
             <button data-target="modal1" className="btn modal-trigger sign">Sign In</button>
             <a  data-target="slide-out" className=" btn sidenav-trigger btn score">Scores</a>
             <div className="z-depth-5 " id="sign-in" data-reveal>
               
             </div>
           </div>
+          <div>
+            <Typed
+                        className="typed-text"
+                        strings={["Voted 1# Learning Hub", "Fun Games for All ages", "Critical Thinking Skills", "Games that keeps Giving"]}
+                        typeSpeed={60}
+                        backSpeed={80}
+                        loop
+                    /></div>
          
         </div>
       </div>

@@ -40,3 +40,23 @@ margin-left: 8rem;
  margin-left: -40rem;
  margin-bottom: -5rem;
 }
+
+/* **************************RESPONSIVE************************************** */
+
+@media(min-width: 1273px) {
+  header{
+    margin:inherit;
+  }
+
+}
+
+
+@media(max-width: 768px) {
+.main-info h1{
+  font-size: 1.7rem !important;
+}
+.typed-text {
+  font-size: 1.3rem !important;
+}
+
+}
