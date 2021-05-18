@@ -1,18 +1,18 @@
 import React from "react";
-import Modal from "./test.js";
+import Toasts from "./Toasts";
 
-function TestModal () {
+function Encouragement() {
   const { headingText } = styles;
 
   return (
     <div className="container">
       <h2 style={headingText} className="flow-text">
-        Modal React Demo
+        Toasts React Demo
       </h2>
       <p className="flow-text">
         Learn how to use Materialize CSS framework in ReactJS
       </p>
-      <Modal />
+      <Toasts />
     </div>
   );
 }
@@ -24,5 +24,4 @@ const styles = {
   }
 };
 
-
-export default TestModal
+export default Encouragement;
