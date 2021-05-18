@@ -23,10 +23,10 @@ class Toasts extends Component {
   render() {
     return (
       <div>
-        <a onClick={this.test} className="btn">
+        <a onClick={this.test} className="btn-toast">
           Toast!
         </a>
-        <a onClick={this.dismissThem} className="btn">
+        <a onClick={this.dismissThem} className="btn-toast">
           Dismiss All
         </a>
       </div>

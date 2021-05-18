@@ -7,8 +7,9 @@ height: 200px;
 text-align: center;
 }
 
-.carousel-item{
-    height: 200px;
-    width: 200px;
-    position: absolute;
+.main-img{
+    margin-bottom: 2rem;
+    height: 725px;
+    font-weight: 825px;
 }
+

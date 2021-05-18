@@ -6,10 +6,10 @@ import SignUp from "../SignUp";
 class LoginPage extends Component {
     componentDidMount() {
         const M = window.M;
-        document.addEventListener('DOMContentLoaded', function () {
+        // document.addEventListener('DOMContentLoaded', function () {
             var elems = document.querySelectorAll('.modal');
             var instances = M.Modal.init(elems, {});
-        });
+        // });
 
 
     }

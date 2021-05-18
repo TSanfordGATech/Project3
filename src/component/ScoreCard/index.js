@@ -4,12 +4,12 @@ import logo from "../../teamlogo.png"
 class ScoreCard extends Component {
 
     componentDidMount() { 
-
+        console.log("ScoreCard mounted")
         const M =window.M;
-            document.addEventListener('DOMContentLoaded', function () {
+            // document.addEventListener('DOMContentLoaded', function () {
                 var elems = document.querySelectorAll('.sidenav');
                         var instances = M.Sidenav.init(elems, {} );
-            });
+            // });
         };
         
     render() {
