@@ -14,8 +14,8 @@ function Header() {
         <div className="header">
           <div className="jumbotron box.box">
             <img className="logo" src={logo} alt="Logo"/>
-            <h1 className="title">"We are Brainstorming Here</h1>
-            <h3 className="title2"> And Quite a Storm it is"</h3>
+            <h1 className="title3">"We are Brainstorming Here</h1>
+            <h3 className="title4"> And Quite a Storm it is."</h3>
           
             <button data-target="modal1" className="btn modal-trigger sign">Sign In</button>
             <a  data-target="slide-out" className=" btn sidenav-trigger btn score">Scores</a>

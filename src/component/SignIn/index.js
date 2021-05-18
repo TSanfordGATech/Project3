@@ -10,7 +10,7 @@ class SignIn extends Component {
         return (
             <div>
                
-    <div className="row">
+    <div className="row input-page">
       <form className="col s12">
         <div className="row">
           <div className="input-field col s6">

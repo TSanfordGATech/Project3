@@ -1,3 +1,14 @@
-.coroulsel{
-margin-top: -1rem;
+.carousel{
+ margin-top: 25rem;
+margin-left: 2rem;
+margin-bottom: -23rem;
+width: 1000px;
+height: 200px;
+text-align: center;
+}
+
+.carousel-item{
+    height: 200px;
+    width: 200px;
+    position: absolute;
 }

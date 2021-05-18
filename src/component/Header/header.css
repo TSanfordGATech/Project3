@@ -26,27 +26,26 @@
     margin: auto;
 }
 
-.title {
-    color:darkorang;
-    margin-top: -11rem;
-    
+.title3 {
+    color:black;
+    font-family: monospace;  
+    margin-top: -14rem;  
+    margin-left: 7.5rem;
+    font-size: 4.5rem;
+}
+
+.title4 {
+    font-size: 3.2rem;
+    color:black;
+    font-family: monospace;
+    margin-left: 20rem;
+    margin-top: -2.50rem;
+    margin-bottom: 1rem;
 }
 .btn {
     margin-bottom: 1rem;
 }
-/* 
-.home{
-    background-image: url();
-} */
-/* .logo{
-   display: flex;
-   margin-top: 3rem;
-}
 
-.box{
-    display:flex;
-    flex-direction: column;
-} */
 .logo{
     margin-bottom: 1rem;
 }

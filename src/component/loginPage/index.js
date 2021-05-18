@@ -21,11 +21,12 @@ class LoginPage extends Component {
 
                 <div id="modal1" className="modal">
                     <div className="modal-content">
-                        <h3>Welcome Back Brainstormer</h3>
-
+                        <h3 className="login-title">Welcome Back Brainstormer</h3>
+                        <p className="login-title"></p>
                         <SignIn />
 
-                        <h5>If you havent joined the team yet Lets Get you signed up!</h5>
+                        <h5 className="login-title" >Your Not a Brainstormer? Wow... </h5>
+                        <h5 className="login-title1" >Lets get You Signed Up...</h5>
                         <SignUp />
                     </div>
                     <div className="modal-footer">

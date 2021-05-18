@@ -13,8 +13,8 @@ const GamePage = () => {
         <div className="header">
           <div className="jumbotron box.box">
             <img className="logo" src={logo} alt="Logo"/>
-             <h3 className= "title">A shelter where </h3>
-               <p  className= "title2">critical thinking Brews</p>
+             <h3 className= "title3">"A Shelter where </h3>
+               <p  className= "title4">Critical Thinking Brews."</p>
             
  <a className=" black grey btn modal-trigger" href="#modalsign-out">Exit Game</a>
               

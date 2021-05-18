@@ -16,8 +16,8 @@
     margin-left: -2rem;
 }
 /*  */
-.devs-opp{
-    margin-left: rem;
+.devs-names{
+    /* margin-right: 1rem; */
    
 } 
  
@@ -31,3 +31,8 @@
   main {
     flex: 1 0 auto;
   }
+
+  .copy{
+      text-align: center;
+  }
+ 

@@ -40,7 +40,22 @@ margin-left: 8rem;
  margin-left: -40rem;
  margin-bottom: -5rem;
 }
+/* 
+.input-page{ */
+  /* background: darkgrey;
+  color: white;
+  font-weight: bold;
+  font-size: 2px;
+} */
 
+.login-title{
+  font-family: monospace;
+  font-weight: bolder;
+}
+.login-title1{
+  
+  font-family: monospace;
+}
 /* **************************RESPONSIVE************************************** */
 
 @media(min-width: 1273px) {
@@ -51,7 +66,7 @@ margin-left: 8rem;
 }
 
 
-@media(max-width: 768px) {
+@media(max-width: 500px) {
 .main-info h1{
   font-size: 1.7rem !important;
 }
