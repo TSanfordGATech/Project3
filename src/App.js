@@ -8,8 +8,8 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 // import game4 from "./component/game4";
 import GamePage from "./page/GamePage/index.js";
 import SignedIn from "./page/SignedIn.js";
-import Home from './page/HomePage.js';
-import Footer from "./component/Footer/index"
+import Home from "./page/HomePage.js";
+import Footer from "./component/footer/index"
 import "../src/component/Header/header.css";
 import "../src/component/HomeGameButtons/H-button.css";
 import "../src/page/GamePage/game.css";
@@ -18,7 +18,7 @@ import "../src/component/SignedInHeader/";
 import "../src/App.css";
 import "../src/component/ScoreCard/score.css";
 import "../src/component/UserScoreCard/userscore.css";
-import "./component/Footer/footer.css";
+import "./component/footer/footer.css";
 import "./component/Carousel/car.css";
 
 function App() {
