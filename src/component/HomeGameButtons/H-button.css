@@ -2,30 +2,67 @@
 .button-groups{
     font-size: large;
 }
+.header2{
+    font-size: larger;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+   margin-bottom: -1rem;
+    color:black;
+ 
+    background:dimgrey;
+} 
+ .header3{
+  margin-top: -12rem;
+  font-family: 'Times New Roman', Times, serif;
+ } 
 
 
-.container {
-   text-align: center;
+.boxes {
+  
+        display:flex;
+     flex-direction:column;;
     
 }
-/* style={{backgroundImage:`url(${brainstormer})`, backgroundRepeat:`no-repeat`}} */
 
-.button1 {
-    text-align: left;
+
+.box-flex{
+    display:flex;
+
 }
 
 
-.button2 {
-    text-align: right;
+.card-content{
+    height:165px;
+  width:100%;
+  border:1px solid #ccc;
+  text-align:center;
+  color: darkorange;
 }
 
-
-.button3 {
-    text-align: left;
+.card-action {
+    text-align: center;
 }
 
-
-.button4 {
-    text-align: right;
+.card-title{
+    color: darkorange;
 }
+.card-info{
+    font-family:'Courier New', Courier, monospace;
+}
+.contain {
+  padding-top: 24rem;
+  padding-bottom: -5rem;
 
+} 
+.logo{
+    display: flex;
+ }
+ 
+ .box{
+     display:flex;
+     flex-direction: column;
+ }
+ 
+ .contain{
+     margin-top: -24rem;
+ }

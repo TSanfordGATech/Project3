@@ -9,10 +9,10 @@ const GameDock = () => {
                     <div className="card-content white-text">
                         <span className="card-title">Typing Game</span>
 
-                        <div className="card-action">
+                        <div className="game-dock">
                           <h5>Your Score</h5>
                           <h5>High Score</h5>
-                            <h1>GAME GOES HERE</h1>
+                         <h1>GAME GOES HERE</h1>
                         </div>
                     </div>
                 </div>

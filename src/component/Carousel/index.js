@@ -1,21 +1,18 @@
-// import React, { Component } from 'react'
+/* eslint-disable no-lone-blocks */
+import React from 'react';
+import family from "../../woman.PNG";
 
 
-// export class Carousel extends Component {
-//     render() {
-//         return (
-//             <div>
-                
-//   <div class="carousel">
-//     <a class="carousel-item" href="#one!"><img src="https://lorempixel.com/250/250/nature/1"></a>
-//     <a class="carousel-item" href="#two!"><img src="https://lorempixel.com/250/250/nature/2"></a>
-//     <a class="carousel-item" href="#three!"><img src="https://lorempixel.com/250/250/nature/3"></a>
-//     <a class="carousel-item" href="#four!"><img src="https://lorempixel.com/250/250/nature/4"></a>
-//     <a class="carousel-item" href="#five!"><img src="https://lorempixel.com/250/250/nature/5"></a>
-//   </div>
-//             </div>
-//         )
-//     }
-// }
+const MainImg = () => {
+    return (
+        <div  className="main-img">
+         <div className="container">
+                <img className="main-img" src={family} />
+            </div>
+   
+        </div>
+    )
+}
 
-// export default Carousel
+export default MainImg
+
