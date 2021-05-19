@@ -2,9 +2,67 @@
 .button-groups{
     font-size: large;
 }
+.header2{
+    font-size: larger;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+   margin-bottom: -1rem;
+    color:black;
+ 
+    background:dimgrey;
+} 
+ .header3{
+  margin-top: -12rem;
+  font-family: 'Times New Roman', Times, serif;
+ } 
 
 
-.container {
-    /* margin-right: 10rem; */
-    padding-left: 8%;
+.boxes {
+  
+        display:flex;
+     flex-direction:column;;
+    
 }
+
+
+.box-flex{
+    display:flex;
+
+}
+
+
+.card-content{
+    height:165px;
+  width:100%;
+  border:1px solid #ccc;
+  text-align:center;
+  color: darkorange;
+}
+
+.card-action {
+    text-align: center;
+}
+
+.card-title{
+    color: darkorange;
+}
+.card-info{
+    font-family:'Courier New', Courier, monospace;
+}
+.contain {
+  padding-top: 24rem;
+  padding-bottom: -5rem;
+
+} 
+.logo{
+    display: flex;
+ }
+ 
+ .box{
+     display:flex;
+     flex-direction: column;
+ }
+ 
+ .contain{
+     margin-top: -24rem;
+ }

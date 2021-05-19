@@ -1,0 +1,38 @@
+ .page-footer{
+    background: chocolate;
+    
+ }
+/* .logo1{
+    text-align: right;
+    
+    margin-bottom: -2rem;
+}
+.copy{
+    text-align: center;
+}
+
+.dev{
+    margin-top: 10rem;
+    margin-left: -2rem;
+}
+/*  */
+.devs-names{
+    /* margin-right: 1rem; */
+   
+} 
+ 
+
+ body {
+    display: flex;
+    min-height: 50vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+
+  .copy{
+      text-align: center;
+  }
+ 

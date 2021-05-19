@@ -1,41 +1,41 @@
 import React from "react";
-// (document).foundation();
-
+import { Link } from "react-router-dom";
+import UserScoreCard from "../../component/UserScoreCard";
+import LogOut from "../../component/LogOutModal";
+import logo from "../../teamlogo.png"
+import Typed from "react-typed"
 function SignedInHeader() {
 
   return (
-    <div className="callout">
-      <div className="home">
-        <div className="header">
-          <div className="jumbotron">
-            <h1>Brainstormers</h1>
+    <div>
+      <div className="callout">
+        <div className="home">
+          <div className="header2">
+            <div className="jumbotron box.box">
+            <img className="logo" src={logo} alt="Logo"/>
+            <div className="header3">
+              <h1 className="header3">Welcome Back Brainstormer!</h1>
+              <Link to="/brainstormer">
+                <a className=" waves-dark btn modal-trigger" href="#modal1">Bye-Bye</a>
+              </Link>
 
-          <p><button class="button log-button" data-open="sign-in">Log Out</button></p>
-
-            <div class="reveal" id="sign-in" data-reveal>
-              
-              <h1>Awesome!</h1>
-              <p class="lead">I have another modal inside of me!</p>
-              <button class="button" data-open="log-in">Click me for another modal!</button>
-              <button class="close-button" data-close aria-label="Close reveal" type="button">
-                <span aria-hidden="true">&times;</span>
-              </button>
+              <a data-target="slide-out" className=" btn sidenav-trigger score">Your Scores</a>
+              <LogOut />
+              </div>
             </div>
-
-
-            <div class="reveal" id="log-in" data-reveal>
-              <h2>ANOTHER MODAL!!!</h2>
-              <button class="close-button" data-close aria-label="Close reveal" type="button">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-
+            <div>
+            <Typed
+                        className="typed-text"
+                        strings={["Voted 1# Learning Hub", "Fun Games for All ages", "Critical Thinking Skills", "Game that keeps Giving"]}
+                        typeSpeed={40}
+                        backSpeed={60}
+                        loop
+                    /></div>
           </div>
-
         </div>
       </div>
+      <UserScoreCard />
     </div>
-
 
 
 
@@ -44,14 +44,5 @@ function SignedInHeader() {
 
 }
 
-
-/* <h2>SIGN IN</h2>
-<h5>UserName</h5>
-<input className="user-name-input"></input>
-<h5>Passowd</h5>
-<input className="user-name-input"></input>
-<button class="close-button" data-close aria-label="Close modal" type="button">
-  <span aria-hidden="true">&times;</span>
-</button> */
 
 export default SignedInHeader;
