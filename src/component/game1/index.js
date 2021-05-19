@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 const WORDS = ["game", "day", "java", "script", "rainbow", "program", "bunny", "youtube", "github", "terminator", "slicer", "ninja", "cow", "robot", "zoom", "peanuts"];
 var focus;
 var field = [];
