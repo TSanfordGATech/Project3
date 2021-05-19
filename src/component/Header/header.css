@@ -47,9 +47,10 @@
 }
 
 .logo{
-    margin-bottom: 1rem;
+    margin-bottom: -1rem;
 }
 .typed-text{
-    font-size: 23px;
+    font-size: 25px;
+    font-weight: bold;
 
 }

@@ -20,6 +20,7 @@ import "../src/component/ScoreCard/score.css";
 import "../src/component/UserScoreCard/userscore.css";
 import "./component/footer/footer.css";
 import "./component/Carousel/car.css";
+import "./component/Photos/photo.css";
 
 function App() {
 

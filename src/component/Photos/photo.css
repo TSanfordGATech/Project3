@@ -1,0 +1,11 @@
+.photo{
+    float: left;
+    width: 50%;
+   margin-left: rem;
+   /* margin-right: 3rems; */
+}
+
+.photo img {
+    height: 325px;
+    
+}

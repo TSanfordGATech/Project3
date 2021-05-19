@@ -8,6 +8,7 @@ import "../../component/Header/header.css";
 import '../../component/HomeGameButtons/H-button.css';
 import "../../component/ScoreCard/score.css";
 import MainImg from '../../component/Carousel';
+import Photos from "../../component/Photos";
 // import Encouragement from "../../component/Encouragement";
 // import "packages_folder/foundation-sites/scss";
 
@@ -21,6 +22,7 @@ const Home = () => {
             {/* <Encouragement /> */}
             <MainImg />
             <HomeGameButton />
+            <Photos />
 
 
         </div>
