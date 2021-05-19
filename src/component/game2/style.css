@@ -170,7 +170,7 @@ p.stats:last-child {
 }
 
 .card {
-    background: #fc4;
+    background: #000;
     border-radius: 0.5em;
     height: 7em;
     width: 7em;
@@ -186,7 +186,7 @@ img {
 }
 
 .deck .card.flip {
-    background: #fff;
+    background: grey;
     cursor: default;
     transform: rotateY(180deg);
     transition: transform 0.3s linear;
@@ -194,7 +194,7 @@ img {
 }
 
 .flip img {
-    background: #fff;
+    background: grey;
     visibility: visible;
 }
 

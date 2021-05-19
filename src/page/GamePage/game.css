@@ -1,0 +1,31 @@
+.header {
+   
+    text-align: center;
+   
+    color:black;
+    /* background: url); */
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size:contain;
+} 
+
+.card-title{
+    text-align: center;
+}
+
+.title {
+    color:darkorang;
+    margin-top: -12rem;
+margin-left: 8rem;
+    font-size: 3rem;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+.title2 {
+    color:darkorang;
+    margin-left: 17rem;
+    font-size: 3rem;
+    margin-top: -2.80rem;
+    font-family: 'Courier New', Courier, monospace;
+}
