@@ -1,12 +1,11 @@
 .header {
     font-size: larger;
     text-align: center;
+    font-family: 'Times New Roman', Times, serif;
    
     color:black;
     /* background: url); */
-    background-repeat: no-repeat;
-    background-position: left;
-    background-size:contain;
+    background:dimgrey;
 } 
 
 .login-button{
@@ -17,3 +16,40 @@
 .callout {
  margin-top: -3rem; 
 } 
+
+.score{
+    margin: auto;
+}
+
+
+.sign{
+    margin: auto;
+}
+
+.title3 {
+    color:black;
+    font-family: monospace;  
+    margin-top: -14rem;  
+    margin-left: 7.5rem;
+    font-size: 4.5rem;
+}
+
+.title4 {
+    font-size: 3.2rem;
+    color:black;
+    font-family: monospace;
+    margin-left: 20rem;
+    margin-top: -2.50rem;
+    margin-bottom: 1rem;
+}
+.btn {
+    margin-bottom: 1rem;
+}
+
+.logo{
+    margin-bottom: 1rem;
+}
+.typed-text{
+    font-size: 23px;
+
+}
