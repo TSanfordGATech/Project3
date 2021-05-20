@@ -5,7 +5,7 @@ import family from "../../woman.PNG";
 
 const MainImg = () => {
     return (
-        <div  className="main-img">
+        <div>
          <div className="container">
                 <img className="main-img" src={family} />
             </div>

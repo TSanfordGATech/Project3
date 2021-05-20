@@ -15,18 +15,17 @@
     margin-top: 10rem;
     margin-left: -2rem;
 }
-/*  */
+
 .devs-names{
     /* margin-right: 1rem; */
    
-} 
- 
 
+ 
+/* 
  body {
     display: flex;
-    min-height: 50vh;
-    flex-direction: column;
-  }
+
+  } */
 
   main {
     flex: 1 0 auto;
@@ -35,4 +34,4 @@
   .copy{
       text-align: center;
   }
- 
+  

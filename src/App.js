@@ -21,6 +21,7 @@ import "../src/component/UserScoreCard/userscore.css";
 import "./component/footer/footer.css";
 import "./component/Carousel/car.css";
 import "./component/Photos/photo.css";
+import "./component/SignedInPhoto/sphoto.css";
 
 function App() {
 

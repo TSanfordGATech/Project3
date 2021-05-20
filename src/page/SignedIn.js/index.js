@@ -2,7 +2,7 @@
 import React from 'react';
 import "../../component/SignedInHeader/SignedInHeader.css";
 import SignedInHeader from "../../component/SignedInHeader";
-
+import SignedInphoto from "../../component/SignedInPhoto";
 import Buttons from '../../component/HomeGameButtons';
 import '../../component/HomeGameButtons/H-button.css';
 import "../../component/ChatBox/chat.css"
@@ -19,6 +19,7 @@ const SignedIn = () => {
             <Route>
             <Link to= "/brainstormer">
            <SignedInHeader/> 
+           <SignedInphoto />
            <Buttons/>
            
             </Link>

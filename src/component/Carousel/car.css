@@ -1,17 +1,16 @@
-.carousel{
- margin-top: 25rem;
-margin-left: 2rem;
-margin-bottom: -23rem;
-width: 1000px;
-height: 200px;
-text-align: center;
+.container{
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 3rem;
 }
+ 
 
-.main-img{
-    margin-bottom: 11rem;
-    margin-left: 2rem;
-margin-top: 10rem;
-    height: 660px;
-    width: 1400px;
+ .main-img{
+ width: 950px;
+ height: 650px;
+ margin-top: 18rem;
+ margin-bottom: -3rem
+
 }
-
+ 

@@ -1,6 +1,6 @@
 import React from 'react'
 
-const GameDock = () => {
+const MatchingGame = () => {
     return (
 
         <div className="row">
@@ -21,4 +21,4 @@ const GameDock = () => {
     )
 }
 
-export default GameDock
+export default MatchingGame

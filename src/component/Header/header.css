@@ -2,6 +2,9 @@
     font-size: larger;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
    
     color:black;
     /* background: url); */
@@ -25,7 +28,11 @@
 .sign{
     margin: auto;
 }
-
+/* .container{
+     align-items: center; 
+    justify-content: center;
+    margin-top: 3rem;
+} */
 .title3 {
     color:black;
     font-family: monospace;  
@@ -54,3 +61,9 @@
     font-weight: bold;
 
 }
+/* @media(min-width:680px) {
+    .header{
+        font-size: small; 
+         display: inline-block;
+    }
+} */

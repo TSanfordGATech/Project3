@@ -1,5 +1,5 @@
 import React from "react";
-// (document).foundation();
+// (document).foundation(); 
 // import HomeGameButton from "../HomeGameButtons";
 import ScoreCard from "../../component/ScoreCard"
 import logo from "../../teamlogo.png"
@@ -14,9 +14,12 @@ function Header() {
         <div className="header">
           <div className="jumbotron box.box">
             <img className="logo" src={logo} alt="Logo"/>
+            <div>
+             
             <h1 className="title3">"We are Brainstorming Here</h1>
             <h3 className="title4"> And Quite a Storm it is."</h3>
-          
+            
+          </div>
             <button data-target="modal1" className="btn modal-trigger sign">Sign In</button>
             <a  data-target="slide-out" className=" btn sidenav-trigger btn score">Scores</a>
             <div className="z-depth-5 " id="sign-in" data-reveal>
@@ -26,7 +29,7 @@ function Header() {
           <div>
             <Typed
                         className="typed-text"
-                        strings={["Voted 1# Learning Hub", "Fun Games for All ages", "Critical Thinking Skills", "Games that keeps Giving"]}
+                        strings={["Voted 1# Learning Hub!", "Fun Games for All Ages!", "Critical Thinking Skills!", "Games that Keeps Giving"]}
                         typeSpeed={60}
                         backSpeed={80}
                         loop
