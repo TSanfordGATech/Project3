@@ -17,7 +17,7 @@ export class LogOut extends Component {
         <div>
           <div id="modal1" class="modal">
             <div class="modal-content">
-            <h3>"Are you Super Sure your ready to stop Learning?"</h3>
+            <h3>"Are you Super Sure you're ready to stop Learning?"</h3>
             </div>
             <Link to="/">
               <div class="modal-footer">
@@ -30,4 +30,4 @@ export class LogOut extends Component {
     }
   }
 
-  export default LogOut
+  export default LogOut;
