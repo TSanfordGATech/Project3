@@ -2,6 +2,7 @@
   "name": "brainstorm",
   "version": "0.1.0",
   "private": true,
+  "proxy": "http://localhost:3001",
   "dependencies": {
     "@material-ui/core": "^4.11.4",
     "@testing-library/jest-dom": "^5.12.0",
@@ -19,7 +20,11 @@
     "sequelize": "^6.6.2",
     "session": "^0.1.0",
     "typescript": "^4.2.4",
-    "web-vitals": "^1.1.2"
+    "web-vitals": "^1.1.2",
+    "connect-session-sequelize": "^7.0.4",
+    "dotenv": "^8.2.0",
+    "express-session": "^1.17.1",
+    "mysql2": "^2.2.5"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -44,5 +49,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-pino-logger": "^6.0.0",
+    "node-env-run": "^4.0.2",
+    "npm-run-all": "^4.1.5"
   }
 }
