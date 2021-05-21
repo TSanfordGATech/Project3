@@ -1,6 +1,5 @@
- .page-footer{
+ #footer1{
     background: chocolate;
-    
  }
 /* .logo1{
     text-align: right;
@@ -21,8 +20,7 @@
    
 } 
  
-
- body {
+body {
     display: flex;
     min-height: 50vh;
     flex-direction: column;

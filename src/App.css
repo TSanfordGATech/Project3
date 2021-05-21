@@ -34,19 +34,12 @@ margin-left: 8rem;
   font-family: 'Courier New', Courier, monospace;
 }
 
-/* **************************login modal************************************** */
+/* **************************login model************************************** */
 
 .signin-buttons{
  margin-left: -40rem;
  margin-bottom: -5rem;
 }
-/* 
-.input-page{ */
-  /* background: darkgrey;
-  color: white;
-  font-weight: bold;
-  font-size: 2px;
-} */
 
 .login-title{
   font-family: monospace;
