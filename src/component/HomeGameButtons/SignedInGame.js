@@ -3,10 +3,10 @@ import React from 'react'
 import { Link } from "react-router-dom";
 
 
-const Buttons = () => {
+const SignedInGameB = () => {
   return (
      <div className="containe">
-        <div className="contain">
+        <div className="contain5">
        <div className="boxes">
 
        <div className="boxq"> 
@@ -75,5 +75,5 @@ const Buttons = () => {
   )
 }
 
-export default Buttons;
+export default SignedInGameB;
 

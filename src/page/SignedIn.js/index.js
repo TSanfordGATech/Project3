@@ -3,7 +3,7 @@ import React from 'react';
 import "../../component/SignedInHeader/SignedInHeader.css";
 import SignedInHeader from "../../component/SignedInHeader";
 import SignedInphoto from "../../component/SignedInPhoto";
-import Buttons from '../../component/HomeGameButtons';
+import SignedInGameB from '../../component/HomeGameButtons/SignedInGame';
 import '../../component/HomeGameButtons/H-button.css';
 import "../../component/ChatBox/chat.css"
 import "../../component/ScoreCard/score.css";
@@ -20,7 +20,7 @@ const SignedIn = () => {
             <Link to= "/brainstormer">
            <SignedInHeader/> 
            <SignedInphoto />
-           <Buttons/>
+           <SignedInGameB/>
            
             </Link>
             </Route>
