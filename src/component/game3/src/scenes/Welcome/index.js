@@ -8,24 +8,23 @@ function Welcome(props) {
 
     return (
         
-        <div className="background-login">
-            <header className="welcome">
+        
+        <div className="background-login3">
+            <header className="welcome3">
                 Welcome to the Escape adventure!
             </header>
-            <div className="container">
+            <div className="container3">
                 <Row>
                     <Col size="lg-8">
-                        <p className="intro"> The year is 2020 and it is almost summer time.... they swore the virus would go away and life would resume normal. You planned a get away vacation with the family...</p>
+                        <p className="intro3"> The year is 2020 and it is almost summer time.... they swore the virus would go away and life would resume normal. You planned a get away vacation with the family...</p>
                         <br></br>
                         <br></br>
-                        <p className="until">but things didn't go as planned....</p>
+                        <p className="until3">but things didn't go as planned....</p>
                     </Col>
                     <Col size="lg-4">
-                        <Card>
                             <button type="submit" onClick={props.handleSignUpSubmit} className="btn btn-warning">
-                                Ready for the anxiety?
+                                Begin?
                                     </button>
-                        </Card>
                     </Col>
                 </Row>
             </div>
