@@ -4,6 +4,7 @@ import Col from "../../components/Col";
 import "./style.css";
 import { Link } from "react-router-dom";
 
+
 function Welcome(props) {
 
     return (
@@ -27,7 +28,12 @@ function Welcome(props) {
                         <br></br>
                         <br></br>
                         <p className="intro3"> Everything has gone dark..... are you even concious?</p>
-                        <br></br>
+                        <Link to="../src/component/game3/src/scenes/StartPage/index">
+                        <button type="submit" onClick={props.handleSignUpSubmit} className="btn btn-warning">
+                                      ESCAPE!
+                                    </button>
+                        </Link>
+
                     </Col>
                 </Row>
             </div>
