@@ -8,7 +8,6 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import GamePage from "./page/GamePage/index.js";
 import SignedIn from "./page/SignedIn.js/index.js";
 import Home from "./page/HomePage.js/index.js";
-import Footer from "./component/footer/index"
 // import MemoryGame from "./page/MemoryGame/index";
 import "../src/component/Header/header.css";
 import "../src/component/HomeGameButtons/H-button.css";
@@ -41,7 +40,7 @@ function App() {
         <Route  path="/escape-room" component={GamePage} />
         <Route  path="/card-game" component={GamePage} />
        </Switch>
-         <Footer/>
+        
 </Router>
 
   );

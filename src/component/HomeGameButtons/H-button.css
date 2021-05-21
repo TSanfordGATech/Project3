@@ -29,7 +29,9 @@
     display:flex;
 
 }
-
+.contain{
+    padding-top: 24rem;
+}
 
 .card-content{
     height:165px;
@@ -58,10 +60,10 @@
     font-family:'Courier New', Courier, monospace;
 }
 .contain5 {
-  padding-top: 24rem;
+  /* padding-top: 24rem; */
   padding-bottom: -5rem;
-padding-left: 70px;
-padding-right: 70px;
+padding-left: 100px;
+padding-right: 100px;
 } 
 .logo{
     display: flex;
@@ -76,10 +78,13 @@ padding-right: 70px;
      margin-top: -24rem;
  }
 
- @media(max-width:375){
-    
+ @media(max-width:400%){
+/*     
    .box-flex{
 display: inline-block;
+   } */
+   .card{
+      color: blue;
    }
 }
    

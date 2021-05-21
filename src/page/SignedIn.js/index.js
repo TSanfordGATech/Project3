@@ -4,6 +4,7 @@ import "../../component/SignedInHeader/SignedInHeader.css";
 import SignedInHeader from "../../component/SignedInHeader";
 import SignedInphoto from "../../component/SignedInPhoto";
 import SignedInGameB from '../../component/HomeGameButtons/SignedInGame';
+import Footer from "../../component/footer";
 import '../../component/HomeGameButtons/H-button.css';
 import "../../component/ChatBox/chat.css"
 import "../../component/ScoreCard/score.css";
@@ -24,6 +25,7 @@ const SignedIn = () => {
            
             </Link>
             </Route>
+          < Footer />
         </div>
     )
 }

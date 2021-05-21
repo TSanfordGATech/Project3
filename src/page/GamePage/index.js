@@ -3,6 +3,7 @@ import SignOut from "../../component/SignOut";
 import GameDock from "../../component/GameDock/TypingGame.js";
 import { Link } from "react-router-dom";
 import logo from "../../teamlogo.png";
+import Footer from "../../component/footer";
 
 const GamePage = () => {
   return (
@@ -51,6 +52,8 @@ const GamePage = () => {
 
         <GameDock />
       </Link>
+
+      <Footer/>
     </div>
 
 
