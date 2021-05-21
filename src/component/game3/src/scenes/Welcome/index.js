@@ -7,6 +7,7 @@ import "./style.css";
 function Welcome(props) {
 
     return (
+        
         <div className="background-login">
             <header className="welcome">
                 Welcome to the Escape adventure!
