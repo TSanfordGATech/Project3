@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const Buttons = () => {
   return (
-     <div className="container">
+     <div className="containe">
         <div className="contain">
        <div className="boxes">
       <div className="box-flex"> 
@@ -61,23 +61,7 @@ const Buttons = () => {
     </div>
   </div>
 </div>
-     
-     <div className="box-flex">
-     <div className="col s6 m12">
-       <div className="card grey darken-1">
-         <div className="card-content white-text">
-           <span className="card-title">Easy Entertainment</span>
-           <p className="card-info">A classic card-matching game that tests your memory and sharpens your focus. Earn a 1 to 3-star rating based on how many moves you use. See how fast you can find all eight pairs!</p>
-         </div>
-         <Link to="/card-game">  
-         <div className="card-action">
-         <a className=" waves-dark btn-small"><i className="material-icons right">beach_access</i>Lets Play</a> 
-         </div>
-         </Link> 
-       </div>
-     </div>
-   </div>
-   </div>
+</div> 
    </div>
    </div>
    </div>

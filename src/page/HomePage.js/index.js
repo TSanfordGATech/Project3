@@ -15,8 +15,9 @@ import Photos from "../../component/Photos";
 const Home = () => {
     return (
         <div >
-
+   
             <Header />
+            <div className="container" >
             <LoginPage />
             
             {/* <Encouragement /> */}
@@ -25,6 +26,7 @@ const Home = () => {
             <Photos />
 
 
+            </div>
         </div>
     )
 }

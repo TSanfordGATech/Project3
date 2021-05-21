@@ -2,7 +2,7 @@ import React from 'react'
 
 const Photos = () => {
     return (
-        <div className="container">
+        <div className="containe">
         <div className="row">
            <div className="photo">
                <img src="http://peoplesideconsulting.com/wp-content/uploads/2015/08/techology-people.jpg" style={{width:"100%"}}/>               

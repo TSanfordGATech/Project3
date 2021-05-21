@@ -1,6 +1,6 @@
 import React from "react";
 import SignOut from "../../component/SignOut";
-import GameDock from "../../component/GameDock";
+import GameDock from "../../component/GameDock/TypingGame.js";
 import { Link } from "react-router-dom";
 import logo from "../../teamlogo.png";
 
