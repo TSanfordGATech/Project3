@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
 
 .background-login3{
-  height:300px;
+  height:850px;
   background-color: paleturquoise;
   z-index: 2;
 }
@@ -24,8 +24,9 @@ header {
     font-weight: bolder;
 }
 
-.container3 {
+#cont3{
     padding: 20px 80px;
+    margin-top: 20px;
 }
 
 .welcome3 {
@@ -58,14 +59,15 @@ header {
 }
 
 /* moving background  */
-.animated-background{
+#animated3 {
     z-index:0;
 }
   
   /* For the animated background */
-  .forest {
+  /* images in AWS valt https://aws.amazon.com/s3/*/
+.forest3 {
     top: 0;
-    height: 76%;
+    height: 80%;
     left: 0;
     position: absolute;
     width: 100%;
