@@ -15,13 +15,13 @@ export class LogOut extends Component {
     render() {
       return (
         <div>
-          <div id="modal1" class="modal">
-            <div class="modal-content">
+          <div id="modal1" className="modal">
+            <div className="modal-content">
             <h3>"Are you Super Sure you're ready to stop Learning?"</h3>
             </div>
             <Link to="/">
-              <div class="modal-footer">
-               <button class="modal-close waves-effect btn-small" >YES SUPER SURE!</button>
+              <div className="modal-footer">
+               <button className="modal-close waves-effect btn-small" >YES SUPER SURE!</button>
               </div>
             </Link>
           </div>
