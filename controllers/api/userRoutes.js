@@ -1,8 +1,9 @@
 const router = require('express').Router();
 const { User } = require('../../models/User');
 
-
+//POST /api/users
 router.post('/', async (req, res) => {
+  console.log('hit signup route!');
   try {
     const userData = await User.create(req.body);
 
@@ -17,6 +18,7 @@ router.post('/', async (req, res) => {
   }
 });
 
+//POST /api/users/login
 router.post('/login', async (req, res) => {
   try {
     const userData = await User.findOne({ where: { email: req.body.email } });
@@ -49,6 +51,7 @@ router.post('/login', async (req, res) => {
   }
 });
 
+//POST /api/users/logout
 router.post('/logout', (req, res) => {
   if (req.session.logged_in) {
     req.session.destroy(() => {
@@ -56,6 +59,20 @@ router.post('/logout', (req, res) => {
     });
   } else {
     res.status(404).end();
+  }
+});
+
+//GET /api/users/auth
+router.get('/auth', (req, res) => {
+  if (req.session.logged_in) {
+    res.json({
+      logged_in: true,
+      id: req.session.user_id
+    });
+  } else {
+    res.json({
+      logged_in: false
+    });
   }
 });
 

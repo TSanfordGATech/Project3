@@ -1,63 +1,32 @@
 {
-  "name": "brainstorm",
-  "version": "0.1.0",
-  "private": true,
-  "proxy": "http://localhost:3001",
-  "dependencies": {
-    "@material-ui/core": "^4.11.4",
-    "@testing-library/jest-dom": "^5.12.0",
-    "@testing-library/react": "^11.2.6",
-    "@testing-library/user-event": "^12.8.3",
-    "bcrypt": "^5.0.1",
-    "connect-session-sequelize": "^7.0.4",
-    "dotenv": "^8.2.0",
-    "express-session": "^1.17.1",
-    "foundation-sites": "^6.6.3",
-    "materialize-css": "^1.0.0-rc.2",
-    "mysql": "^2.18.1",
-    "mysql2": "^2.2.5",
-    "react": "^17.0.2",
-    "react-chatbox-component": "0.0.5",
-    "react-dom": "^17.0.2",
-    "react-hook-use-state": "^1.1.0",
-    "react-router-dom": "^5.2.0",
-    "react-scripts": "4.0.3",
-    "react-typed": "^1.2.0",
-    "sequelize": "^6.6.2",
-    "session": "^0.1.0",
-    "typescript": "^4.2.4",
-    "web-vitals": "^1.1.2"
-  },
+  "name": "mern",
+  "version": "1.0.0",
+  "description": "Mern Demo",
+  "main": "server.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "seed": "node src/seeds/seed.js"
+    "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
+    "start:prod": "node server.js",
+    "start:dev": "concurrently \"nodemon --ignore 'client/*'\" \"npm run client\"",
+    "client": "cd client && npm run start",
+    "seed": "node scripts/seedDB.js",
+    "install": "cd client && npm install",
+    "build": "cd client && npm run build",
+    "heroku-postbuild": "npm run build"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
+  "author": "",
+  "license": "ISC",
   "devDependencies": {
-    "body-parser": "^1.19.0",
-    "express": "^4.17.1",
-    "express-pino-logger": "^6.0.0",
-    "node-env-run": "^4.0.2",
-    "npm-run-all": "^4.1.5"
+    "concurrently": "^4.1.0",
+    "nodemon": "^1.18.7"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "connect-session-sequelize": "^7.1.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.16.3",
+    "express-session": "^1.17.2",
+    "if-env": "^1.0.4",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.6.2"
   }
 }
