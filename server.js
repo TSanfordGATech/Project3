@@ -1,12 +1,12 @@
-const path = require('path');
-const express = require('express');
+const express = require("express");
+const path = require("path");
 const session = require('express-session');
 const sequelize = require('./config/connection');
-const routes = require('./src/controllers');
+const routes = require('./controllers');
 const SequelizeStore = require('connect-session-sequelize')(session.Store);
-
-const app = express();
 const PORT = process.env.PORT || 3001;
+const app = express();
+
 
 const sess = {
   secret: 'Super secret secret',
@@ -18,21 +18,20 @@ const sess = {
   }),
 };
 
-app.use(session(sess));
-
-app.use(express.json());
-app.use(express.urlencoded({ extended: true }));
-app.use(express.static(path.join(__dirname, 'public')));
+// Serve up static assets (usually on heroku)
+if (process.env.NODE_ENV === "production") {
+  app.use(express.static("client/build"));
+}
 
 app.use(routes);
 
-// create a GET route
-app.get('/express_backend', (req, res) => {
-  res.send({ express: 'YOUR EXPRESS BACKEND IS CONNECTED TO REACT' });
+// Send every request to the React app
+// Define any API routes before this runs
+//could move this into home routes eventually
+app.get("*", function(req, res) {
+  res.sendFile(path.join(__dirname, "./client/build/index.html"));
 });
 
-sequelize.sync({ force: false }).then(() => {
-  app.listen(PORT, () =>
-    console.log('Now listening on http://localhost:' + PORT)
-  );
+app.listen(PORT, function() {
+  console.log(`🌎 ==> API server now on port ${PORT}!`);
 });
