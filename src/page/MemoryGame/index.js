@@ -1,5 +1,7 @@
+import React from "react";
 
 
+function MemoryMatch(){
 // Matching Game
 const modal = document.getElementById("modal");
 const reset = document.querySelector(".reset-btn");
@@ -250,4 +252,8 @@ reset.addEventListener('click', resetEverything);
 playAgain.addEventListener('click', function() {
     modal.style.display = "none";
     resetEverything();
+
 })
+}
+
+export default MemoryMatch;

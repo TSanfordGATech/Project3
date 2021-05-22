@@ -14,6 +14,7 @@
     "express-session": "^1.17.1",
     "foundation-sites": "^6.6.3",
     "materialize-css": "^1.0.0-rc.2",
+    "mysql": "^2.18.1",
     "mysql2": "^2.2.5",
     "react": "^17.0.2",
     "react-chatbox-component": "0.0.5",
@@ -31,7 +32,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "seed": "node src/seeds/seed.js"
   },
   "eslintConfig": {
     "extends": [

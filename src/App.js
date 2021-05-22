@@ -9,8 +9,8 @@ import StartPage from "../src/component/game3/src/scenes/StartPage/index";
 import GamePage from "./page/GamePage/index.js";
 import SignedIn from "./page/SignedIn.js/index.js";
 import Home from "./page/HomePage.js/index.js";
-import Footer from "./component/footer/index";
-// import MemoryGame from "./page/MemoryGame/index";
+import Footer from "./component/footer/index"
+import memoryGame from "./component/Memory/index.js";
 import "../src/component/Header/header.css";
 import "../src/component/HomeGameButtons/H-button.css";
 import "../src/page/GamePage/game.css";
@@ -36,9 +36,14 @@ function App() {
         <Route path="/" exact component={Home} /> 
         <Route  path="/brainstormer" component={SignedIn} />
         <Route  path="/asteroid-type" component={GamePage} />
+<<<<<<< Updated upstream
         {/* <Route  path="/match-the-cards" component={MemoryGame} />  */}
         <Route  path="/escape-room" component={Welcome} />
         <Route  path="/escape-startpage" component={StartPage} />
+=======
+        <Route  path="/match-the-cards" component={memoryGame} /> 
+        <Route  path="/escape-room" component={GamePage} />
+>>>>>>> Stashed changes
         <Route  path="/card-game" component={GamePage} />
        </Switch>
          <Footer/>
