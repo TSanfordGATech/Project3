@@ -5,7 +5,7 @@ const { User } = require("../../src/models/User");
 router.get('/login', (req, res) => {
     // If the user is already logged in, redirect the request to another route
     if (req.session.logged_in) {
-      res.redirect('/profile');
+      // res.redirect('/profile');
       return;
     }
     res.render('login');
@@ -26,10 +26,10 @@ router.get('/login', (req, res) => {
       // const sign = zodiac.getSignByDate({ day: userData.day, month: userData.month })
       // const dreams = dreamData.map((dream) => dream.get({ plain: true }));
   
-      res.render("profile", {
-        ...user,
-        logged_in: true,
-      });
+      // res.render("profile", {
+      //   ...user,
+      //   logged_in: true,
+      // });
     } catch (err) {
       res.status(500).json(err);
     }

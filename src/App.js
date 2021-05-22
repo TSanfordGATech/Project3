@@ -36,14 +36,8 @@ function App() {
         <Route path="/" exact component={Home} /> 
         <Route  path="/brainstormer" component={SignedIn} />
         <Route  path="/asteroid-type" component={GamePage} />
-<<<<<<< Updated upstream
-        {/* <Route  path="/match-the-cards" component={MemoryGame} />  */}
-        <Route  path="/escape-room" component={Welcome} />
-        <Route  path="/escape-startpage" component={StartPage} />
-=======
         <Route  path="/match-the-cards" component={memoryGame} /> 
         <Route  path="/escape-room" component={GamePage} />
->>>>>>> Stashed changes
         <Route  path="/card-game" component={GamePage} />
        </Switch>
          <Footer/>
