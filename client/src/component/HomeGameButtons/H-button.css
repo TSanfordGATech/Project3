@@ -1,0 +1,159 @@
+
+.button-groups{
+    font-size: large;
+}
+.header2{
+    font-size: larger;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+   margin-bottom: -1rem;
+    color:black;
+ 
+    background:dimgrey;
+} 
+ .header3{
+  margin-top: -12rem;
+  font-family: 'Times New Roman', Times, serif;
+ } 
+
+
+.boxes {
+  
+        display:flex;
+     flex-direction:column;;
+    
+}
+
+
+.box-flex{
+    display:flex;
+
+}
+.contain{
+    padding-top: 24rem;
+}
+
+.card-content{
+    height:165px;
+  width:100%;
+  border:5px solid #ccc;
+  text-align:center;
+  color: darkorange;
+}
+
+.card-action {
+    text-align: center;
+}
+
+/* .card-action3 {
+    text-align: center;
+   
+} */
+.center{
+    width: 100%;
+    
+}
+.card-title{
+    color: darkorange;
+}
+.card-info{
+    font-family:'Courier New', Courier, monospace;
+}
+.contain5 {
+  /* padding-top: 24rem; */
+  padding-bottom: -5rem;
+padding-left: 100px;
+padding-right: 100px;
+} 
+.logo{
+    display: flex;
+ }
+ 
+ .box{
+     display:flex;
+     flex-direction: column;
+ }
+ 
+ .contain{
+     margin-top: -24rem;
+ }
+
+ @media(max-width:376px){
+
+    .card-content{
+      border: none;
+      text-align:center;
+      color: darkorange;
+    }
+    
+    .card-action{
+        margin-top: 5rem;
+    }
+
+    
+}
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
