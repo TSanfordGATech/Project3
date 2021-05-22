@@ -15,7 +15,7 @@ class SignIn extends Component {
         <div className="row">
           <div className="input-field col s6">
             <input id="input_text" type="text" />
-            <label for="input_text">UserName</label>
+            <label for="input_text">E-mail</label>
           </div>
         </div>
         <div className="row">
