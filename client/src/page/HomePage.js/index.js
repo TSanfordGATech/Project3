@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from "../../component/Header";
-import LoginPage from "../../component/loginPage"
-import HomeGameButton from "../../component/HomeGameButtons"
+import LoginPage from "../../component/loginPage";
+import HomeGameButton from "../../component/HomeGameButtons";
 import Footer from "../../component/footer";
 // import Buttons from '../../component/HomeGameButtons';
 import "../../component/Header/header.css";
