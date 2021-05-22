@@ -10,7 +10,7 @@ import GamePage from "./page/GamePage/index.js";
 import SignedIn from "./page/SignedIn.js/index.js";
 import Home from "./page/HomePage.js/index.js";
 // import Footer from "./component/footer/index"
-import memoryGame from "./component/Memory/index.js";
+import MemoryGame from "./component/Memory/index.js";
 import "../src/component/Header/header.css";
 import "../src/component/HomeGameButtons/H-button.css";
 import "../src/page/GamePage/game.css";
