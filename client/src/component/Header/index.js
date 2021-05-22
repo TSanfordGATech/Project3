@@ -11,7 +11,7 @@ function Header() {
     <div>
     <div className="callout">
       <div className="home">
-        <div className="header">
+        <div className="header1">
           <div className="jumbotron box.box">
             <img className="logo" src={logo} alt="Logo"/>
             <div>
