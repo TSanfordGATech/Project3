@@ -56,7 +56,7 @@ const SignedInGameB = () => {
     <div className="card grey darken-1">
       <div className="card-content white-text">
         <span className="card-title">Critical Thinking</span>
-        <p className="card-info">A classic card-matching game that tests your memory and sharpens your focus. Earn a 1 to 3-star rating based on how many moves you use. See how fast you can find all eight pairs!</p>
+        <p className="card-info">Escape Room style! This game will challenge your brain, memory, and overall skills! See how quickly you can solve the puzzle and escape..... if at all!</p>
       </div>
       <Link to="/escape-room">  
       <div className="card-action">
