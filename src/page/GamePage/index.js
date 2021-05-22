@@ -7,6 +7,7 @@ import Footer from "../../component/footer";
 
 const GamePage = () => {
   return (
+    <div>
     <div className="container">
       <div >
         <div className="callout">
@@ -53,9 +54,10 @@ const GamePage = () => {
         <GameDock />
       </Link>
 
-      <Footer/>
     </div>
+      <Footer/>
 
+    </div>
 
 
   )

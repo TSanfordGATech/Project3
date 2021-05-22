@@ -11,7 +11,7 @@ const Buttons = () => {
 
        <div className="boxq"> 
       <div className="box-flex"> 
-  <div className="row">
+  <div className="ro">
   <div className="col s6 m12  box5">
     <div className="card grey darken-1">
       <div className="card-content white-text">
@@ -51,7 +51,7 @@ const Buttons = () => {
    <div>
    <div className="boxq"> 
    <div className="box-flex">
-  <div className="row">
+  <div className="ro">
   <div className="col s6 m12  box5">
     <div className="card grey darken-1">
       <div className="card-content white-text">

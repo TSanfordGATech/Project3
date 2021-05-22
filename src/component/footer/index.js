@@ -14,7 +14,7 @@ function Footer () {
               <div className="col l4 offset-l2 s12 devs-names">
                 <h5 className="white-text dev ">Developers</h5>
                 <ul >
-                  <p><a className="grey-text text-lighten-3" href="https://github.com/TSanfordGATech" target="_blank">Tori Sanford</a></p>
+                  <p><a className=" grey-text text-lighten-3" href="https://github.com/TSanfordGATech" target="_blank">Tori Sanford</a></p>
                   <p><a className="grey-text text-lighten-3" href="https://github.com/Omlawrence24">Obedia Lawrence</a></p>
                   <p><a className="grey-text text-lighten-3" href= "https://github.com/GreysonMainor"> Greyson Mainor </a></p>
                   <p><a className="grey-text text-lighten-3" href="https://github.com/sorengrey">Heather Smith</a> </p>

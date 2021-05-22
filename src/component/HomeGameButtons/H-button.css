@@ -50,8 +50,8 @@
    
 } */
 .center{
-    width: 98%;
-    margin-left: .75rem;
+    width: 100%;
+    
 }
 .card-title{
     color: darkorange;
@@ -78,14 +78,19 @@ padding-right: 100px;
      margin-top: -24rem;
  }
 
- @media(max-width:400%){
-/*     
-   .box-flex{
-display: inline-block;
-   } */
-   .card{
-      color: blue;
-   }
+ @media(max-width:376px){
+
+    .card-content{
+      border: none;
+      text-align:center;
+      color: darkorange;
+    }
+    
+    .card-action{
+        margin-top: 5rem;
+    }
+
+    
 }
    
    
