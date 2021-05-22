@@ -1,4 +1,3 @@
-/* eslint-disable no-undef */
 function Asteroid(x, y, text, color) {
     this.position = createVector(x, y);
     this.color = color;
