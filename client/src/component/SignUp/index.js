@@ -13,26 +13,26 @@ class SignUp extends Component {
             <div className="row">
               <div className="input-field col s6">
                 <input id="input_text firstname-signup" type="text" />
-                <label for="input_text">First Name</label>
+                <label>First Name</label>
               </div>
             </div>
             <div className="row">
               <div className="input-field col s6">
                 <input id="input_text lastname-signup" type="text" />
-                <label for="input_text">Last Name</label>
+                <label>Last Name</label>
               </div>
             </div>
             <div className="row">
               <div className="input-field col s6">
                 <input id="input_text email-signup" type="text" />
-                <label for="input_text">Email</label>
+                <label>Email</label>
               </div>
             </div>
 
             <div className="row">
               <div className="input-field col s6">
                 <textarea id="textarea2 password-signup" className="materialize-textarea"></textarea>
-                <label for="textarea2">Password</label>
+                <label>Password</label>
               </div>
               <div className="signin-buttons">
                 <Link to="/brainstormer">
