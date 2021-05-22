@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Header from "../../component/Header";
 import LoginPage from "../../component/loginPage"
@@ -12,6 +11,7 @@ import MainImg from '../../component/Carousel';
 import Photos from "../../component/Photos";
 // import Encouragement from "../../component/Encouragement";
 // import "packages_folder/foundation-sites/scss";
+import "./style.css";
 
 const Home = () => {
     return (
