@@ -1,4 +1,4 @@
-.header {
+.header1 {
     font-size: larger;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
@@ -28,39 +28,34 @@
 .sign{
     margin: auto;
 }
-/* .container{
-     align-items: center; 
-    justify-content: center;
-    margin-top: 3rem;
-} */
+
 .title3 {
     color:black;
+    font-size: 34px;
     font-family: monospace;  
     margin-top: -14rem;  
     margin-left: 7.5rem;
-    font-size: 4.5rem;
 }
 
 .title4 {
-    font-size: 3.2rem;
+    font-size: 34px;
     color:black;
     font-family: monospace;
-    margin-left: 20rem;
-    margin-top: -2.50rem;
-    margin-bottom: 1rem;
+    margin-left: 50px;
+    margin-bottom: 10px;
 }
 .btn {
     margin-bottom: 1rem;
 }
 
 .logo{
-    margin-bottom: -1rem;
+    margin-bottom:60px;
 }
 .typed-text{
     font-size: 25px;
     font-weight: bold;
 }
-
+/* 
 @media(max-width:375px) {
     .title3{
         font-size: 21px;
@@ -103,7 +98,7 @@
     .logo{
         margin-left: 25rem;
     }
-}
+} */
 /* 
 @media(min-width:768px min-height:1024px) {
     .title3{
