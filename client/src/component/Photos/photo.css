@@ -1,0 +1,17 @@
+.photo{
+    float: left;
+    width: 45%;
+    margin-right:1rem;
+   /* margin-right: 3rems; */
+}
+
+.photo img {
+    height: 325px;
+    margin-left: 2.5rem;
+   
+}
+@media(max-width:768px){
+    .photo{
+        display: none;
+    }
+}
