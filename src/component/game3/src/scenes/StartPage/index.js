@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Row from "../../components/Row";
-import Col from "../../components/Col";
-import "./style.css";
+import Row from "../../components/Row"
+import Col from "../../components/Col"
+import "./style.css"
 
 function StartPage (props) {
 

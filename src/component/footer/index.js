@@ -4,7 +4,7 @@ import logo from "../../teamlogo.png";
 function Footer () {
     return (
         <div>
-            <footer className="page-footer">
+            <footer className="page-footer" id="footer1">
           <div className="container">
             <div className="row">
               <div className="col l6 s12">
@@ -15,9 +15,9 @@ function Footer () {
                 <h5 className="white-text dev ">Developers</h5>
                 <ul >
                   <p><a className="grey-text text-lighten-3" href="https://github.com/TSanfordGATech" target="_blank">Tori Sanford</a></p>
-                  <p><a className="grey-text text-lighten-3" href="https://github.com/Omlawrence24">Obedia Lawrence</a></p>
-                  <p><a className="grey-text text-lighten-3" href= "https://github.com/GreysonMainor"> Greyson Mainor </a></p>
-                  <p><a className="grey-text text-lighten-3" href="https://github.com/sorengrey">Heather Smith</a> </p>
+                  <p><a className="grey-text text-lighten-3" href="https://github.com/Omlawrence24" target="_blank">Obedia Lawrence</a></p>
+                  <p><a className="grey-text text-lighten-3" href= "https://github.com/GreysonMainor" target="_blank"> Greyson Mainor </a></p>
+                  <p><a className="grey-text text-lighten-3" href="https://github.com/sorengrey" target="_blank">Heather Smith</a> </p>
                 </ul>
               </div>
             </div>
