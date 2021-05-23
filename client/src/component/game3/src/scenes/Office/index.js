@@ -18,7 +18,7 @@ function Office(props) {
     >
       <Route
         render={() =>
-          // props.puzzle[1].isSolved ? (
+          // need to render desk
             <Link
               to="/desk"
               className="desk"
