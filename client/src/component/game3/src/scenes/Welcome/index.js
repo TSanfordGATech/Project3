@@ -40,7 +40,7 @@ function Welcome(props) {
                     <div className="tree04"></div>
                     {/* This is the bus starting */}
                     <div className="combi-container">
-                    <Link to="/">
+                    <Link to="/escape-startpage">
                     <div className="modal-footer">
                         <button className="modal-close waves-effect btn-small" >ESCAPE!</button>
                     </div>
