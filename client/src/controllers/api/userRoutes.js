@@ -1,10 +1,15 @@
+//this might be importing the wrong router? -Heather
 const router = require('express').Router();
-const { User } = require('../../../models/User');
+const User = require('./../../models/User');
+
+// import SignUp from "../../client/src/component/SignUp/index";
+// const session = require('session');
 
 //POST /api/users
 router.post('/', async (req, res) => {
   console.log('hit signup route!');
   try {
+    //TODO: req.body is null right now
     const userData = await User.create(req.body);
 
     req.session.save(() => {
@@ -14,6 +19,7 @@ router.post('/', async (req, res) => {
       res.status(200).json(userData);
     });
   } catch (err) {
+    console.log(err);
     res.status(400).json(err);
   }
 });
