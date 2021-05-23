@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 // import game1 from "./component/game1";
 import Welcome from "../src/component/game3/src/scenes/Welcome/index";
 import StartPage from "../src/component/game3/src/scenes/StartPage/index";
+import Office from "../src/component/game3/src/scenes/Office";
 import Asteroid from "../src/component/game1/index"
 // import game4 from "./component/game4";
 import GamePage from "./page/GamePage/index.js";
@@ -43,6 +44,7 @@ function App() {
         <Route  path="/escape-room" component={Welcome} />
         <Route  path="/asteroid" component={Asteroid} />
         <Route  path="/escape-startpage" component={StartPage} />
+        <Route  path="/office" component={Office} />
         <Route  path="/card-game" component={GamePage} />
        </Switch>
         
