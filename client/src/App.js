@@ -45,7 +45,7 @@ function App() {
         <Route  path="/asteroid-type" component={GamePage} />
         <Route  path="/match-the-cards" component={MemoryGame} /> 
         <Route  path="/escape-room" component={Welcome} />
-        <Route  path="/asteroid" component={Asteroid} />
+        {/* <Route  path="/asteroid" component={Asteroid} /> */}
         <Route  path="/escape-startpage" component={StartPage} />
         <Route  path="/office" component={Office} />
         <Route  path="/desk" component={Desk} />
