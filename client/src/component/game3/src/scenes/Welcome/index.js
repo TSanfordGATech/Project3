@@ -11,13 +11,6 @@ function Welcome(props) {
         <div className="background-login3">
             <header className="welcome3">
                 Welcome to the Escape adventure!
-                <br></br>  
-                <br></br>  
-                <Link to="/">
-                            <div className="modal-footer">
-                                <button className="modal-close waves-effect btn-small" >Button</button>
-                            </div>
-                        </Link>
             </header>
             <div className="container" id="cont3">
                 <Row>
@@ -47,6 +40,11 @@ function Welcome(props) {
                     <div className="tree04"></div>
                     {/* This is the bus starting */}
                     <div className="combi-container">
+                    <Link to="/">
+                    <div className="modal-footer">
+                        <button className="modal-close waves-effect btn-small" >ESCAPE!</button>
+                    </div>
+                </Link>
                         <div className="combi"></div>
                         <div className="wheelshadow"></div>
                         <div className="wheel wheel01" ></div>
