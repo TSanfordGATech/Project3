@@ -1,5 +1,7 @@
-/* eslint-disable no-undef */
-const WORDS = ["game", "day", "java", "script", "rainbow", "program", "bunny", "youtube", "github", "terminator", "slicer", "ninja", "cow", "robot", "zoom", "peanuts"];
+
+
+    /* eslint-disable no-undef */
+const WORDS = ["game", "day", "java", "script", "rainbow", "program", "bunny", "youtube", "github", "terminator", "slicer", "ninja", "cow", "robot", "zoom", "peanuts", "jack", "brain", "storm"];
 var focus;
 var field = [];
 var score = 0;
@@ -7,8 +9,11 @@ var planetCrust;
 var planetMantle;
 var ship;
 
+
 function setup() {
-    createCanvas(500, 500);
+    var canvas = createCanvas(500,500)
+    //createCanvas(500,500)
+    canvas.parent("sketch-holder")
     planetCrust = randomColor();
     planetMantle = randomColor();
     ship = randomColor();
@@ -108,3 +113,4 @@ function endGame() {
     textSize(80);
     text("Game Over!", width / 2, height / 2);
 }
+
