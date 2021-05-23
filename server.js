@@ -2,11 +2,14 @@ const express = require("express");
 const path = require("path");
 const session = require('express-session');
 const sequelize = require('./config/connection');
-const routes = require('./controllers');
+const routes = require("./client/src/controllers");
 const SequelizeStore = require('connect-session-sequelize')(session.Store);
 const PORT = process.env.PORT || 3001;
 const app = express();
 
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+app.use(express.static(path.join(__dirname, 'public')));
 
 const sess = {
   secret: 'Super secret secret',
@@ -32,6 +35,9 @@ app.get("*", function(req, res) {
   res.sendFile(path.join(__dirname, "./client/build/index.html"));
 });
 
-app.listen(PORT, function() {
-  console.log(`🌎 ==> API server now on port ${PORT}!`);
+
+sequelize.sync({force: false}).then(() => {
+  app.listen(PORT, function() {
+    console.log(`🌎 ==> API server now on port ${PORT}!`);
+  });
 });

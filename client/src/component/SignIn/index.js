@@ -14,13 +14,13 @@ class SignIn extends Component {
         <div className="row">
           <div className="input-field col s6">
             <input id="input_text" type="text" />
-            <label for="input_text">E-mail</label>
+            <label>E-mail</label>
           </div>
         </div>
         <div className="row">
           <div className="input-field col s6">
             <textarea id="textarea2" className="materialize-textarea"></textarea>
-            <label for="textarea2">Password</label>
+            <label>Password</label>
           </div>
           <div className="signin-buttons">
           <Link to="/brainstormer">     
