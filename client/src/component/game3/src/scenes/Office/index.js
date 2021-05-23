@@ -6,10 +6,32 @@ function Office(props) {
   function alertLocked(event) {
     event.preventDefault();
     const Swal = require("sweetalert2");
-    Swal.fire("make a note for locked desk");
+    Swal.fire("Uh oh! The desk is locked! Try to find the key.");
   }
-  return ();
-}
+
+  return (
+    <div
+      className="page"
+      style={{
+        position: "relative",
+      }}
+    >
+      <Route
+        render={() =>
+          // props.puzzle[1].isSolved ? (
+            <Link
+              to="/desk"
+              className="desk"
+              style={{
+                position: "absolute",
+                bottom: "150px",
+                right: "-12px",
+              }}
+            ></Link>
+        }
+      />
+    </div>
+  );
 }
 
 export default Office;
