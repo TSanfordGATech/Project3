@@ -16,24 +16,13 @@ function Welcome(props) {
                 <Row>
                     <Col size="lg-8">
                         <p className="intro3"> The year is 2020...... the world and society has taken a turn for the worst. Since vacation options are limited, and rather risky.... you and your family decide to think outside the box and explore other options to get away. Since COVID has struck, you all now work from home and decide to purchase a van and travel the world together. All was going well until the gas crisis.... that was not a real crisis.... hit and you broke down on the side of the road with an empty tank...... </p>
-                        <br></br>
-                        <br></br>
                         <p className="until3">and AAA had no gas to come and get you either. </p>
-                        <br></br>
                         <br></br>
                         <p className="intro3"> Night time came and you all decided to take a doze in the van while you waited to be rescued. While everyone was snoring away - you heard something unusual outside so you ventured out to see what it was.</p>
                         <br></br>
-                        <br></br>
                         <p className="until3">WHAM</p>
                         <br></br>
-                        <br></br>
                         <p className="intro3"> Everything has gone dark..... are you even concious?</p>
-                        <Link to="../src/component/game3/src/scenes/StartPage/index">
-                        <button type="submit" onClick={props.handleSignUpSubmit} className="btn btn-warning">
-                                      ESCAPE!
-                                    </button>
-                        </Link>
-
                     </Col>
                 </Row>
             </div>
@@ -51,6 +40,11 @@ function Welcome(props) {
                     <div className="tree04"></div>
                     {/* This is the bus starting */}
                     <div className="combi-container">
+                    <Link to="/escape-startpage">
+                    <div className="modal-footer">
+                        <button className="modal-close waves-effect btn-small" >ESCAPE!</button>
+                    </div>
+                </Link>
                         <div className="combi"></div>
                         <div className="wheelshadow"></div>
                         <div className="wheel wheel01" ></div>

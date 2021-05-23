@@ -1,8 +1,7 @@
-
 import React from 'react';
 import Header from "../../component/Header";
-import LoginPage from "../../component/loginPage"
-import HomeGameButton from "../../component/HomeGameButtons"
+import LoginPage from "../../component/loginPage";
+import HomeGameButton from "../../component/HomeGameButtons";
 import Footer from "../../component/footer";
 // import Buttons from '../../component/HomeGameButtons';
 import "../../component/Header/header.css";
@@ -12,6 +11,7 @@ import MainImg from '../../component/Carousel';
 import Photos from "../../component/Photos";
 // import Encouragement from "../../component/Encouragement";
 // import "packages_folder/foundation-sites/scss";
+import "./style.css";
 
 const Home = () => {
     return (

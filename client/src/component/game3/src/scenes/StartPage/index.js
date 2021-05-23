@@ -20,41 +20,25 @@ function StartPage (props) {
 
   return (
     <div className="background-startpage">
-      <header className="greeting">
-        Try to escape, {props.user ? props.user.email : "not logged in"}!
-      </header>
-      <div className="progress">
-        <div
-          className="progress-bar"
-          role="progressbar"
-          style={{ width: `${progress}`}}
-          aria-valuenow="25"
-          aria-valuemin="0"
-          aria-valuemax="100"
-        >
-          {progress} Completed
-        </div>
-      </div>
       <Row>
         <Col size="md-8">
             <div className="info-card">
               <div className="card-body">
-                <h5 className="card-title">You've been captured!</h5>
+                <h5 className="card-title3">Of course, it wouldn't be 2020 if there was not some kidnapping to...</h5><br></br>
                 <p className="card-text">
                   The killer has knocked you unconscious while you're away from your friends. He drags you through the woods..
                 </p>
                 <br></br>
                 <p className="card-text">
-                  You wake up, and you're tied up in the killer's office. He's about to deliver the killing blow, until he hears a noise outside. It's your friends. This is your chance..
-
+                  You wake up, and you're tied up in the killer's office. He's about to deliver the killing blow, until he hears a noise outside. Lets hope it is your friends or family... but that is unlikely since it is 2020....regardless, this is your chance to escape..
                 </p>
                 <br></br>
                 <p className="card-text">
-                  You are left all alone, and you have untied yourself. Your objective is to look around the office. It's up to you to get out, get your friends, and...
+                  First, you untie yourself.... then you start looking to find a way out. Be mindeful of time - no telling when he will come back.... 
                 </p>
                 <br></br>
                 <p className="card-text">
-                  ESCAPE! Before it's too late!
+                  What are you waiting for? ESCAPE! 
                 </p>
                 <div className="startBtn">
                     <Link

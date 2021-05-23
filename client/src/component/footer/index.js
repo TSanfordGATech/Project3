@@ -12,6 +12,12 @@ function Footer () {
                 <img className="logo1" src={logo} alt="Logo"/>
               </div>
               <div className="col l4 offset-l2 s12 devs-names">
+              <br></br>
+                  <br></br>
+                  <br></br>
+                  <br></br>
+                  <br></br>
+                  <br></br>
                 <h5 className="white-text dev ">Developers</h5>
                 <ul >
                   <p><a className="grey-text text-lighten-3" href="https://github.com/TSanfordGATech" target="_blank">Tori Sanford</a></p>
