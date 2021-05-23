@@ -1,53 +1,74 @@
-import React, { Component } from 'react';
+import React from "react";
 import { Link } from "react-router-dom";
+import LoginPage from "./../loginPage/index";
 
-
-class SignUp extends Component {
-
-  render() {
-    return (
-      <div>
-
-        <div className="row input-page">
-          <form className="col s12">
-            <div className="row">
-              <div className="input-field col s6">
-                <input id="input_text firstname-signup" type="text" />
-                <label>First Name</label>
-              </div>
+function SignUp({ handleInputChange, handleFormSubmit }) {
+  return (
+    <div>
+      <div className="row input-page">
+        <form className="col s12">
+          <div className="row">
+            <div className="input-field col s6">
+              <input
+                id="input_text firstname-signup"
+                type="text"
+                name="first_name"
+                onChange={handleInputChange}
+              />
+              <label for="input_text">First Name</label>
             </div>
-            <div className="row">
-              <div className="input-field col s6">
-                <input id="input_text lastname-signup" type="text" />
-                <label>Last Name</label>
-              </div>
+          </div>
+          <div className="row">
+            <div className="input-field col s6">
+              <input
+                id="input_text lastname-signup"
+                type="text"
+                name="last_name"
+                onChange={handleInputChange}
+              />
+              <label for="input_text">Last Name</label>
             </div>
-            <div className="row">
-              <div className="input-field col s6">
-                <input id="input_text email-signup" type="text" />
-                <label>Email</label>
-              </div>
+          </div>
+          <div className="row">
+            <div className="input-field col s6">
+              <input 
+                id="input_text email-signup" 
+                type="text" 
+                name="email"
+                onChange={handleInputChange} />
+              <label for="input_text">Email</label>
             </div>
+          </div>
 
-            <div className="row">
-              <div className="input-field col s6">
-                <textarea id="textarea2 password-signup" className="materialize-textarea"></textarea>
-                <label>Password</label>
-              </div>
-              <div className="signin-buttons">
-                <Link to="/brainstormer">
-                  <button className="btn waves-effect waves-light sign-btn" type="submit" name="action">Sign Up
-    <i className="left"></i>
-                  </button>
-                </Link>
-              </div>
+          <div className="row">
+            <div className="input-field col s6">
+              <input
+                id="textarea2 password-signup"
+                className="materialize-textarea"
+                type="password"
+                name="password"
+                onChange={handleInputChange}
+              />
+              <label for="textarea2">Password</label>
             </div>
-          </form>
-        </div>
-
+            <div className="signin-buttons">
+              <Link to="/brainstormer">
+                <button
+                  className="btn waves-effect waves-light sign-btn"
+                  type="submit"
+                  name="action"
+                  onClick={handleFormSubmit}
+                >
+                  Sign Up
+                  <i className="left"></i>
+                </button>
+              </Link>
+            </div>
+          </div>
+        </form>
       </div>
-    )
-  }
+    </div>
+  );
 }
 
-export default SignUp
+export default SignUp;
