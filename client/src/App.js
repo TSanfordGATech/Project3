@@ -5,11 +5,16 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 // import game1 from "./component/game1";
 // Toris game components
 import Welcome from "../src/component/game3/src/scenes/Welcome/index";
+// Adding in the upcoming scenese I am working on so hooks are ready.
+import Background from "../src/component/game3/src/scenes/Background/index";
+import Bookshelf from "../src/component/game3/src/scenes/Bookshelf/index";
+import Painting from "../src/component/game3/src/scenes/Painting/index";
+// import Safe from "../src/component/game3/src/scenes/Safe/index";
 import StartPage from "../src/component/game3/src/scenes/StartPage/index";
-import Office from "../src/component/game3/src/scenes/Office";
-import Desk from "../src/component/game3/src/scenes/Desk";
+import Office from "../src/component/game3/src/scenes/Office/index";
+import Desk from "../src/component/game3/src/scenes/Desk/index";
 // Graysons game
-import Asteroid from "../src/component/game1/index"
+// import Asteroid from "../src/component/game1/index"
 // import game4 from "./component/game4";
 import GamePage from "./page/GamePage/index.js";
 import SignedIn from "./page/SignedIn.js/index.js";
@@ -44,11 +49,16 @@ function App() {
         <Route  path="/brainstormer" component={SignedIn} />
         <Route  path="/asteroid-type" component={GamePage} />
         <Route  path="/match-the-cards" component={MemoryGame} /> 
+        {/* routes for escape room */}
         <Route  path="/escape-room" component={Welcome} />
-        {/* <Route  path="/asteroid" component={Asteroid} /> */}
         <Route  path="/escape-startpage" component={StartPage} />
+        <Route path="/desk" component={Desk} />
         <Route  path="/office" component={Office} />
-        <Route  path="/desk" component={Desk} />
+        <Route path="/background" component={Background} />
+        <Route path="/bookshel" component={Bookshelf} />
+        <Route path="/painting" component={Painting} />
+        {/* <Route path="/safe" component={Safe} /> */}
+        {/* <Route  path="/asteroid" component={Asteroid} /> */}
         <Route  path="/card-game" component={GamePage} />
        </Switch>
         
