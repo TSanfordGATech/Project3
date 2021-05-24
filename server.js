@@ -20,6 +20,7 @@ const sess = {
     db: sequelize,
   }),
 };
+app.use(session(sess))
 
 // Serve up static assets (usually on heroku)
 if (process.env.NODE_ENV === "production") {
