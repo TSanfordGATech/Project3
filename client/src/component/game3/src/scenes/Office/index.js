@@ -1,5 +1,7 @@
 import React from "react";
 import { Link, Route } from "react-router-dom";
+import Row from "../../components/Row"
+import Col from "../../components/Col"
 import "./style.css";
 
 function Office(props) {
@@ -9,29 +11,12 @@ function Office(props) {
     Swal.fire("Uh oh! The desk is locked! Try to find the key.");
   }
 
-  return (
-    <div
-      className="page"
-      style={{
-        position: "relative",
-      }}
-    >
-      <Route
-        render={() =>
-          // need to render desk
-            <Link
-              to="/desk"
-              className="desk"
-              style={{
-                position: "absolute",
-                bottom: "150px",
-                right: "-12px",
-              }}
-            ></Link>
-        }
-      />
-    </div>
-  );
+return (
+  <div className="dung">
+    <div className="night-background">
+          </div> 
+  </div>
+);
 }
 
 export default Office;

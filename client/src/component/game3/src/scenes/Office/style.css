@@ -1,11 +1,14 @@
-.deskPage {
-    background-image: url('../../images/desktop2.jpg');
+.dung {
+    background-image: url('../../images/dung.png');
     background-size: cover;
-    height: 850px;
-    width: 1024px;
+    height: 950px;
+    width: 2000px;
     border: 5px ridge rgb(165, 101, 42);
     margin: auto;
 }
+
+
+
 
 .desk {
     background-image: url('../../images/desk.png');
