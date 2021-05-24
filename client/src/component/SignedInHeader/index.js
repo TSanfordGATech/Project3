@@ -13,14 +13,16 @@ function SignedInHeader() {
           <div className="header2">
             <div className="jumbotron box.box">
             <img className="logo" src={logo} alt="Logo"/>
-            <div className="header3">
-              <h1 className="header3">Welcome Back Brainstormer!</h1>
+            <div className="headerz">
+              <h1 className="header8">Welcome Back Brainstormer!</h1>
+              <div className="header-buttons">
               <Link to="/brainstormer">
                 <a className=" waves-dark btn modal-trigger" href="#modal1">Bye-Bye</a>
               </Link>
 
-              <a data-target="slide-out" className=" btn sidenav-trigger score">Your Scores</a>
+              <a data-target="slide-out" className=" btn sidenav-trigger score">ABOUT</a>
               <LogOut />
+              </div>
               </div>
             </div>
             <div>

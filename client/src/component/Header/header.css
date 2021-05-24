@@ -31,17 +31,17 @@
 
 .title3 {
     color:black;
-    font-size: 34px;
+    font-size:45px;
     font-family: monospace;  
-    margin-top: -14rem;  
+    margin-top: -16rem;  
     margin-left: 7.5rem;
 }
 
 .title4 {
-    font-size: 34px;
+    font-size: 45px;
     color:black;
     font-family: monospace;
-    margin-left: 50px;
+    margin-left: 200px;
     margin-bottom: 10px;
 }
 .btn {
@@ -54,15 +54,17 @@
 .typed-text{
     font-size: 25px;
     font-weight: bold;
+    margin-top: 5px;
+
 }
-/* 
-@media(max-width:375px) {
+
+@media screen and (max-width:375px) {
     .title3{
         font-size: 21px;
         display:inline-block;
         margin-left: -1.5rem; 
         margin-right:-1rem;
-        margin-bottom: -0.55rem;
+        margin-top:-5rem;
     
          
     }
@@ -78,27 +80,29 @@
     }
 }
 
-@media(max-width:913px) {
+@media screen and (min-width:768px) and (max-width:1009px) {
     .title3{
-        font-size: 30px;
-        display:inline-block;
-        margin-left: -2rem; 
-        margin-right:-19rem;
-        margin-bottom: -1rem;
-        margin-top: -15rem;
-        padding-top:-5rem ;
-         
+        font-size: 33px;
+        
+        margin-left: -6rem; 
+        margin-right:-20rem;
+        margin-bottom: 23rem;
+        margin-top: -12rem;
+        padding-top:1rem ;
+        
     }
     .title4{
         font-size: 30px;
-        display:inline-block;
-        margin-left: 20rem;
-        margin-top: -30rem;   
+        /* display:inline-block; */
+        margin-left: 15rem;
+        margin-top: -22rem;  
+        margin-bottom: 1rem; 
+        text-align: center;
     } 
     .logo{
-        margin-left: 25rem;
+        margin: 0;
     }
-} */
+} 
 /* 
 @media(min-width:768px min-height:1024px) {
     .title3{
