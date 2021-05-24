@@ -12,7 +12,7 @@ function Header() {
     <div className="callout">
       <div className="home">
         <div className="header1">
-          <div className="jumbotron box.box">
+          <div className="jumbotron box.box movement">
             <img className="logo" src={logo} alt="Logo"/>
             <div>
              
@@ -21,7 +21,7 @@ function Header() {
             
           </div>
             <button data-target="modal1" className="btn modal-trigger sign">Sign In</button>
-            <a  data-target="slide-out" className=" btn sidenav-trigger btn score">Scores</a>
+            <a  data-target="slide-out" className=" btn sidenav-trigger btn score">About</a>
             <div className="z-depth-5 " id="sign-in" data-reveal>
               
             </div>

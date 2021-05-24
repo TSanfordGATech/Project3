@@ -41,14 +41,23 @@ margin-left: 8rem;
  margin-bottom: -5rem;
 }
 
-.login-title{
+.login-title-1{
+  font-family: monospace;
+  font-size: 30px;
+  font-weight: bolder;
+}
+.login-title-2{
+  font-size: 25px;
+  font-weight: bolder;
+  font-family: monospace;
+}
+
+.login-title-3{
+  font-size: 25px;
   font-family: monospace;
   font-weight: bolder;
 }
-.login-title1{
-  
-  font-family: monospace;
-}
+
 /* **************************RESPONSIVE************************************** */
 
 @media(min-width: 1273px) {

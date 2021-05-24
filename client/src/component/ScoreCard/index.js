@@ -23,10 +23,13 @@ class ScoreCard extends Component {
                         </div>
                         <div>
     <li>
-                        <h3>  SCORES  </h3>
-                        <h5> High Score:</h5>
-                        <h5> Last Game Played:</h5>
-                        <h5> Highest Level:</h5>
+                        <h3 className="mission1"> <strong>Our Mission</strong> </h3>
+                        <h5 className="mission"> Brainstormers was creacted to educate and refresh
+                            the minds of anyone looking to play games that are not only fun, but stimulates your brain.
+                             Creating games that cover Critical Thinking, Memory and More. We keep the games fun and fresh by changing them out 
+                             every 3 months. We must keep the <strong> Brain Storming</strong>. 
+                        </h5>
+                       
   </li>
 </div>
 
