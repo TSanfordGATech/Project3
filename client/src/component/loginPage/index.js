@@ -25,8 +25,8 @@ class LoginPage extends Component {
         let value = event.target.value;
         const name = event.target.name;
     
-        console.log("Name: " + name);
-        console.log("Value: " + value);
+        // console.log("Name: " + name);
+        // console.log("Value: " + value);
 
         // Updating the input's state
         this.setState({
@@ -38,12 +38,17 @@ class LoginPage extends Component {
         event.preventDefault();
 
         const { first_name, last_name, email, password } = this.state;
+  
         if (first_name && last_name && email && password) {
             console.log("signing up...");
             const response = await fetch('/api/users', {
                 method: 'POST',
                 //TODO: why is the below body null? console.log
-                body: JSON.stringify({ first_name, last_name, email, password }),
+                body: JSON.stringify({ 
+                    first_name: first_name,
+                    last_name: last_name,
+                    email: email,
+                    password: password }),
                 headers: { 'Content-Type': 'application/json' }
             });
             console.log(response);
