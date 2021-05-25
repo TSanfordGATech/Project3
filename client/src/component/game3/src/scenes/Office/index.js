@@ -11,8 +11,10 @@ function Office(props) {
 
 return (
   <div className="dung">
-    {/* <div className="night-background"> */}
+    {/* this will be the barrel they can click. Determine what you want to put into it if anything. */}
     <div className="clickbarrel"></div>
+    {/* door they can click */}
+    <div className="dungdoor"></div>
           
   </div>
 );
