@@ -6,7 +6,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 // Toris game components
 import Welcome from "../src/component/game3/src/scenes/Welcome/index";
 // Adding in the upcoming scenese I am working on so hooks are ready.
-import Background from "../src/component/game3/src/scenes/Background/index";
+// import Background from "../src/component/game3/src/scenes/Background/index";
 import Bookshelf from "../src/component/game3/src/scenes/Bookshelf/index";
 import Painting from "../src/component/game3/src/scenes/Painting/index";
 // import Safe from "../src/component/game3/src/scenes/Safe/index";
@@ -54,7 +54,7 @@ function App() {
         <Route  path="/escape-startpage" component={StartPage} />
         <Route path="/desk" component={Desk} />
         <Route  path="/office" component={Office} />
-        <Route path="/background" component={Background} />
+        {/* <Route path="/background" component={Background} /> */}
         <Route path="/bookshel" component={Bookshelf} />
         <Route path="/painting" component={Painting} />
         {/* <Route path="/safe" component={Safe} /> */}
