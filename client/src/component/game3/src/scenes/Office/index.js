@@ -9,29 +9,19 @@ function Office(props) {
     Swal.fire("Uh oh! The desk is locked! Try to find the key.");
   }
 
-  return (
-    <div
-      className="page"
-      style={{
-        position: "relative",
-      }}
-    >
-      <Route
-        render={() =>
-          // need to render desk
-            <Link
-              to="/desk"
-              className="desk"
-              style={{
-                position: "absolute",
-                bottom: "150px",
-                right: "-12px",
-              }}
-            ></Link>
-        }
-      />
-    </div>
-  );
+return (
+  <div className="dung">
+    {/* this will be the barrel they can click. Determine what you want to put into it if anything. */}
+    <div className="clickbarrel"></div>
+    {/* door they can click */}
+    <div className="dungdoor"></div>
+    {/* crate they can click */}
+    <div className="crate"></div>
+    {/* winebarrel they can click */}
+    <div className="wbarrel"></div>
+          
+  </div>
+);
 }
 
 export default Office;
