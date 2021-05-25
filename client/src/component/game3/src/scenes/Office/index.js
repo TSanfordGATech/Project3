@@ -15,6 +15,10 @@ return (
     <div className="clickbarrel"></div>
     {/* door they can click */}
     <div className="dungdoor"></div>
+    {/* crate they can click */}
+    <div className="crate"></div>
+    {/* winebarrel they can click */}
+    <div className="wbarrel"></div>
           
   </div>
 );
