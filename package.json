@@ -14,7 +14,8 @@
     "sequelize": "^6.6.2"
   },
   "scripts": {
-    "start": "node server.js",
+    "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
+    "start:prod": "node server.js",
     "start:dev": "concurrently \"node server.js\" \"cd client && npm start \"",
     "client": "cd client && npm run start",
     "seed": "node scripts/seedDB.js",
