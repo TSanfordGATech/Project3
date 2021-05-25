@@ -9,7 +9,9 @@ const app = express();
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-app.use(express.static(path.join(__dirname, 'public')));
+// flipped these two 7:44 PM 1st move 
+// app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, './client-app/build')));
 
 const sess = {
   secret: 'Super secret secret',
