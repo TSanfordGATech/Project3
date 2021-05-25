@@ -1,7 +1,5 @@
 import React from "react";
 import { Link, Route } from "react-router-dom";
-import Row from "../../components/Row"
-import Col from "../../components/Col"
 import "./style.css";
 
 function Office(props) {
@@ -13,8 +11,9 @@ function Office(props) {
 
 return (
   <div className="dung">
-    <div className="night-background">
-          </div> 
+    {/* <div className="night-background"> */}
+    <div className="clickbarrel"></div>
+          
   </div>
 );
 }

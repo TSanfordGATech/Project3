@@ -2,12 +2,21 @@
     background-image: url('../../images/dung.png');
     background-size: cover;
     height: 950px;
-    width: 2000px;
-    border: 5px ridge rgb(165, 101, 42);
+    width: 1500px;
+    border: 5px ridge rgb(7, 7, 7);
     margin: auto;
 }
 
-
+.clickbarrel {
+    background-image: url('../../images/barrel.png');
+    background-repeat: no-repeat;
+    height: 300px; 
+    width: 310px;
+    z-index: -1;
+    cursor: pointer;
+    margin-top: 770px;
+    margin-left: 1070px;
+  }
 
 
 .desk {
