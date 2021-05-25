@@ -7,9 +7,9 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Welcome from "../src/component/game3/src/scenes/Welcome/index";
 // Adding in the upcoming scenese I am working on so hooks are ready.
 // import Background from "../src/component/game3/src/scenes/Background/index";
-import Bookshelf from "../src/component/game3/src/scenes/Bookshelf/index";
-import Painting from "../src/component/game3/src/scenes/Painting/index";
-// import Safe from "../src/component/game3/src/scenes/Safe/index";
+import Crate from "../src/component/game3/src/scenes/Crate/index";
+import Wbarrel from "../src/component/game3/src/scenes/Wbarrel/index";
+import Door from "../src/component/game3/src/scenes/Door/index";
 import StartPage from "../src/component/game3/src/scenes/StartPage/index";
 import Office from "../src/component/game3/src/scenes/Office/index";
 import Desk from "../src/component/game3/src/scenes/Desk/index";
@@ -55,9 +55,9 @@ function App() {
         <Route path="/desk" component={Desk} />
         <Route  path="/office" component={Office} />
         {/* <Route path="/background" component={Background} /> */}
-        <Route path="/bookshel" component={Bookshelf} />
-        <Route path="/painting" component={Painting} />
-        {/* <Route path="/safe" component={Safe} /> */}
+        <Route path="/crate" component={Crate} />
+        <Route path="/Wbarrel" component={Wbarrel} />
+        <Route path="/door" component={Door} />
         {/* <Route  path="/asteroid" component={Asteroid} /> */}
         <Route  path="/card-game" component={GamePage} />
        </Switch>
