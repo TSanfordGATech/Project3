@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Background() {
+function Waterbarrel() {
     return (
-       <h1>Background</h1>
+       <h1>Waterbarrel</h1>
     )
 }
 
-export default Background
+export default Waterbarrel
