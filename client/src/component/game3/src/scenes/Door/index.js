@@ -12,4 +12,4 @@ function Door() {
   );
 }
 
-export default Door
+export default Door;

@@ -11,6 +11,7 @@ import Crate from "../src/component/game3/src/scenes/Crate/index";
 import Crate2 from "../src/component/game3/src/scenes/Crate2/index";
 import Wbarrel from "../src/component/game3/src/scenes/Wbarrel/index";
 import Door from "../src/component/game3/src/scenes/Door/index";
+import Compass from "../src/component/game3/src/scenes/Compass/index";
 import StartPage from "../src/component/game3/src/scenes/StartPage/index";
 import Office from "../src/component/game3/src/scenes/Office/index";
 import Desk from "../src/component/game3/src/scenes/Desk/index";
@@ -60,6 +61,7 @@ function App() {
         <Route path="/crate2" component={Crate2} />
         <Route path="/Wbarrel" component={Wbarrel} />
         <Route path="/door" component={Door} />
+        <Route path="/compass" component={Compass} />
         {/* <Route  path="/asteroid" component={Asteroid} /> */}
         <Route  path="/card-game" component={GamePage} />
        </Switch>

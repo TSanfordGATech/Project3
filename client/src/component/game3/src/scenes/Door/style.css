@@ -8,3 +8,17 @@
     margin-top: 310px;
     margin-left: 1335px;
   }
+
+  /* this is the sign post */
+.info-card3{
+    /* image in folder */
+    background-image: url("../../images/compassactual.png");
+    background-size: 100% 100%;
+    height: 739px;
+    width: 640px; 
+    margin-top: 105px;
+    left:50%;
+    right:50%;
+    z-index: 0;
+    color: black;
+}

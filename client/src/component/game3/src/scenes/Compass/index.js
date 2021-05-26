@@ -6,15 +6,16 @@ function Compass(props) {
 
     return (
         <div className="dung">
-            <div className="info-card3">
-                <Link to="/Wbarrel">
-                    <div className="modal-footer">
-                        <button className="modal-close waves-effect btn-small" >Return!</button>
-                    </div>
-                </Link>
-            </div>
+          <div className="info-card3">
+              <Link to="/Wbarrel">
+                <div className="modal-footer">
+                  <button className="modal-close waves-effect btn-small" >Return!</button>
+                </div>
+              </Link>
+          </div>
         </div>
-    );
-}
+      );
+    }
+    
 export default Compass;
 
