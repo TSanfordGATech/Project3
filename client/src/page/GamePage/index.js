@@ -4,6 +4,8 @@ import GameDock from "../../component/GameDock/TypingGame.js";
 import { Link } from "react-router-dom";
 import logo from "../../teamlogo.png";
 import Footer from "../../component/footer";
+import Iframe  from "react-iframe";
+//https://greysonmainor.github.io/AsteroidTyper/
 
 const GamePage = () => {
   return (
@@ -27,7 +29,13 @@ const GamePage = () => {
         </div>
       </div>
 
-      <div></div>
+      <div>
+        <Iframe 
+          url="https://greysonmainor.github.io/AsteroidTyper/"
+          width="800px"
+          height="500px"
+        />
+      </div>
 
       <Link to="/asteroid-type">
 
