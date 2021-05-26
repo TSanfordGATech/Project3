@@ -1,9 +1,15 @@
-import React from 'react'
+import React from "react";
+import { Link, Route } from "react-router-dom";
+import "./style.css";
 
-function Waterbarrel() {
+function Wbarrel() {
     return (
-       <h1>Waterbarrel</h1>
-    )
+        <div className="dung">
+            <Link to="/Wbarrel">
+                <button className="clickbarrel"></button>
+            </Link>
+        </div>
+    );
 }
 
-export default Waterbarrel
+export default Wbarrel;
