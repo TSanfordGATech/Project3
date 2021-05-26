@@ -58,10 +58,10 @@
     background-repeat: no-repeat;
     height: 800px; 
     width: 410px;
-    z-index: -1;
+    z-index: 1;
     cursor: pointer;
-    margin-top: -734px;
-    margin-left: 340px;
+    margin-top: -40px;
+    margin-left: 345px;
   }
 
   
