@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import LoginPage from "./../loginPage/index";
 
 function SignUp({ handleInputChange, handleFormSubmit }) {
   return (
@@ -15,7 +14,7 @@ function SignUp({ handleInputChange, handleFormSubmit }) {
                 name="first_name"
                 onChange={handleInputChange}
               />
-              <label for="input_text">First Name</label>
+              <label>First Name</label>
             </div>
           </div>
           <div className="row">
@@ -26,7 +25,7 @@ function SignUp({ handleInputChange, handleFormSubmit }) {
                 name="last_name"
                 onChange={handleInputChange}
               />
-              <label for="input_text">Last Name</label>
+              <label>Last Name</label>
             </div>
           </div>
           <div className="row">
@@ -36,7 +35,7 @@ function SignUp({ handleInputChange, handleFormSubmit }) {
                 type="text" 
                 name="email"
                 onChange={handleInputChange} />
-              <label for="input_text">Email</label>
+              <label>Email</label>
             </div>
           </div>
 
@@ -49,7 +48,7 @@ function SignUp({ handleInputChange, handleFormSubmit }) {
                 name="password"
                 onChange={handleInputChange}
               />
-              <label for="textarea2">Password</label>
+              <label>Password</label>
             </div>
             <div className="signin-buttons">
               <Link to="/brainstormer">

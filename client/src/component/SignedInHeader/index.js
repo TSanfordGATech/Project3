@@ -28,7 +28,7 @@ function SignedInHeader() {
             <div>
             <Typed
                         className="typed-text"
-                        strings={["Voted 1# Learning Hub", "Fun Games for All ages", "Critical Thinking Skills", "Game that keeps Giving"]}
+                        strings={["Voted 1# Learning Hub", "Fun Games for All ages", "Critical Thinking Skills", "Games That Keep Giving"]}
                         typeSpeed={40}
                         backSpeed={60}
                         loop

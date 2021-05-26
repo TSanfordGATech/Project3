@@ -1,4 +1,4 @@
-* {
+ * {
     margin: 0;
     padding: 0;
 }
@@ -7,29 +7,30 @@ html {
     box-sizing: border-box;
   }
 
-
-.body2 {
-    background: url('');
-    font-family: "Open Sans", sans-serif;
+.body {
     font-size: 62.5%;
     letter-spacing: 1.5px;
-    margin: 0;
     text-align: center;
 }
 
-.two {
+.header2 {
+    color: black;
+    /* font-family: "Open Sans", sans-serif; */
+}
+
+ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     margin-top: 0.5em;
-}
+} 
 
 ul > li {
     list-style: none;
 }
 
-.card,
+.card-m,
 .reset-btn {
     cursor: pointer;
 }
@@ -43,54 +44,72 @@ ul > li {
 }
 
 .match {
-    font-size: 3em;
+    font-size: 1em;
     font-weight: 400;
+}
+
+.match-title {
+    font-size: 2.7em;
+    background-color: #26a69a;
+    font-family: sans-serif;
 }
 
 .congrats {
     font-size: 2.5em;
     font-weight: 600;
+    font-family: sans-serif;
 }
 
-.plain {
+.p {
     font-size: 1.6em;
 }
 
+.instructions-m {
+    font-family: sans-serif;
+}
+
 .score-p {
+    font-size: 1.1em;
     font-weight: 400;
+    margin-bottom: 3px;
 }
 
 .score-panel {
+    text-align: center;
+    color: black;
     font-size: 1.4em;
-    padding: 1em 0 2em;
+    padding: 1em 0 1em;
+    font-family: "Open Sans", sans-serif;
 }
 
 .star-rating > li {
     display: inline-block;
-    padding: 0.5em;
+    padding: 0.7em;
+    border: 1px solid #26a69a;
+    background-color: darkorange;
 }
 
 .moves-counter {
     padding: 0.5em;
+    color: black;
+    margin-bottom: 3px;
 }
 
-.reset-btn {
-    background: #000;
-}
 
-.timer-container {
+.timer-counter {
     background: #fff;
     border-radius: 0.5em;
     color: #000;
-    margin: 0.5 em;
+    margin: 0.7 em;
     padding: 0.5em;
+    width: 50%;
 }
 
 .timer {
     font-size: 1em;
 }
 
-.modal2 {
+.modal-m {
     display: none;
     position: fixed;
     z-index: 99;
@@ -102,32 +121,34 @@ ul > li {
     background-color:  rgba(46, 61, 73, 0.6);
 }
 
-.modal-content2 {
+.modal-m-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #fff;
+    color: black;
+    background-color: darkgrey;
     margin: 5% auto;
-    border: 0.8em solid #fc4;
+    border: 0.8em solid #26a69a;
     padding-right: 2em;
     width: 80%;
+    font-family: sans-serif;
 }
 
 .close {
     align-self: flex-end;
-    color: #28e;
+    color: #000;
     font-size: 5em;
 }
 
 .close:hover,
 .close:focus {
-    color: #5cf;
+    color: #26a69a;
     text-decoration: none;
     cursor: pointer;
 }
 
-.modal-img2 {
+.modal-m-img {
     display: inline-block;
     margin: 1em 0 1em;
     width: 20em;
@@ -142,34 +163,35 @@ p.stats:last-child {
 }
 
 .play-again-btn {
-    background: #28e;
+    background: darkorange;
     margin-bottom: 1em;
+    border-radius: 0.5;
 }
 
 .deck {
-    background: linear-gradient(to bottom, #5cf, #28e);
+    background: linear-gradient(to bottom, rgb(95, 95, 95), #26a69a);
     border-radius: 1.5em;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    height: 35em;
+    height: 33em;
     margin-bottom: 6em;
     padding: 0.5em;
-    width: 35em;
+    width: 33em;
 }
 
 .deck,
-/* .card {
+.card-m {
     box-shadow: 5px 2px 20px 0 rgba(46, 61, 73, 0.5);
-} */
+}
 
-/* .card {
+.card-m {
     background: #000;
     border-radius: 0.5em;
     height: 7em;
     width: 7em;
-} */
+}
 
 /* img {
     user-select: none;
@@ -178,10 +200,11 @@ p.stats:last-child {
 
 .deck img {
     visibility: hidden;
+    border-radius: 0.5em;
 }
 
-.deck .card.flip {
-    background: grey;
+.deck .card-m.flip {
+    background: darkgrey;
     cursor: default;
     transform: rotateY(180deg);
     transition: transform 0.3s linear;
@@ -189,22 +212,26 @@ p.stats:last-child {
 }
 
 .flip img {
-    background: grey;
+    background: darkgrey;
     visibility: visible;
 }
 
-.deck .card.match {
-    background: #39d;
+.deck .card-m.match {
+    background: #26a69a;
     visibility: visible;
     cursor: default;
     animation: pulse 1s;
 }
 
 .match img {
-    background: #39d;
+    background: #363b3b;
 }
 
-/* @keyframes pulse {
+.reset-btn {
+    margin-top: 3px;
+}
+
+@keyframes pulse {
     0% {
         transform: scale(1);
     }
@@ -214,30 +241,30 @@ p.stats:last-child {
     100% {
         transform: scale(1);
     }
-} */
-
-/* @media screen and (min-width: 550px) {
+} 
+/*
+@media screen and (min-width: 550px) {
     .deck {
         height: 50em;
         padding: 2em;
         width: 50em;
     }
-    .card {
+    .card-m {
         height: 10em;
         width: 10em;
     }
     .deck img {
         width: 9em;
     }
-    .modal-content h2 {
+    .modal-m-content h2 {
         font-size: 4em;
     }
     .play-again-btn {
         font-size: 1.8em;
     }
-}
+} 
 
-@media screen and (min-width: 800px) {
+ @media screen and (min-width: 800px) {
     h1 {
         font-size: 6em;
     }
@@ -248,7 +275,7 @@ p.stats:last-child {
         height: 70em;
         width: 70em;
     }
-    .card {
+    .card-m {
         height: 15em;
         width: 15em;
     }
@@ -261,10 +288,10 @@ p.stats:last-child {
     .footer {
         font-size: 1.2em;
     }
-    .modal-content h2 {
+    .modal-m-content h2 {
         font-size: 5em;
 }
     .play-again-btn {
         font-size: 2em;
     }
-} */
+}  */
