@@ -1,7 +1,14 @@
 import React from "react";
+import "../../component/Memory/emoji/cactus.png";
+import "../../component/Memory/emoji/crystal-ball.png";
+import "../../component/Memory/emoji/diamond.png";
+import "../../component/Memory/emoji/fire.png";
+import "../../component/Memory/emoji/leaves.png";
+import "../../component/Memory/emoji/purple-heart.png";
+import "../../component/Memory/emoji/sparkles.png";
+import "../../component/Memory/emoji/unicorn.png";
 
-
-function MemoryMatch(){
+function MemoryGameJS(){
 // Matching Game
 const modal = document.getElementById("modal");
 const reset = document.querySelector(".reset-btn");
@@ -254,6 +261,6 @@ playAgain.addEventListener('click', function() {
     resetEverything();
 
 })
-}
+ }
 
-export default MemoryMatch;
+ export default MemoryGameJS;
