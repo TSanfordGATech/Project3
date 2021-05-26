@@ -30,11 +30,11 @@
   # Link
   No link to deployed project due to type of application, just click the link below to see the deployment or check the github repo for the code!
 
-  Deployed Application: ---------insert the link here ---------------
+  Deployed Application: https://brainstormers.herokuapp.com/
   Github repo: https://github.com/TSanfordGATech/Project3
   
   # Description
-  ---GETTING FROM BEBE-----
+  This site  was created to act as a learning hub that caters to all ages. The Powerful Wildcat's Brainstormers' creates a great learning experience with games and brain-teasers. This Application contains three games that are not only fun but educating. Brain teasers are updated every 3 months ensuring the user is constantly learning.
   
   # Install
   If you do a get clone for this repo, please do a git clone, NPM I on client and root, and then NPM start at the root. 
