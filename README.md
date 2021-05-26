@@ -72,9 +72,9 @@
   NA
   
   # Contributors
-  Tori Sanford
-  Obedia Lawerence
-  Greyson Mainor
-  Heather Smith
+  Tori Sanford,
+  Obedia Lawerence,
+  Greyson Mainor,
+  Heather Smith,
   PLUS---- 
   Anyone can contribute. Feel free to offer any feedback!
