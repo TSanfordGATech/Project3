@@ -15,14 +15,9 @@ const loginFormHandler = async (event) => {
     console.log(response)
     if (response.ok) {
       // If successful, redirect the browser to the profile page
-      document.location.replace('/home');
+      document.location.replace('/brainstormer');
     } else {
       alert(response.statusText);
     }
   }
 };
-  
-  // document
-  //   .querySelector('.login-form')
-  //   .addEventListener('submit', loginFormHandler);
-  

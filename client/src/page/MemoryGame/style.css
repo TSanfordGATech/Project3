@@ -7,13 +7,8 @@ html {
     box-sizing: border-box;
   }
 
-/* *,
-*:: before,
-*:: after {
-    box-sizing: inherit;
-} */
 
-body {
+.body2 {
     background: url('');
     font-family: "Open Sans", sans-serif;
     font-size: 62.5%;
@@ -22,7 +17,7 @@ body {
     text-align: center;
 }
 
-.container {
+.two {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -39,7 +34,7 @@ ul > li {
     cursor: pointer;
 }
 
-.btn {
+.play-again-btn {
     border-radius: 1em;
     border: none;
     color: #fff;
@@ -47,21 +42,21 @@ ul > li {
     padding: 0.8em;
 }
 
-h1 {
+.match {
     font-size: 3em;
     font-weight: 400;
 }
 
-h2 {
+.congrats {
     font-size: 2.5em;
     font-weight: 600;
 }
 
-p {
+.plain {
     font-size: 1.6em;
 }
 
-h3 {
+.score-p {
     font-weight: 400;
 }
 
@@ -95,7 +90,7 @@ h3 {
     font-size: 1em;
 }
 
-.modal {
+.modal2 {
     display: none;
     position: fixed;
     z-index: 99;
@@ -107,7 +102,7 @@ h3 {
     background-color:  rgba(46, 61, 73, 0.6);
 }
 
-.modal-content {
+.modal-content2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -132,7 +127,7 @@ h3 {
     cursor: pointer;
 }
 
-.modal-img {
+.modal-img2 {
     display: inline-block;
     margin: 1em 0 1em;
     width: 20em;
@@ -165,21 +160,21 @@ p.stats:last-child {
 }
 
 .deck,
-.card {
+/* .card {
     box-shadow: 5px 2px 20px 0 rgba(46, 61, 73, 0.5);
-}
+} */
 
-.card {
+/* .card {
     background: #000;
     border-radius: 0.5em;
     height: 7em;
     width: 7em;
-}
+} */
 
-img {
+/* img {
     user-select: none;
     width: 6em;
-}
+} */
 
 .deck img {
     visibility: hidden;
@@ -209,7 +204,7 @@ img {
     background: #39d;
 }
 
-@keyframes pulse {
+/* @keyframes pulse {
     0% {
         transform: scale(1);
     }
@@ -219,9 +214,9 @@ img {
     100% {
         transform: scale(1);
     }
-}
+} */
 
-@media screen and (min-width: 550px) {
+/* @media screen and (min-width: 550px) {
     .deck {
         height: 50em;
         padding: 2em;
@@ -272,4 +267,4 @@ img {
     .play-again-btn {
         font-size: 2em;
     }
-}
+} */
