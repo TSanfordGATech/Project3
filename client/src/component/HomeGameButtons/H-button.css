@@ -15,30 +15,40 @@
   margin-top: -12rem;
   font-family: 'Times New Roman', Times, serif;
  } 
-
-
+/* 
 .boxes {
-  
+    width:110%;
         display:flex;
-     flex-direction:column;;
-    
-}
+     flex-direction:row;;
+    height: 45%;
+}  */
 
-
+/* 
 .box-flex{
-    display:flex;
+    display:flex; */
 
-}
+/* 
+.card{
+    width: max-content;
+    height: max-content;
+} */
 .contain{
     padding-top: 24rem;
 }
+.typer{
+    width: 95.7%;
+    margin-left: 10px;
+    
+    
+}
 
-.card-content{
-    height:165px;
+.card-content1{
+    height:150px;
   width:100%;
-  border:5px solid #ccc;
+  border:1px solid #ccc;
   text-align:center;
   color: darkorange;
+  margin-top: 35px;
 }
 
 .card-action {
@@ -55,6 +65,13 @@
 }
 .card-title{
     color: darkorange;
+    
+}
+.card-title2{
+    color: darkorange;
+    font-size: 25px;
+ margin-bottom: 22px; 
+    
 }
 .card-info{
     font-family:'Courier New', Courier, monospace;
@@ -71,7 +88,7 @@ padding-right: 100px;
  
  .box{
      display:flex;
-     flex-direction: column;
+     flex-direction: row;
  }
  
  .contain{

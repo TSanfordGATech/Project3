@@ -19,7 +19,11 @@ class SignIn extends Component {
         </div>
         <div className="row">
           <div className="input-field col s6">
-            <textarea id="textarea2 password-login" className="materialize-textarea"></textarea>
+            <textarea
+             type="password" 
+            id="textarea2 password-login" 
+            className="materialize-textarea"
+            name="password"></textarea>
             <label>Password</label>
           </div>
           <div className="signin-buttons">
