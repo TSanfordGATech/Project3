@@ -8,6 +8,7 @@ import Welcome from "../src/component/game3/src/scenes/Welcome/index";
 // Adding in the upcoming scenese I am working on so hooks are ready.
 // import Background from "../src/component/game3/src/scenes/Background/index";
 import Crate from "../src/component/game3/src/scenes/Crate/index";
+import Crate2 from "../src/component/game3/src/scenes/Crate2/index";
 import Wbarrel from "../src/component/game3/src/scenes/Wbarrel/index";
 import Door from "../src/component/game3/src/scenes/Door/index";
 import StartPage from "../src/component/game3/src/scenes/StartPage/index";
@@ -56,6 +57,7 @@ function App() {
         <Route  path="/office" component={Office} />
         {/* <Route path="/background" component={Background} /> */}
         <Route path="/crate" component={Crate} />
+        <Route path="/crate2" component={Crate2} />
         <Route path="/Wbarrel" component={Wbarrel} />
         <Route path="/door" component={Door} />
         {/* <Route  path="/asteroid" component={Asteroid} /> */}

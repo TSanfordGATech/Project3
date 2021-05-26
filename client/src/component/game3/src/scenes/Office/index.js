@@ -6,7 +6,7 @@ function Office(props) {
 
   return (
     <div className="dung">
-      <Link to="/crate">
+      <Link to="/crate2">
             <button className="crate"></button>
         </Link>
     </div>
