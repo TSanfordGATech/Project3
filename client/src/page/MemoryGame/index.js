@@ -1,16 +1,6 @@
-import React from "react";
-import "../../component/Memory/emoji/cactus.png";
-import "../../component/Memory/emoji/crystal-ball.png";
-import "../../component/Memory/emoji/diamond.png";
-import "../../component/Memory/emoji/fire.png";
-import "../../component/Memory/emoji/leaves.png";
-import "../../component/Memory/emoji/purple-heart.png";
-import "../../component/Memory/emoji/sparkles.png";
-import "../../component/Memory/emoji/unicorn.png";
-
 function MemoryGameJS(){
 // Matching Game
-const modal = document.getElementById("modal");
+const modal = document.getElementById("modal-m");
 const reset = document.querySelector(".reset-btn");
 const playAgain = document.querySelector(".play-again-btn");
 const movesCount = document.querySelector(".moves-counter");
@@ -80,11 +70,11 @@ function startGame() {
   const shuffledDeck = shuffle(deckCards);
   for (let i = 0; i < shuffledDeck.length; i++) {
     const liTag = document.createElement("LI");
-    liTag.classList.add("card");
+    liTag.classList.add("card-m");
     const addImage = document.createElement("IMG");
     liTag.appendChild(addImage);
-    addImage.setAttribute("src", "emoji/" + shuffledDeck[i]);
-    addImage.setAttribute("alt", "description goes here");
+    addImage.setAttribute("src", shuffledDeck[i]);
+    addImage.setAttribute("alt", "emoji");
     deck.appendChild(liTag);
   }
 }
@@ -106,7 +96,7 @@ function timer() {
       seconds = 0;
     }
     timerCounter.innerHTML =
-      "<i class='fa fa-hourglass-start'></i>" +
+      "<i className='fa fa-hourglass-start'></i>" +
       "Timer: " +
       minutes +
       " Mins " +
@@ -126,7 +116,7 @@ function resetEverything() {
   seconds = 0;
   minutes = 0;
   timerCounter.innerHTML =
-    "<i class='fa fa-hourglass-start'></i>" + "Timer: 00:00";
+    "<i className='fa fa-hourglass-start'></i>" + "Timer: 00:00";
 
   // resets the star count and adds the class back to show the stars again
   star[1].firstElementChild.classList.add("fa-star");
@@ -200,7 +190,7 @@ function noMatch(){
 }
 
 function AddStats() {
-    const stats = document.querySelector(".modal-content");
+    const stats = document.querySelector(".modal-m-content");
     for (let i = 1; i <= 3; i++){
         const statsElement = document.createElement("p");
         statsElement.classList.add("stats");

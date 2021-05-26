@@ -3,12 +3,8 @@ const User = require('./../../models/User');
 
 //POST /api/users
 router.post('/', async (req, res) => {
-  console.log('hit signup route!');
   try {
-    console.log("BODY:" + req.body.first_name);
-
     const userData = await User.create(req.body);
-  
     req.session.save(() => {
       req.session.user_id = userData.id;
       req.session.logged_in = true;
@@ -24,7 +20,6 @@ router.post('/', async (req, res) => {
 router.post('/login', async (req, res) => {
   try {
     const userData = await User.findOne({ where: { email: req.body.email } });
-    
     if (!userData) {
       res
         .status(400)
