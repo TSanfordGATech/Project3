@@ -1,29 +1,80 @@
-# Create React Express App
 
-## About This Boilerplate
+  # Brainstormers ![](https://img.shields.io/badge/license--brightgreen)
 
-This setup allows for a Node/Express/React app which can be easily deployed to Heroku.
+  # Table of Contents
+  *[Contact](#Contact)
 
-The front-end React app will auto-reload as it's updated via webpack dev server, and the backend Express app will auto-reload independently with nodemon.
+  *[link](#Links)
 
-## Starting the app locally
+  *[Project Description](#description)
 
-Start by installing front and backend dependencies. While in this directory, run the following command:
+  *[Users will need to install the following items to run this application:](#installation)
 
-```
-npm install
-```
+  *[Usage Rights](#usage)
 
-This should install node modules within the server and the client folder.
+  *[Credits](#credits)
 
-After both installations complete, run the following command in your terminal:
+  *[License](#license)
 
-```
-npm start
-```
+  *[Badges](#badges)
 
-Your app should now be running on <http://localhost:3000>. The Express server should intercept any AJAX requests from the client.
+  *[Contributors](#contributing)
+  
+  # Contact 
+  Tori Sanford - Tori.danielle.clark91@gmail.com or https://github.com/TSanfordGATech
+  Obedia Lawrence - omlawrence24@gmail.com or https://github.com/Omlawrence24
+  Greyson Mainor - gbmainor98@outlook.com or https://github.com/GreysonMainor
+  Heather Smith - halexsmith86@gmail.com or https://github.com/sorengrey
 
-## Deployment (Heroku)
+  
+  # Link
+  No link to deployed project due to type of application, just click the link below to see the deployment or check the github repo for the code!
 
-To deploy, simply add and commit your changes, and push to Heroku. As is, the NPM scripts should take care of the rest.
+  Deployed Application: ---------insert the link here ---------------
+  Github repo: https://github.com/TSanfordGATech/Project3
+  
+  # Description
+  ---GETTING FROM BEBE-----
+  
+  # Install
+  If you do a get clone for this repo, please do a git clone, NPM I on client and root, and then NPM start at the root. 
+  
+  # Usage Rights
+  Feel free to use the application as you would like! 
+  
+  # Credits
+  NA
+  
+  # License
+  MIT License
+
+  Copyright (c) [2021] [Tori Sanford]
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to deal
+  in the Software without restriction, including without limitation the rights
+  to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in all
+  copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+  SOFTWARE.
+  
+  # Badges
+  NA
+  
+  # Contributors
+  Tori Sanford
+  Obedia Lawerence
+  Greyson Mainor
+  Heather Smith
+  PLUS---- 
+  Anyone can contribute. Feel free to offer any feedback!
