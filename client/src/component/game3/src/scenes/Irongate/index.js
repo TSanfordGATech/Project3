@@ -7,7 +7,7 @@ function Irongate() {
         <div className="dung">
             {/* this will be the barrel they can click. Determine what you want to put into it if anything. */}
             <Link to="/Irongate2">
-                <button className="irongate"></button>
+                <button className="irongateimage"></button>
             </Link>
         </div>
 

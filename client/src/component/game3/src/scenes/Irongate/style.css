@@ -8,15 +8,16 @@
       z-index: -1;
   }
   
-  .irongate {
+  .irongateimage {
     background-image: url('../../images/irongate.png');
     background-repeat: no-repeat;
     height: 400px; 
     width: 210px;
     z-index: 2;
     cursor: pointer;
-    margin-top: 316px;
-    margin-left: 1335px;
+    margin-top: 216px;
+    margin-left: -3px;
+
   }
 
   
