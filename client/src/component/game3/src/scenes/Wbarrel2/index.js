@@ -6,7 +6,7 @@ function Wbarrel2() {
 
   return (
     <div className="dung">
-      <div className="infocardiron">
+      <div className="infocardkey">
         <Link to="/Irongate">
           <div className="modal-footer">
             <button className="modal-close waves-effect btn-small" >Return!</button>
