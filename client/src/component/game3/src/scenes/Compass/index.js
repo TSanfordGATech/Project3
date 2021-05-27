@@ -6,7 +6,7 @@ function Compass(props) {
 
     return (
         <div className="dung">
-          <div className="info-card3">
+          <div className="infocard89">
               <Link to="/Waterbarrel">
                 <div className="modal-footer">
                   <button className="modal-close waves-effect btn-small" >Return!</button>

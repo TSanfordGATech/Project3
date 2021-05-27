@@ -1,40 +1,15 @@
-
-
-.card-title3 {
-  font-size: x-large
+.dung {
+  background-image: url('../../images/dung.png');
+  background-size: cover;
+  height: 950px;
+  width: 1500px;
+  border: 5px ridge rgb(7, 7, 7);
+  margin: auto;
+  z-index: -1;
 }
-
-/* Start button */
-.start {
-    font-size: 20px;
-    text-align: center;
-    border-radius: 15px;
-    color: black;
-    background-color: grey;
-    width: fit-content;
-    margin: 5px;
-    padding: 10px;
-    border: 2px solid black;
-    position: relative;
-    left: 50%;
-    right: 50%;
-}
-
-  /* styling for the barrel. DO NOT adjust the location */
-  .clickbarrel {
-    background-image: url('../../images/barrel.png');
-    background-repeat: no-repeat;
-    height: 175px; 
-    width: 310px;
-    z-index: 1;
-    cursor: pointer;
-    margin-top: -180px;
-    margin-left: 1075px;
-  }
-
 
 /* this is the sign post */
-.info-card2{
+.infocard89{
   /* image in folder */
   background-image: url("../../images/compassactual.png");
   background-size: 100% 100%;
