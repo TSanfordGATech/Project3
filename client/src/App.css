@@ -12,7 +12,12 @@ body {
 
 .game-dock{
  background: darkgrey;
- 
+ font-size: 25px;
+}
+
+.game-dock h1 {
+  color:black;
+font-family: 'Times New Roman', Times, serif;
 }
 
 /* ********************HEADERQUOTE********************** */
