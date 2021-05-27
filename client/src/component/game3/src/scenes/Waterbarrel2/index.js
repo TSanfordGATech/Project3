@@ -6,7 +6,7 @@ function Waterbarrel2() {
 
     return (
         <div className="dung">
-          <div className="infocard4">
+          <div className="infocard44">
               <Link to="/Wbarrel">
                 <div className="modal-footer">
                   <button className="modal-close waves-effect btn-small" >Return!</button>

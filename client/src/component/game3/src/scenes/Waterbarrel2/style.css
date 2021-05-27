@@ -1,18 +1,3 @@
-/* brining in the dependicies */
-@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
-@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css");
-@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
-
-/* background image from amazon storage */
-.background-startpage {
-    background: rgba(43, 3, 88, 0.568);
-    height: 1000px;
-    z-index:0;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover
-}
-
 .dung {
   background-image: url('../../images/dung.png');
   background-size: cover;
@@ -35,3 +20,16 @@
     margin-left: 1070px;
   }
 
+  .infocard44{
+    /* image in folder */
+    background-image: url("../../images/wineopener.png");
+    background-size: 100% 100%;
+    height: 739px;
+    width: 640px; 
+    margin-top: 105px;
+    left:50%;
+    right:50%;
+    position:absolute;
+    z-index: 0;
+    color: black;
+}
