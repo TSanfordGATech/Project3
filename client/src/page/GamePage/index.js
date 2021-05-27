@@ -10,7 +10,7 @@ import Footer from "../../component/footer";
 const GamePage = () => {
   return (
     <div>
-    <div className="container">
+    <div>
       <div >
         <div className="callout">
           <div className="home">
@@ -20,7 +20,7 @@ const GamePage = () => {
                 <h3 className="title3">"A Shelter where </h3>
                 <p className="title4">Critical Thinking Brews."</p>
 
-                <a className=" black grey btn modal-trigger" href="#modalsign-out">Exit Game</a>
+                <a className=" teal btn modal-trigger" href="#modalsign-out">Exit Game</a>
 
               </div>
             </div>
@@ -43,12 +43,12 @@ const GamePage = () => {
         <SignOut />
 
 
-
+        <div className="container">
         <div className="row">
           <div className="col s12 m12">
-            <div className="card black darken-1">
+            <div className="card grey darken-1">
               <div className="card-content white-text">
-                <span className="card-title"> Hello "Amy" thanks for Playing the Typing Game</span>
+                <span className="card-title"> Thanks for Playing the Typing Game</span>
                 <p>This game is a typing game that helps with hand eye coordination as well as typing speed.  Asteroids threaten to impact earth and youre the last line of defense.  When the asteroids appear, type the words that they have written on them to save the earth!</p>
               </div>
               <div className="card-action">
@@ -60,8 +60,8 @@ const GamePage = () => {
 
 
         <GameDock />
+        </div>
       </Link>
-
     </div>
       <Footer/>
 

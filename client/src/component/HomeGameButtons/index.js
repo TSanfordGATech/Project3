@@ -43,13 +43,13 @@ const Buttons = () => {
        </div>
      </div>
      </div>
-   </div>
+   
    </div>
    </div>
    
  
    <div>
-   <div className="boxq"> 
+   <div className="box"> 
    <div className="box-flex">
   <div className="ro">
   <div className="col s6 m12  box5">
@@ -68,6 +68,7 @@ const Buttons = () => {
   </div>
 </div>
 </div> 
+   </div>
    </div>
    </div>
    </div>
