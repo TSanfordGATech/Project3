@@ -15,7 +15,15 @@ html {
 
 .header2 {
     color: black;
+    background:rgb(182, 182, 182)
     /* font-family: "Open Sans", sans-serif; */
+}
+
+.backlink {
+    color: white;
+    text-align: left;
+    margin-right: 10px;
+    margin-top: 3px;
 }
 
  h2 {
@@ -52,6 +60,7 @@ ul > li {
     font-size: 2.7em;
     background-color: #26a69a;
     font-family: sans-serif;
+    padding-bottom: 4px;
 }
 
 .congrats {
@@ -84,9 +93,10 @@ ul > li {
 
 .star-rating > li {
     display: inline-block;
-    padding: 0.7em;
+    padding: 0.6em;
     border: 1px solid #26a69a;
     background-color: darkorange;
+    border-radius: 0.7em;
 }
 
 .moves-counter {
@@ -242,56 +252,3 @@ p.stats:last-child {
         transform: scale(1);
     }
 } 
-/*
-@media screen and (min-width: 550px) {
-    .deck {
-        height: 50em;
-        padding: 2em;
-        width: 50em;
-    }
-    .card-m {
-        height: 10em;
-        width: 10em;
-    }
-    .deck img {
-        width: 9em;
-    }
-    .modal-m-content h2 {
-        font-size: 4em;
-    }
-    .play-again-btn {
-        font-size: 1.8em;
-    }
-} 
-
- @media screen and (min-width: 800px) {
-    h1 {
-        font-size: 6em;
-    }
-    p {
-        font-size: 2.3em;
-    }
-    .deck {
-        height: 70em;
-        width: 70em;
-    }
-    .card-m {
-        height: 15em;
-        width: 15em;
-    }
-    .deck img {
-        width: 13em;
-    }
-    .reset-btn {
-        font-size: 0.8em;
-    }
-    .footer {
-        font-size: 1.2em;
-    }
-    .modal-m-content h2 {
-        font-size: 5em;
-}
-    .play-again-btn {
-        font-size: 2em;
-    }
-}  */
