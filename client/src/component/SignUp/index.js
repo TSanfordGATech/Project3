@@ -12,7 +12,8 @@ function SignUp({ handleInputChange, handleFormSubmit }) {
                 id="input_text firstname-signup"
                 type="text"
                 name="first_name"
-                onChange={handleInputChange}
+               
+                
               />
               <label>First Name</label>
             </div>

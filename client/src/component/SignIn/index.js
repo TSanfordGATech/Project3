@@ -3,9 +3,11 @@ import { Link } from "react-router-dom";
 import "./login";
 
 class SignIn extends Component {
+
   render() {
     return (
       <div>
+
         <div className="row input-page">
           <form className="col s12">
             <div className="row">
@@ -16,21 +18,17 @@ class SignIn extends Component {
             </div>
             <div className="row">
               <div className="input-field col s6">
-                <textarea
+                <input
+                  type="password"
                   id="textarea2 password-login"
                   className="materialize-textarea"
-                ></textarea>
+                  name="password"></input>
                 <label>Password</label>
               </div>
               <div className="signin-buttons">
                 <Link to="/brainstormer">
-                  <button
-                    className="btn waves-effect waves-light sign-btn"
-                    type="submit"
-                    name="action"
-                  >
-                    Sign In
-                    <i className="left"></i>
+                  <button className="btn waves-effect waves-light sign-btn" type="submit" name="action">Sign In
+    <i className="left"></i>
                   </button>
                 </Link>
               </div>
@@ -38,6 +36,7 @@ class SignIn extends Component {
           </form>
         </div>
       </div>
+
     );
   }
 }

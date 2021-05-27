@@ -31,14 +31,14 @@
 
 .title3 {
     color:black;
-    font-size:45px;
+    font-size:55px;
     font-family: monospace;  
     margin-top: -16rem;  
     margin-left: 7.5rem;
 }
 
 .title4 {
-    font-size: 45px;
+    font-size: 49px;
     color:black;
     font-family: monospace;
     margin-left: 200px;
@@ -49,7 +49,8 @@
 }
 
 .logo{
-    margin-bottom:60px;
+    margin-bottom:75px;
+    margin-top: -11px;
 }
 .typed-text{
     font-size: 25px;
@@ -103,25 +104,11 @@
         margin: 0;
     }
 } 
-/* 
-@media(min-width:768px min-height:1024px) {
+@media screen and (min-width:1009px) and (max-width:1200px) {
     .title3{
-        font-size: 42px;
-        display:inline-block;
-        margin-left: -20rem; 
-        margin-right:-19rem;
-        margin-bottom: -2rem;
-        margin-top: -13rem;
-        padding-top:-5rem ;
-         
-    }
-    .title4{
         font-size: 40px;
-        display:inline-block;
-        margin-left: 10rem;
-        margin-top: -30rem;   
-    } 
-    .logo{
-        margin-left: 18rem;
+    }  
+    .title4{
+        font-size: 30px;
     }
-} */
+}

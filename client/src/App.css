@@ -35,6 +35,14 @@ margin-left: 8rem;
 }
 
 /* **************************login model************************************** */
+.logoutm{
+  font-weight: bolder;
+  font-size: xx-large;
+  font-family: monospace;
+  color: darkorange;
+
+}
+
 
 .signin-buttons{
  margin-left: -40rem;
@@ -57,7 +65,14 @@ margin-left: 8rem;
   font-family: monospace;
   font-weight: bolder;
 }
-
+/* ***************************EXIT GAME****************************** */
+.exit-game{
+font-size: 25px;
+  font-family: monospace;
+  font-weight: bolder;
+color: darkorange;
+margin-top: -5px;
+}
 /* **************************RESPONSIVE************************************** */
 
 @media(min-width: 1273px) {
