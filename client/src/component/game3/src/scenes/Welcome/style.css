@@ -10,6 +10,7 @@
   height:850px;
   background-color: paleturquoise;
 }
+
 /* top header page, with the welcome to the escape adventure-- just the block */
 header {
     width: 100%;
@@ -18,12 +19,14 @@ header {
     padding: 50px;
     background-color: rgb(65, 202, 197);
 }
+
 /* text within the block */
 .greeting {
     font-size: 20px;
     padding: 50px;
     font-weight: bolder;
 }
+
 /* greeting containers - messaging for the room */
 #cont3{
     padding: 20px 80px;
@@ -38,7 +41,7 @@ header {
 }
 
 .intro3 {
-    font-size: 30px;
+    font-size: 20px;
     color: brown;
 }
 
@@ -180,11 +183,13 @@ header {
   .wheel01 {
     left: 314px;
     z-index: 1;
+    margin-top: 30px;
   }
   
   .wheel02 {
     left: 70px;
     z-index: 1;
+    margin-top: 30px;
   }
   
   /* animated backgrouds using the key frames - if you want to update, use the documentation here: https://www.w3schools.com/css/css3_animations.asp  */

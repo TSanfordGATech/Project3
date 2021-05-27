@@ -4,7 +4,7 @@ import "./style.css";
 
 function Run() {
   return (
-    <div className="dung">
+    <div className="run">
       <div className="infocard66">
           <Link to="/">
             <div className="modal-footer">
