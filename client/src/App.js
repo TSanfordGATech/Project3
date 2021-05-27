@@ -10,7 +10,7 @@ import Welcome from "../src/component/game3/src/scenes/Welcome/index";
 import Crate from "../src/component/game3/src/scenes/Crate/index";
 import Crate2 from "../src/component/game3/src/scenes/Crate2/index";
 import Wbarrel from "../src/component/game3/src/scenes/Wbarrel/index";
-import Wbarrel2 from "../src/component/game3/src/scenes/Wbarrel/index";
+import Wbarrel2 from "../src/component/game3/src/scenes/Wbarrel2/index";
 import Waterbarrel from "../src/component/game3/src/scenes/Waterbarrel/index";
 import Waterbarrel2 from "../src/component/game3/src/scenes/Waterbarrel2/index";
 import Door from "../src/component/game3/src/scenes/Door/index";
