@@ -1,0 +1,10 @@
+.dungdoor9 {
+    background-image: url('../../images/door.png');
+    background-repeat: no-repeat;
+    height: 400px; 
+    width: 210px;
+    z-index: 2;
+    cursor: pointer;
+    margin-top: 316px;
+    margin-left: 1335px;
+  }

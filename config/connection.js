@@ -3,15 +3,6 @@ require('dotenv').config();
 
 let sequelize;
 
-// var mysql = require('mysql');
-// var pool  = mysql.createPool({
-//   connectionLimit : 10,
-//   host            : 'example.org',
-//   user            : 'bob',
-//   password        : 'secret',
-//   database        : 'user_db'
-// });
-
 if (process.env.JAWSDB_URL) {
   sequelize = new Sequelize(process.env.JAWSDB_URL);
 } else {

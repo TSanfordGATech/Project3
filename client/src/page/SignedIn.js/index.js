@@ -11,6 +11,7 @@ import "../../component/ScoreCard/score.css";
 import "../../component/UserScoreCard/userscore.css";
 import { Route, Link } from "react-router-dom";
 
+
 // import "packages_folder/foundation-sites/scss";
 
 const SignedIn = () => {

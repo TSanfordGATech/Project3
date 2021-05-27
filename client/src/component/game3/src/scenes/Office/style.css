@@ -1,71 +1,23 @@
-.deskPage {
-    background-image: url('../../images/desktop2.jpg');
+.dung {
+    background-image: url('../../images/dung.png');
     background-size: cover;
-    height: 850px;
-    width: 1024px;
-    border: 5px ridge rgb(165, 101, 42);
-    margin: auto;
+    height: 950px;
+    width: 1500px;
+    border: 5px ridge rgb(7, 7, 7);
+    margin-top: 20px;
+    z-index: -1;
 }
 
-.desk {
-    background-image: url('../../images/desk.png');
-    background-size: 100% 100%;
-    height: 365px;
-    width: 470px;    
-}
+  /* styling for the crate and location. Do not update heigh,width, or margins */
+  .crate1 {
+    background-image: url('../../images/crate.png');
+    background-repeat: no-repeat;
+    height: 100px; 
+    width: 110px;
+    z-index: 1;
+    cursor: pointer;
+    margin-top: 470px;
+    margin-left: 990px;
+  }
+  
 
-.desk:hover {
-    height: 370px;
-    width: 475px;
-}
-
-
-.deskTitle {
-    font-size: 40px;
-    color: white;
-    padding: 20px;
-}
-
-
-.december {
-    font-size: 50px;
-    font-family: 'Courier New', Courier, monospace;
-    color: black;
-}
-
-.dates {
-    font-size: 14px;
-    line-height: 0.5;
-}
-
-.dad {
-    font-size: 13px;
-    color: black;    
-}
-
-.title {
-    font-size: 14px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: black;
-}
-
-
-.dentist {
-    font-size: 11px;
-    color: black;    
-}
-
-.important {
-    font-size: 14px;
-    color: black;    
-}
-
-.pin {
-    font-size: 14px;
-    color: black;    
-}
-
-.code {
-    font-size: 11px;
-    color: black;    
-}

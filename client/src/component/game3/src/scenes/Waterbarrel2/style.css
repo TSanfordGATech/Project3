@@ -1,0 +1,34 @@
+.dung {
+  background-image: url('../../images/dung.png');
+  background-size: cover;
+  height: 950px;
+  width: 1500px;
+  border: 5px ridge rgb(7, 7, 7);
+  margin: auto;
+  z-index: -1;
+}
+
+  /* styling for the barrel. DO NOT adjust the location */
+  .clickbarrel2 {
+    background-image: url('../../images/barrel.png');
+    background-repeat: no-repeat;
+    height: 175px; 
+    width: 310px;
+    z-index: 1;
+    cursor: pointer;
+    margin-top: 775px;
+    margin-left: 1070px;
+  }
+  .infocard44{
+    /* image in folder */
+    background-image: url("../../images/wineopener.png");
+    background-size: 100% 100%;
+    height: 739px;
+    width: 640px; 
+    margin-top: 105px;
+    left:50%;
+    right:50%;
+    position:absolute;
+    z-index: 0;
+    color: black;
+}
