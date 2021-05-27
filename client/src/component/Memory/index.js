@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import "../../page/MemoryGame/style.css";
 import "../../page/MemoryGame/index.js";
 import MemoryGameJS from "../../page/MemoryGame/index.js";
+import logo from "../../../src/teamlogo.png";
+
 
 class MemoryGame extends Component {
   componentDidMount() {
@@ -10,15 +12,13 @@ class MemoryGame extends Component {
   }
   render() {
     return (
-      <div className="container">
-        <span className="header2">
-          <p className="match-title">Match The Cards</p>
-          <br />
+        <div className="header2">
+          <div className="match-title">Match The Cards
+          <br /></div>
           <p className="instructions-m">
             Click the cards to find each picture's match.
             Try to find all eight pairs in as few moves as possible!
           </p>
-        </span>
 
         <center>
           <section className="score-panel">
@@ -41,10 +41,11 @@ class MemoryGame extends Component {
                 <i className="fa fa-hourglass-start"></i> Time: 00:00
               </span>
             </div>
+            <button className="btn backlink" href="/">←Back</button>
             <button className="btn reset-btn">
             Reset
             <i className="fa fa-repeat"></i>
-          </button>
+          </button> 
           </center>
 
 
@@ -62,6 +63,38 @@ class MemoryGame extends Component {
       <center>
           <ul className="deck"></ul>
           </center>
+          <footer className="page-footer" id="footer1">
+          <div className="container">
+            <div className="row">
+              <div className="col l6 s12">
+                
+                <img className="logo1" src={logo} alt="Logo"/>
+              </div>
+              <div className="col l4 offset-l2 s12 devs-names">
+              <br></br>
+                  <br></br>
+                  <br></br>
+                  <br></br>
+                  <br></br>
+                  <br></br>
+                <h5 className="white-text dev ">Developers</h5>
+                <ul >
+                  <p><a className="grey-text text-lighten-3" href="https://github.com/TSanfordGATech" target="_blank">Tori Sanford</a></p>
+                  <p><a className="grey-text text-lighten-3" href="https://github.com/Omlawrence24" target="_blank">Obedia Lawrence</a></p>
+                  <p><a className="grey-text text-lighten-3" href= "https://github.com/GreysonMainor" target="_blank"> Greyson Mainor </a></p>
+                  <p><a className="grey-text text-lighten-3" href="https://github.com/sorengrey" target="_blank">Heather Smith</a> </p>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div className="footer-copyright">
+            <div className="container">
+                <div  className="copy">
+            © 2021 MIT
+            </div>
+          </div>
+          </div>
+        </footer> 
       </div>
     );
   }
