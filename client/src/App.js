@@ -18,6 +18,7 @@ import Compass from "../src/component/game3/src/scenes/Compass/index";
 import StartPage from "../src/component/game3/src/scenes/StartPage/index";
 import Office from "../src/component/game3/src/scenes/Office/index";
 import Irongate from "../src/component/game3/src/scenes/Irongate/index";
+import Irongate2 from "../src/component/game3/src/scenes/Irongate2/index";
 import Run from "../src/component/game3/src/scenes/Run/index";
 // Graysons game
 // import Asteroid from "../src/component/game1/index"
@@ -59,6 +60,7 @@ function App() {
         <Route  path="/escape-room" component={Welcome} />
         <Route  path="/escape-startpage" component={StartPage} />
         <Route path="/Irongate" component={Irongate} />
+        <Route path="/Irongate2" component={Irongate2} />
         <Route path="/Run" component={Run} />
         <Route  path="/office" component={Office} />
         {/* <Route path="/background" component={Background} /> */}
