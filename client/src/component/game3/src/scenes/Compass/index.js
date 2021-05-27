@@ -7,7 +7,7 @@ function Compass(props) {
     return (
         <div className="dung">
           <div className="info-card3">
-              <Link to="/Wbarrel">
+              <Link to="/Waterbarrel">
                 <div className="modal-footer">
                   <button className="modal-close waves-effect btn-small" >Return!</button>
                 </div>

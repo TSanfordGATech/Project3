@@ -23,6 +23,17 @@
   z-index: -1;
 }
 
+  /* styling for the barrel. DO NOT adjust the location */
+  .clickbarrel {
+    background-image: url('../../images/barrel.png');
+    background-repeat: no-repeat;
+    height: 175px; 
+    width: 310px;
+    z-index: 1;
+    cursor: pointer;
+    margin-top: -180px;
+    margin-left: 1075px;
+  }
 .card-title3 {
   font-size: x-large
 }
