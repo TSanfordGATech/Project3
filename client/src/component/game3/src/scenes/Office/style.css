@@ -1,24 +1,15 @@
-/* total dung. Do not change.  */
-.parent {
-  height: 1050px;
-  width: 1500px;
-  margin-top: 20px;
-  margin-left: 20px;
-  z-index: 1;
-}
-
 .dung {
     background-image: url('../../images/dung.png');
     background-size: cover;
     height: 950px;
     width: 1500px;
     border: 5px ridge rgb(7, 7, 7);
-    margin: auto;
+    margin-top: 20px;
     z-index: -1;
 }
 
   /* styling for the crate and location. Do not update heigh,width, or margins */
-  .crate {
+  .crate1 {
     background-image: url('../../images/crate.png');
     background-repeat: no-repeat;
     height: 100px; 
