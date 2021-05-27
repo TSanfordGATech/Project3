@@ -24,13 +24,14 @@
 }
 
   /* styling for the barrel. DO NOT adjust the location */
-  .clickbarrel {
+  .clickbarrel2 {
     background-image: url('../../images/barrel.png');
     background-repeat: no-repeat;
     height: 175px; 
     width: 310px;
-    z-index: 3;
+    z-index: 1;
     cursor: pointer;
-    margin-top: 30px;
+    margin-top: 775px;
+    margin-left: 1070px;
   }
 

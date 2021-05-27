@@ -6,7 +6,7 @@ function Waterbarrel() {
     return (
         <div className="dung">
             <Link to="/Waterbarrel">
-                <button className="clickbarrel"></button>
+                <button className="clickbarrel2"></button>
             </Link>
         </div>
     );
