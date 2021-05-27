@@ -1,0 +1,29 @@
+/* brining in the dependicies */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css");
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
+
+.dung {
+  background-image: url('../../images/dung.png');
+  background-size: cover;
+  height: 950px;
+  width: 1500px;
+  border: 5px ridge rgb(7, 7, 7);
+  margin: auto;
+  z-index: -1;
+}
+
+.infocardkey{
+    /* image in folder */
+    background-image: url("../../images/key.png");
+    background-size: 100% 100%;
+    height: 739px;
+    width: 640px; 
+    margin-top: 105px;
+    left:50%;
+    right:50%;
+    position:absolute;
+    z-index: 0;
+    color: black;
+}
+

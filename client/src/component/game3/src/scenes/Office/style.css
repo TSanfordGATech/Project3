@@ -1,60 +1,23 @@
-/* total dung. Do not change.  */
 .dung {
     background-image: url('../../images/dung.png');
     background-size: cover;
     height: 950px;
     width: 1500px;
     border: 5px ridge rgb(7, 7, 7);
-    margin: auto;
+    margin-top: 20px;
+    z-index: -1;
 }
 
-/* styling for the barrel. DO NOT adjust the location */
-.clickbarrel {
-    background-image: url('../../images/barrel.png');
-    background-repeat: no-repeat;
-    height: 300px; 
-    width: 310px;
-    z-index: -1;
-    cursor: pointer;
-    margin-top: 770px;
-    margin-left: 1070px;
-  }
-
-  /* styling for the door and location. Do not update heigh,width, or margins */
-.dungdoor {
-    background-image: url('../../images/door.png');
-    background-repeat: no-repeat;
-    height: 800px; 
-    width: 410px;
-    z-index: -1;
-    cursor: pointer;
-    margin-top: -750px;
-    margin-left: 1335px;
-  }
-
   /* styling for the crate and location. Do not update heigh,width, or margins */
-  .crate {
+  .crate1 {
     background-image: url('../../images/crate.png');
     background-repeat: no-repeat;
-    height: 800px; 
-    width: 410px;
-    z-index: -1;
+    height: 100px; 
+    width: 110px;
+    z-index: 1;
     cursor: pointer;
-    margin-top: -650px;
+    margin-top: 470px;
     margin-left: 990px;
   }
-
- /* styling for the barrel and location. Do not update heigh,width, or margins */
- .wbarrel {
-    background-image: url('../../images/winebarrel.png');
-    background-repeat: no-repeat;
-    height: 800px; 
-    width: 410px;
-    z-index: -1;
-    cursor: pointer;
-    margin-top: -734px;
-    margin-left: 340px;
-  }
-
   
 

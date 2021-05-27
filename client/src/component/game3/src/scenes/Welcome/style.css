@@ -121,16 +121,6 @@ header {
     z-index: 0;
   }
   
-  .tree03 {
-    animation: treesmoving 18s linear 4s infinite reverse backwards; 
-    background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/579121/pinetree2.svg') no-repeat;
-    bottom: 90px;
-    height: 435px;
-    position: absolute;
-    width: 391px;
-    z-index: 0;
-  }
-  
   .tree04 {
     animation: treesmoving 30s linear infinite reverse; 
     background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/579121/traingletree.svg') no-repeat;

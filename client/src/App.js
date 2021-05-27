@@ -8,11 +8,18 @@ import Welcome from "../src/component/game3/src/scenes/Welcome/index";
 // Adding in the upcoming scenese I am working on so hooks are ready.
 // import Background from "../src/component/game3/src/scenes/Background/index";
 import Crate from "../src/component/game3/src/scenes/Crate/index";
+import Crate2 from "../src/component/game3/src/scenes/Crate2/index";
 import Wbarrel from "../src/component/game3/src/scenes/Wbarrel/index";
+import Wbarrel2 from "../src/component/game3/src/scenes/Wbarrel2/index";
+import Waterbarrel from "../src/component/game3/src/scenes/Waterbarrel/index";
+import Waterbarrel2 from "../src/component/game3/src/scenes/Waterbarrel2/index";
 import Door from "../src/component/game3/src/scenes/Door/index";
+import Compass from "../src/component/game3/src/scenes/Compass/index";
 import StartPage from "../src/component/game3/src/scenes/StartPage/index";
 import Office from "../src/component/game3/src/scenes/Office/index";
-import Desk from "../src/component/game3/src/scenes/Desk/index";
+import Irongate from "../src/component/game3/src/scenes/Irongate/index";
+import Irongate2 from "../src/component/game3/src/scenes/Irongate2/index";
+import Run from "../src/component/game3/src/scenes/Run/index";
 // Graysons game
 // import Asteroid from "../src/component/game1/index"
 // import game4 from "./component/game4";
@@ -52,12 +59,19 @@ function App() {
         {/* routes for escape room */}
         <Route  path="/escape-room" component={Welcome} />
         <Route  path="/escape-startpage" component={StartPage} />
-        <Route path="/desk" component={Desk} />
+        <Route path="/Irongate" component={Irongate} />
+        <Route path="/Irongate2" component={Irongate2} />
+        <Route path="/Run" component={Run} />
         <Route  path="/office" component={Office} />
         {/* <Route path="/background" component={Background} /> */}
         <Route path="/crate" component={Crate} />
+        <Route path="/crate2" component={Crate2} />
         <Route path="/Wbarrel" component={Wbarrel} />
-        <Route path="/door" component={Door} />
+        <Route path="/Wbarrel2" component={Wbarrel2} />
+        <Route path="/Waterbarrel" component={Waterbarrel} />
+        <Route path="/Waterbarrel2" component={Waterbarrel2} />
+        <Route path="/door" component={Door} /> 
+        <Route path="/compass" component={Compass} />
         {/* <Route  path="/asteroid" component={Asteroid} /> */}
         <Route  path="/card-game" component={GamePage} />
        </Switch>

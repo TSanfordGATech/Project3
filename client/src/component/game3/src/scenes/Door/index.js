@@ -1,9 +1,15 @@
-import React from 'react'
+import React from "react";
+import { Link, Route } from "react-router-dom";
+import "./style.css";
 
 function Door() {
     return (
-       <h1>Door</h1>
-    )
+        <div className="dung">
+            <Link to="/compass">
+                <button className="dungdoor9"></button>
+            </Link>
+        </div>
+  );
 }
 
-export default Door
+export default Door;

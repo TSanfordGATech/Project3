@@ -24,17 +24,17 @@ function StartPage (props) {
         <Col size="md-8">
             <div className="info-card">
               <div className="card-body">
-                <h5 className="card-title3">Of course, it wouldn't be 2020 if there was not some kidnapping to...</h5><br></br>
+                <h5 className="card-title3">It wouldn't be 2020 if there was not some kidnapping... sorry it happened to you..</h5><br></br>
                 <p className="card-text">
-                  The killer has knocked you unconscious while you're away from your friends. He drags you through the woods..
+                  The killer has knocked you unconscious and drug you back to his dungeon. 
                 </p>
                 <br></br>
                 <p className="card-text">
-                  You wake up, and you're tied up in the killer's office. He's about to deliver the killing blow, until he hears a noise outside. Lets hope it is your friends or family... but that is unlikely since it is 2020....regardless, this is your chance to escape..
+                  You wake up to find your feet and hands tied up. He's about to deliver the killing blow, until he hears a noise outside. Lets hope it is your family... but that is unlikely since it is 2020....regardless, this is your chance to escape..
                 </p>
                 <br></br>
                 <p className="card-text">
-                  First, you untie yourself.... then you start looking to find a way out. Be mindeful of time - no telling when he will come back.... 
+                  First, you untie yourself and immediatly run to the gate where you can see some light but you find the lock. Start hunting for the key! Be mindeful of time - no telling when he will come back.... 
                 </p>
                 <br></br>
                 <p className="card-text">
