@@ -1,4 +1,5 @@
-import React, { Component } from "react";
+import React, { Component} from "react";
+import { Link } from "react-router-dom";
 import "../../page/MemoryGame/style.css";
 import "../../page/MemoryGame/index.js";
 import MemoryGameJS from "../../page/MemoryGame/index.js";
@@ -41,7 +42,8 @@ class MemoryGame extends Component {
                 <i className="fa fa-hourglass-start"></i> Time: 00:00
               </span>
             </div>
-            <button className="btn backlink" href="/">←Back</button>
+            <Link to="/">
+            <button className="btn backlink">←Back</button></Link>
             <button className="btn reset-btn">
             Reset
             <i className="fa fa-repeat"></i>
