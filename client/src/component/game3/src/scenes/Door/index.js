@@ -6,7 +6,7 @@ function Door() {
     return (
         <div className="dung">
             <Link to="/compass">
-                <button className="dungdoor"></button>
+                <button className="dungdoor9"></button>
             </Link>
         </div>
   );
