@@ -3,16 +3,6 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css");
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
 
-/* background image from amazon storage */
-.background-startpage {
-    background: rgba(43, 3, 88, 0.568);
-    height: 1000px;
-    z-index:0;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover
-}
-
 .dung {
   background-image: url('../../images/dung.png');
   background-size: cover;
@@ -23,21 +13,9 @@
   z-index: -1;
 }
 
-  /* styling for the barrel. DO NOT adjust the location */
-  .clickbarrel2 {
-    background-image: url('../../images/barrel.png');
-    background-repeat: no-repeat;
-    height: 175px; 
-    width: 310px;
-    z-index: 1;
-    cursor: pointer;
-    margin-top: 775px;
-    margin-left: 1070px;
-  }
-
-  .infocard4{
+.infocardiron{
     /* image in folder */
-    background-image: url("../../images/cratenote.png");
+    background-image: url("../../images/key.png");
     background-size: 100% 100%;
     height: 739px;
     width: 640px; 

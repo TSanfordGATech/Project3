@@ -4,17 +4,17 @@ import "./style.css";
 
 function Wbarrel2() {
 
-    return (
-        <div className="dung">
-          <div className="infocard4">
-              <Link to="/Wbarrel">
-                <div className="modal-footer">
-                  <button className="modal-close waves-effect btn-small" >Return!</button>
-                </div>
-              </Link>
+  return (
+    <div className="dung">
+      <div className="infocardiron">
+        <Link to="/Irongate">
+          <div className="modal-footer">
+            <button className="modal-close waves-effect btn-small" >Return!</button>
           </div>
-        </div>
-      );
-    }
+        </Link>
+      </div>
+    </div>
+  );
+}
 
 export default Wbarrel2;

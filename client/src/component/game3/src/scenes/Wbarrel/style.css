@@ -24,7 +24,7 @@
 }
 
  /* styling for the barrel and location. Do not update heigh,width, or margins */
- .wbarrel {
+ .wbarrel1 {
   background-image: url('../../images/winebarrel.png');
   background-repeat: no-repeat;
   height: 200px; 
