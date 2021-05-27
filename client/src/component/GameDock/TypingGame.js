@@ -10,9 +10,7 @@ const TypingGame = () => {
                         <span className="card-title">Typing Game</span>
 
                         <div className="game-dock">
-                          <h5>Your Score</h5>
-                          <h5>High Score</h5>
-                         <h1>GAME GOES HERE</h1>
+                         <h1>This game is a typing game that helps with hand eye coordination as well as typing speed.  Asteroids threaten to impact earth and you're the last line of defense.  When the asteroids appear, type the words that they have written on them to save the earth!</h1>
                         </div>
                     </div>
                 </div>

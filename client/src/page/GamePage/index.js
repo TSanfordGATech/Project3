@@ -30,11 +30,11 @@ const GamePage = () => {
       </div>
 
       <div>
-        <iframe 
+        {/* <iframe 
           src="https://greysonmainor.github.io/AsteroidTyper/"
-          width="810px"
-          height="530px"
-        ></iframe>
+          width="840px"
+          height="580px"
+        ></iframe> */}
       </div>
 
       <Link to="/asteroid-type">
@@ -49,10 +49,15 @@ const GamePage = () => {
             <div className="card grey darken-1">
               <div className="card-content white-text">
                 <span className="card-title"> Thanks for Playing the Typing Game</span>
-                <p>This game is a typing game that helps with hand eye coordination as well as typing speed.  Asteroids threaten to impact earth and youre the last line of defense.  When the asteroids appear, type the words that they have written on them to save the earth!</p>
+                <p></p>
               </div>
               <div className="card-action">
                 {/* <a className=" waves-dark btn-small"><i className="material-icons right">beach_access</i>Lets Play</a>  */}
+                <iframe 
+          src="https://greysonmainor.github.io/AsteroidTyper/"
+          width="840px"
+          height="580px"
+        ></iframe>
               </div>
             </div>
           </div>
