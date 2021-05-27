@@ -6,7 +6,7 @@ function Wbarrel() {
     return (
         <div className="dung">
             <Link to="/Wbarrel2">
-                <button className="wbarrel1"></button>
+                <button className="wbarrelone"></button>
             </Link>
         </div>
     );
