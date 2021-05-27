@@ -5,7 +5,7 @@ import "./style.css";
 function Wbarrel() {
     return (
         <div className="dung">
-            <Link to="/Wbarrel">
+            <Link to="/Wbarrel2">
                 <button className="wbarrel"></button>
             </Link>
         </div>

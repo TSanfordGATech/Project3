@@ -10,7 +10,9 @@ import Welcome from "../src/component/game3/src/scenes/Welcome/index";
 import Crate from "../src/component/game3/src/scenes/Crate/index";
 import Crate2 from "../src/component/game3/src/scenes/Crate2/index";
 import Wbarrel from "../src/component/game3/src/scenes/Wbarrel/index";
+import Wbarrel2 from "../src/component/game3/src/scenes/Wbarrel/index";
 import Waterbarrel from "../src/component/game3/src/scenes/Waterbarrel/index";
+import Waterbarrel2 from "../src/component/game3/src/scenes/Waterbarrel2/index";
 import Door from "../src/component/game3/src/scenes/Door/index";
 import Compass from "../src/component/game3/src/scenes/Compass/index";
 import StartPage from "../src/component/game3/src/scenes/StartPage/index";
@@ -61,7 +63,9 @@ function App() {
         <Route path="/crate" component={Crate} />
         <Route path="/crate2" component={Crate2} />
         <Route path="/Wbarrel" component={Wbarrel} />
+        <Route path="/Wbarrel2" component={Wbarrel2} />
         <Route path="/Waterbarrel" component={Waterbarrel} />
+        <Route path="/Waterbarrel2" component={Waterbarrel2} />
         <Route path="/door" component={Door} /> 
         <Route path="/compass" component={Compass} />
         {/* <Route  path="/asteroid" component={Asteroid} /> */}
