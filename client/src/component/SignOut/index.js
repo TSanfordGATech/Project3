@@ -20,10 +20,11 @@ class SignOut extends Component {
            
             <div id="modalsign-out" className="modal">
               <div className="modal-content">
-                <h3>"Are you sure your ready to stop learning"</h3>
+                <h3 className="exit-game">"Are you sure yoSur ready to exit the game?
+                "</h3>
                 <Link to="./brainstormer">
               <div className="modal-footer">
-                <a href="#!" className="modal-close black waves-black btn-large">Yes! Im sure!</a>
+                <a href="#!" className="modal-close teal waves-black btn-large">Yes! Im sure!</a>
               </div>
               </Link>
             </div>

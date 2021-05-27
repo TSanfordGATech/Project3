@@ -104,25 +104,11 @@
         margin: 0;
     }
 } 
-/* 
-@media(min-width:768px min-height:1024px) {
+@media screen and (min-width:1009px) and (max-width:1200px) {
     .title3{
-        font-size: 42px;
-        display:inline-block;
-        margin-left: -20rem; 
-        margin-right:-19rem;
-        margin-bottom: -2rem;
-        margin-top: -13rem;
-        padding-top:-5rem ;
-         
-    }
-    .title4{
         font-size: 40px;
-        display:inline-block;
-        margin-left: 10rem;
-        margin-top: -30rem;   
-    } 
-    .logo{
-        margin-left: 18rem;
+    }  
+    .title4{
+        font-size: 30px;
     }
-} */
+}

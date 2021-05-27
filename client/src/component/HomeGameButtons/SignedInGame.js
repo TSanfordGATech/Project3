@@ -55,7 +55,7 @@ const SignedInGameB = () => {
  
    <div>
    <div > 
-   <div className="box-flex">
+   <div className="box-flex box5">
   <div className="row">
   <div className="col s12 m12">
     <div className="card grey darken-1">

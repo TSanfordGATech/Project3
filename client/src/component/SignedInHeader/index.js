@@ -15,11 +15,11 @@ function SignedInHeader() {
             <img className="logo" src={logo} alt="Logo"/>
             <div className="headerz">
               <div className="header8">
-              <h1>Welcome Back Brainstormer!</h1>
+              <h1 className="case">Welcome Back Brainstormer!</h1>
               </div>
               <div className="header-buttons">
               <Link to="/brainstormer">
-                <a className=" waves-dark btn modal-trigger" href="#modal1">Bye-Bye</a>
+                <a className=" waves-dark btn modal-trigger" href="#modal1">Sign Out</a>
               </Link>
 
               <a data-target="slide-out" className=" btn sidenav-trigger score">ABOUT</a>
