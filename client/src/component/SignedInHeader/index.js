@@ -9,12 +9,14 @@ function SignedInHeader() {
   return (
     <div>
       <div className="callout">
-        <div className="home">
+        <div className="callout24">
           <div className="header2">
-            <div className="jumbotron box.box">
+            <div className="jumbotron">
             <img className="logo" src={logo} alt="Logo"/>
             <div className="headerz">
-              <h1 className="header8">Welcome Back Brainstormer!</h1>
+              <div className="header8">
+              <h1>Welcome Back Brainstormer!</h1>
+              </div>
               <div className="header-buttons">
               <Link to="/brainstormer">
                 <a className=" waves-dark btn modal-trigger" href="#modal1">Bye-Bye</a>
@@ -34,7 +36,7 @@ function SignedInHeader() {
                         loop
                     /></div>
           </div>
-        </div>
+      </div>
       </div>
       <UserScoreCard />
     </div>

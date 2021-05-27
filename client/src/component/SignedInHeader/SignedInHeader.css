@@ -3,8 +3,9 @@
     text-align: center;
     background: center;
     color:black;
-    margin-top: 1rem;
-}
+     margin-top: -15rem;
+} 
+
 
 button{
     margin-left: 50rem;
@@ -13,12 +14,17 @@ button{
 
 .header8{
     font-weight: bolder;
-    font-size: 40px;
-    margin-bottom: 8px;
-    margin-top: -210px;
+    font-size: 60px;
+    margin-bottom: 4px;
+    margin-top: -15px;
     
-    
-  
+}
+
+
+.callout24{
+margin-bottom: 18px;
+
+
 }
 .header-buttons{
     

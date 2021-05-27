@@ -35,7 +35,11 @@ margin-left: 8rem;
 }
 
 /* **************************login model************************************** */
-
+.logoutm{
+  font-weight: bolder;
+  font-size: x-large;
+  
+}
 .signin-buttons{
  margin-left: -40rem;
  margin-bottom: -5rem;

@@ -7,9 +7,9 @@ const SignedInGameB = () => {
   return (
      <div className="container">
         <div className="contain5">
-       <div className="boxes">
+       <div className="boxes5">
 
-       <div className="boxq"> 
+       <div className="box5"> 
       <div className="box-flex"> 
   <div className="row">
   <div className="col s6 m12">
@@ -29,11 +29,11 @@ const SignedInGameB = () => {
   </div>
   </div>
 </div>
-   <div className="boxes">
+   <div className="row">
    <div className="typer"> 
      <div className="box-flex">
      <div className="col s6 m12 box5">
-       <div className="card grey darken-1  center">
+       <div className="card grey darken-1  cen">
          <div className="card-content1 white-text">
            <div className="card-title2">
             <span> Typing & Reading Speed</span>
@@ -54,7 +54,7 @@ const SignedInGameB = () => {
    
  
    <div>
-   <div className="boxes"> 
+   <div > 
    <div className="box-flex">
   <div className="row">
   <div className="col s12 m12">
